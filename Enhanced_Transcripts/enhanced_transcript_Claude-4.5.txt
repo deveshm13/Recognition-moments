@@ -1,0 +1,699 @@
+# Enhanced Meeting Transcript
+
+**Date/Time:** Starting at 13:20:14  
+**Participants:** Saurabh Mishra (saurabh.mishra@octanner.com), Devesh Mishra (devesh.mishra)  
+**Languages Detected:** English and Hindi (with translations provided)
+
+---
+
+## Transcript
+
+**Saurabh Mishra** [13:20:24]  
+To asset transcript generate hoga, ise cheez ko as an input pass karenge apne model pe.  
+*(We will generate the asset transcript and pass this thing as input to our model.)*
+
+**Saurabh Mishra** [13:20:30]  
+Aur recognition movement nikaal kar denge. Toh recognition movement—yeh hum kuch aisa feature essence.  
+*(And we'll extract the recognition movement. So recognition movement—this is a feature essence we're building.)*
+
+**Saurabh Mishra** [13:20:36]  
+As of now, so today, huh?
+
+**Saurabh Mishra** [13:20:39]  
+Hai.  
+*(Yes.)*
+
+**Saurabh Mishra** [13:20:46]  
+Meeting ka organizer hoga.  
+*(There will be a meeting organizer.)*
+
+**Saurabh Mishra** [13:20:51]  
+Jayega.  
+*(Will go.)*
+
+**Saurabh Mishra** [13:20:56]  
+And this basis pe, hum usko batayenge usmein yeh likha hoga, ki…  
+*(And on this basis, we will tell them, it will be written in it that…)*
+
+**Saurabh Mishra** [13:21:01]  
+Notice ki ek meeting mein…  
+*(Notice that in a meeting…)*
+
+**Saurabh Mishra** [13:21:04]  
+Meeting mein highlight hua ki usne kaafi achha kaam kiya.  
+*(It was highlighted in the meeting that they did very good work.)*
+
+**Saurabh Mishra** [13:21:13]  
+Do… do you want to recognize Devesh?
+
+**Saurabh Mishra** [13:21:16]  
+Logon ko recognize karna chahte ho.  
+*(Do you want to recognize people?)*
+
+**Saurabh Mishra** [13:21:22]  
+Yahan pe kar sakte ho.  
+*(You can do it here.)*
+
+**Saurabh Mishra** [13:21:28]  
+Karne hain.  
+*(Have to do.)*
+
+**Saurabh Mishra** [13:21:30]  
+Message type kar sakte ho.  
+*(You can type a message.)*
+
+**Saurabh Mishra** [13:21:37]  
+Basis pe todasa context…  
+*(Based on some context…)*
+
+**Saurabh Mishra** [13:21:42]  
+There isn't actually, context ke saath mein kya hum recommend kar rahe hain.  
+*(What we're recommending along with the context.)*
+
+**Devesh Mishra** [13:21:45]  
+And this year, Kevin.
+
+**Saurabh Mishra** [13:21:46]  
+Toh hum, it could be testimonial, aur hai jo citation hota, wo bhi generate karke user ko bol sakte hain, yeh likh do.  
+*(So we—it could be a testimonial, and there's also a citation, we can generate that too and tell the user, write this.)*
+
+**Saurabh Mishra** [13:21:54]  
+Got them.
+
+**Saurabh Mishra** [13:21:57]  
+Then, abhi Devesh kaun hai, Devesh ka pura naam kya hai.  
+*(Then, who is Devesh now, what is Devesh's full name?)*
+
+**Saurabh Mishra** [13:22:04]  
+There is… this company…
+
+**Devesh Mishra** [13:22:06]  
+Uh, kis team mein, nah.  
+*(Uh, in which team, right.)*
+
+**Saurabh Mishra** [13:22:07]  
+Haan…  
+*(Yes…)*
+
+**Saurabh Mishra** [13:22:12]  
+User hai.  
+*(Is a user.)*
+
+**Saurabh Mishra** [13:22:21]  
+Okay, there is, ah…
+
+**Saurabh Mishra** [13:22:23]  
+Was like the database, um…
+
+**Saurabh Mishra** [13:22:25]  
+Meeting chali, ho sakta hai Devesh company ka, dusri company ka user ho.  
+*(The meeting happened, Devesh could be from the same company or from another company's user.)*
+
+**Saurabh Mishra** [13:22:34]  
+Appreciate kar sakte hain.  
+*(Can appreciate.)*
+
+**Saurabh Mishra** [13:22:38]  
+Within the same company, hum kar sakte hain.  
+*(Within the same company, we can do it.)*
+
+**Saurabh Mishra** [13:22:42]  
+So, um, isse restrictions rahenge.  
+*(So, there will be restrictions on this.)*
+
+**Saurabh Mishra** [13:22:45]  
+Organization ki, yeh saare jo conversations hota, wo kisi bhi cheez ke ho sakte hain.  
+*(From the organization, all these conversations that happen can be about anything.)*
+
+**Saurabh Mishra** [13:22:52]  
+Jaise hum might be product, or client ke saath communication ke baare mein baat kar rahe hain ya…  
+*(Like we might be talking about product or communication with clients or…)*
+
+**Saurabh Mishra** [13:22:56]  
+Internal IT meetings ho sakte hain, one-to-one sessions ho sakte hain.  
+*(There can be internal IT meetings, there can be one-to-one sessions.)*
+
+**Saurabh Mishra** [13:23:00]  
+HR discussions ho sakte hain ki kaun log HR…  
+*(There can be HR discussions about which people in HR…)*
+
+**Saurabh Mishra** [13:23:04]  
+Policies ke baare mein baat kar rahe hain.  
+*(Are talking about policies.)*
+
+**Saurabh Mishra** [13:23:08]  
+And, uh, yeah, toh mera jaise, and discussion with a—yeh sab meetings.  
+*(And, uh, yeah, so like mine, and discussion with a—all these meetings.)*
+
+**Saurabh Mishra** [13:23:15]  
+Jo sab, sorry, meetings?
+
+**Saurabh Mishra** [13:23:17]  
+Kisi, all language mein ho rahe ho, English mein nahi ho.  
+*(In any language they're happening, not in English.)*
+
+**Devesh Mishra** [13:23:19]  
+Matlab yaani ki, uh, just have a—is the transcript data multilingual?
+
+**Saurabh Mishra** [13:23:34]  
+We're told to explore whether it gets Google mein bhi, toh hai kya?  
+*(We're told to explore whether it's also in Google or not.)*
+
+**Devesh Mishra** [13:23:39]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:23:41]  
+So, um, both are, yeh scenarios ho sakte hain. Hame yeh saari scenarios ko apne…  
+*(So, both are—these scenarios can happen. We have to handle all these scenarios in our…)*
+
+**Saurabh Mishra** [13:23:47]  
+Process mein handle karna hai.  
+*(In our process.)*
+
+**Saurabh Mishra** [13:23:50]  
+Or, um, as a recognition moment banana.  
+*(And, to create as a recognition moment.)*
+
+**Saurabh Mishra** [13:23:54]  
+Meeting mein.  
+*(In the meeting.)*
+
+**Saurabh Mishra** [13:24:03]  
+And, uh, kayi baar meeting se kabhi bhi, heated hoti hain, haan.  
+*(And, many times meetings can get heated, yes.)*
+
+**Saurabh Mishra** [13:24:06]  
+Those mein recognition moment nahi milega.  
+*(In those we won't get recognition moments.)*
+
+**Saurabh Mishra** [13:24:17]  
+Toh prepare karna hai?  
+*(So we need to prepare?)*
+
+**Saurabh Mishra** [13:24:19]  
+Jo prompt is meeting transcript ko, hum kisi AWS Bedrock model ko bhejenge.  
+*(The prompt that we send this meeting transcript to any AWS Bedrock model.)*
+
+**Saurabh Mishra** [13:24:25]  
+Recognition movement.
+
+**Devesh Mishra** [13:24:33]  
+So, mainly, I'll be, uh…
+
+**Devesh Mishra** [13:24:37]  
+Best model choose karenge. Usmein, this LLM toh hai hi doosra?  
+*(Will choose the best model. In that, this LLM is there, what else?)*
+
+**Devesh Mishra** [13:24:45]  
+Aur? Recognition moments nikalne ke liye.  
+*(And? To extract recognition moments.)*
+
+**Saurabh Mishra** [13:24:52]  
+Transcript toh hai hi…  
+*(The transcript is there…)*
+
+**Devesh Mishra** [13:24:59]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:24:59]  
+Which is 30 minutes ka like hai.  
+*(Which is like 30 minutes long.)*
+
+**Saurabh Mishra** [13:25:04]  
+Hain.  
+*(Yes.)*
+
+**Saurabh Mishra** [13:25:08]  
+Toh, uh, do transcript—toh kaisa model join jo ki itne data ko handle kar sakta hai.  
+*(So, for two transcripts—what kind of model that can handle this much data.)*
+
+**Saurabh Mishra** [13:25:16]  
+Same prompt.
+
+**Saurabh Mishra** [13:25:21]  
+GPT pe dala, sorry, Copilot pe dala.  
+*(Tried on GPT, sorry, tried on Copilot.)*
+
+**Devesh Mishra** [13:25:26]  
+Copilot.
+
+**Saurabh Mishra** [13:25:27]  
+So yeah…
+
+**Saurabh Mishra** [13:25:30]  
+Like, in Cloud platform, chaos pe.  
+*(Like, on Cloud platform, on Chaos.)*
+
+**Saurabh Mishra** [13:25:33]  
+Wo sab the Llama models hain aur check kar rahe hain.  
+*(Those are all Llama models and we're checking.)*
+
+**Devesh Mishra** [13:25:39]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:25:43]  
+DeepSeek.
+
+**Devesh Mishra** [13:25:49]  
+Summarization of the Rabia toh they need users.  
+*(Summarization—they need users.)*
+
+**Saurabh Mishra** [13:25:56]  
+Got it. The way jo, top ke model, like, saare models explore kar paenge. Model toh source se milta hai.  
+*(Got it. The way which, top models, like, we can explore all models. The model comes from the source.)*
+
+**Saurabh Mishra** [13:26:04]  
+Hain.  
+*(Yes.)*
+
+**Saurabh Mishra** [13:26:10]  
+Google pe jaise kisi ke saath…  
+*(On Google, like with someone…)*
+
+**Saurabh Mishra** [13:26:17]  
+Model recommend kiya ja sakta hai.  
+*(A model can be recommended.)*
+
+**Saurabh Mishra** [13:26:19]  
+Wo details mein jo hai, platform suggest karega hai, hum unko test karenge.  
+*(Those details that are there, the platform will suggest, we will test them.)*
+
+**Devesh Mishra** [13:26:26]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:26:26]  
+Detail aspect se sochenge. Abhi hum us pe hi jaa rahe hain.  
+*(We'll think from a detailed aspect. Right now we're going towards that.)*
+
+**Saurabh Mishra** [13:26:41]  
+Um, manually do ya teen model ko test karte hain, un mein se best model jo hume samajh mein aata hai.  
+*(Manually we test two or three models, from them the best model that makes sense to us.)*
+
+**Saurabh Mishra** [13:26:48]  
+But as of now, us pe naam feature POC kar rahe hain.  
+*(But as of now, we're doing a POC on that feature.)*
+
+**Saurabh Mishra** [13:26:54]  
+Um, ek model ko choose karenge.  
+*(We will choose one model.)*
+
+**Saurabh Mishra** [13:26:56]  
+Do proper wale use cases ko.  
+*(For proper use cases.)*
+
+**Saurabh Mishra** [13:27:01]  
+Ek achha prompt toh prepare karenge.  
+*(We'll prepare a good prompt.)*
+
+**Saurabh Mishra** [13:27:05]  
+Toh thoda product-ready ho jaye.  
+*(So it becomes somewhat product-ready.)*
+
+**Saurabh Mishra** [13:27:08]  
+Or, uh, phir hum dekhenge ki hum kya challenges aa rahe hain.  
+*(And then we'll see what challenges are coming.)*
+
+**Saurabh Mishra** [13:27:18]  
+Multi-languages match ka saath support nahi kar raha hai.  
+*(Whether it's not supporting multi-languages match.)*
+
+**Saurabh Mishra** [13:27:22]  
+Um, which business use cases, jaise business context meetings hoti hain.  
+*(Which business use cases, like business context meetings happen.)*
+
+**Saurabh Mishra** [13:27:27]  
+This was the third, doctor-patient, toh…  
+*(This was the third, doctor-patient, so…)*
+
+**Devesh Mishra** [13:27:32]  
+Ah, that's funny.
+
+**Saurabh Mishra** [13:27:34]  
+So, yes, kaise hoga, wo saara sochna hai.  
+*(So, yes, how it will be, we have to think about all that.)*
+
+**Saurabh Mishra** [13:27:40]  
+Abhi sabse—task is somebody managing?  
+*(Right now, the most—is somebody managing the task?)*
+
+**Saurabh Mishra** [13:27:45]  
+And uh…
+
+**Saurabh Mishra** [13:27:49]  
+Baaki tum or dekhle na.  
+*(Rest you also see.)*
+
+**Saurabh Mishra** [13:27:57]  
+Baaki tum…  
+*(Rest you…)*
+
+**Saurabh Mishra** [13:28:03]  
+It's become kar sakte ho.  
+*(Can do this.)*
+
+**Saurabh Mishra** [13:28:06]  
+The model load explore kar sakte ho, console use karne ke baad.  
+*(You can explore the model load after using the console.)*
+
+**Saurabh Mishra** [13:28:14]  
+Hmm.
+
+**Saurabh Mishra** [13:28:17]  
+Okay. Kuch, uh, sawal, kuch, uh, um…  
+*(Okay. Any, uh, questions, any, uh…)*
+
+**Saurabh Mishra** [13:28:21]  
+Query hai toh meri taraf se nahi.  
+*(If there's a query, not from my side.)*
+
+**Devesh Mishra** [13:28:25]  
+Nahi, transcript se…  
+*(No, from the transcript…)*
+
+**Devesh Mishra** [13:28:34]  
+Pehle...  
+*(First...)*
+
+**Saurabh Mishra** [13:28:40]  
+Engineering kar sakte hain.  
+*(Can do engineering.)*
+
+**Saurabh Mishra** [13:28:49]  
+Kaccha ya.  
+*(Raw or what.)*
+
+**Devesh Mishra** [13:29:00]  
+Missions nikaal le, usko recognize.  
+*(Extract the missions, recognize it.)*
+
+**Saurabh Mishra** [13:29:05]  
+Mm-hmm.
+
+**Devesh Mishra** [13:29:11]  
+Recognize ya reward, appreciate the, uh, doosra…  
+*(Recognize or reward, appreciate the, uh, second…)*
+
+**Devesh Mishra** [13:29:19]  
+Baaki toh id is everything.  
+*(Rest, the ID is everything.)*
+
+**Saurabh Mishra** [13:29:21]  
+Yeh kya mil raha hai…  
+*(What is this getting…)*
+
+**Saurabh Mishra** [13:29:24]  
+List out karo.  
+*(List it out.)*
+
+**Saurabh Mishra** [13:29:29]  
+Jaise…  
+*(Like…)*
+
+**Saurabh Mishra** [13:29:36]  
+Ek main document prepare karu, ki…  
+*(I'll prepare a main document, that…)*
+
+**Saurabh Mishra** [13:29:41]  
+Recognition movements ke main kaunse hain.  
+*(What are the main recognition movements.)*
+
+**Saurabh Mishra** [13:29:44]  
+Document mein.  
+*(In the document.)*
+
+**Saurabh Mishra** [13:29:48]  
+Or is cheez ko as a requirement apne model ke saath associate karna.  
+*(And associate this thing as a requirement with our model.)*
+
+**Devesh Mishra** [13:29:55]  
+Uh, toh phir wohi.  
+*(Uh, then the same thing.)*
+
+**Saurabh Mishra** [13:30:03]  
+Karna chahiye.  
+*(Should do.)*
+
+**Saurabh Mishra** [13:30:04]  
+Or yeh bahut subjective situation moment ki kya definition ho.  
+*(And what should be the definition of this very subjective situation moment.)*
+
+**Saurabh Mishra** [13:30:13]  
+Karna.  
+*(Do it.)*
+
+**Devesh Mishra** [13:30:13]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:30:20]  
+Bachche se pata hai.  
+*(The kid knows.)*
+
+**Saurabh Mishra** [13:30:24]  
+Professional environment mein recognition hota kya hai.  
+*(What is recognition in a professional environment.)*
+
+**Saurabh Mishra** [13:30:28]  
+Or agar woh isse misdetect kar raha hai.  
+*(And if it's misdetecting this.)*
+
+**Devesh Mishra** [13:30:36]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:30:39]  
+Like, we believe in transcript, ki wo sahi recorded hai ya nahi.  
+*(Like, we believe in the transcript, that it is correctly recorded or not.)*
+
+**Saurabh Mishra** [13:30:45]  
+Mein.  
+*(In it.)*
+
+**Saurabh Mishra** [13:30:50]  
+Mention hai.  
+*(It's mentioned.)*
+
+**Saurabh Mishra** [13:30:52]  
+Then, our model should…
+
+**Saurabh Mishra** [13:30:54]  
+100% give the correct reasons.
+
+**Devesh Mishra** [13:30:58]  
+But transcript ko improve kar paenge agar mera need padi toh… Matlab Peru mein… You know, the agents ko use kar, transcripts ko sahi karna, aap mujhse nahi se aapse hai.  
+*(But we can improve the transcript if my need arises… I mean in Peru… You know, using the agents, to correct the transcripts, it's not from me but from you.)*
+
+**Saurabh Mishra** [13:31:09]  
+Huh, yeah, we got your idea, correct.
+
+**Saurabh Mishra** [13:31:12]  
+Yeah, because…
+
+**Devesh Mishra** [13:31:12]  
+So, agar need hai toh phir hum...  
+*(So, if there's a need then we…)*
+
+**Saurabh Mishra** [13:31:16]  
+So, ek toh challenges.  
+*(So, one is challenges.)*
+
+**Saurabh Mishra** [13:31:23]  
+Okay, both buddy meetings ho sakte hain, non-English meetings bhi ho sakte hain, non-professional meetings bhi ho sakte hain.  
+*(Okay, both buddy meetings can happen, non-English meetings can also happen, non-professional meetings can also happen.)*
+
+**Saurabh Mishra** [13:31:30]  
+So, jaise hai hamara jo pure feature banana ka socha hai.  
+*(So, as we've thought about building the full feature.)*
+
+**Saurabh Mishra** [13:31:37]  
+Par rahega.  
+*(It will remain.)*
+
+**Saurabh Mishra** [13:31:40]  
+Yeh toh prompt hai hi wo.  
+*(This is the prompt itself.)*
+
+**Saurabh Mishra** [13:31:42]  
+When did hai hai, examples denge usko.  
+*(When it is there, we'll give it examples.)*
+
+**Saurabh Mishra** [13:31:48]  
+So, um, such examples denge, toh SNO, okay?  
+*(So, we'll give such examples, so SNO, okay?)*
+
+**Saurabh Mishra** [13:31:54]  
+Um…
+
+**Devesh Mishra** [13:31:57]  
+Yeah, no, no. Yeah, phir, hallucination nahin hoga, prompts…  
+*(Yeah, no, no. Yeah, then, there won't be hallucination, prompts…)*
+
+**Saurabh Mishra** [13:32:00]  
+Hallucinations.
+
+**Devesh Mishra** [13:32:07]  
+Moment hai ki nahi.  
+*(Is there a moment or not.)*
+
+**Saurabh Mishra** [13:32:11]  
+Model.
+
+**Saurabh Mishra** [13:32:22]  
+So, ki…  
+*(So, that…)*
+
+**Saurabh Mishra** [13:32:24]  
+Optimal solution hoga, is…  
+*(There will be an optimal solution, for this…)*
+
+**Saurabh Mishra** [13:32:27]  
+Is problem ko solve karne ke liye.  
+*(To solve this problem.)*
+
+**Saurabh Mishra** [13:32:30]  
+Research-type.
+
+**Devesh Mishra** [13:32:36]  
+Challenges ka… karna parega.  
+*(Of challenges… will have to do.)*
+
+**Saurabh Mishra** [13:32:44]  
+Mm-hmm. Mm-hmm. We can discuss, okay.
+
+**Saurabh Mishra** [13:32:51]  
+Kar na paoge?  
+*(Won't you be able to do it?)*
+
+**Saurabh Mishra** [13:32:54]  
+Nahi toh…  
+*(Otherwise…)*
+
+**Saurabh Mishra** [13:32:59]  
+Azure pe hi solution.  
+*(Solution on Azure itself.)*
+
+**Saurabh Mishra** [13:33:05]  
+And do you see—type ke?  
+*(And do you see—of types?)*
+
+**Saurabh Mishra** [13:33:09]  
+Transcript generate karna English mein, usmein or prompt banaye.  
+*(Generate transcript in English, and create prompts in it.)*
+
+**Devesh Mishra** [13:33:14]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:33:14]  
+Simple, simple use cases lo.  
+*(Take simple, simple use cases.)*
+
+**Saurabh Mishra** [13:33:17]  
+The neighbor model final karlo, uski testing ke liye hum ho sakte hain apne usi O.C. Tanner company mein jitni meeting chalti hai unki kuch…  
+*(Finalize the neighbor model, for its testing we can use our own O.C. Tanner company where meetings happen, some of their…)*
+
+**Saurabh Mishra** [13:33:24]  
+Transcript nikaal lenge. Yeh file ke transcript regenerate kar lenge.  
+*(We'll extract transcripts. We'll regenerate transcripts for these files.)*
+
+**Saurabh Mishra** [13:33:31]  
+Pandrah-bees case ke, transcript generate karenge.  
+*(We'll generate transcripts for fifteen-twenty cases.)*
+
+**Devesh Mishra** [13:33:36]  
+How separate? Multilingual aur bhi thoda sahi kar paenge. And the Hyderabad, you said that, or… Agar local language mein open meetings na milti hain grain.  
+*(How separate? We can also do multilingual a bit better. And the Hyderabad, you said that, or… If we don't get open meetings in local language.)*
+
+**Saurabh Mishra** [13:33:46]  
+Oh, haan, obviously.  
+*(Oh, yes, obviously.)*
+
+**Devesh Mishra** [13:33:49]  
+So, wo bhi multilingual toh hoga, usmein use kar rahe hain, I think.  
+*(So, that will also be multilingual, we're using it, I think.)*
+
+**Saurabh Mishra** [13:33:56]  
+Specifically, kijiye?  
+*(Specifically, do what?)*
+
+**Saurabh Mishra** [13:34:02]  
+Jaise, different, different languages mein baat hoti hain.  
+*(Like, conversations happen in different, different languages.)*
+
+**Saurabh Mishra** [13:34:06]  
+Transcript provide karta.  
+*(Provides transcript.)*
+
+**Devesh Mishra** [13:34:11]  
+Wohi toh. Jaise, yeh jo meet hamari chal rahi hai, toh humlog Hindi mein baat kar rahe hain, baat ko English mein… wo sab Hinglish hi hota hai, wo kar deta hai.  
+*(That's exactly it. Like, this meeting we're having, we're speaking in Hindi, the conversation in English… all that is Hinglish, it does that.)*
+
+**Devesh Mishra** [13:34:20]  
+So, woh toh se atleast.  
+*(So, at least that.)*
+
+**Saurabh Mishra** [13:34:23]  
+Mm-hmm.
+
+**Saurabh Mishra** [13:34:36]  
+Actually, pehle kam, yeh. Jis mamla mein requirement hai usko…  
+*(Actually, less work, this. The matter in which there's a requirement, that…)*
+
+**Saurabh Mishra** [13:34:41]  
+Haan, Kevin ne document toh kar diya.  
+*(Yes, Kevin made the document.)*
+
+**Devesh Mishra** [13:34:45]  
+We'll probably hold the argumentative…
+
+**Saurabh Mishra** [13:34:51]  
+Mm-hmm.
+
+**Devesh Mishra** [13:34:52]  
+MCP server still takes these material or baaki toh ho gaya support.  
+*(MCP server still takes these materials or the rest has been supported.)*
+
+**Devesh Mishra** [13:34:58]  
+I think…
+
+**Saurabh Mishra** [13:34:58]  
+But yeah, it doesn't.
+
+**Saurabh Mishra** [13:35:02]  
+Take… take it toh theek hai.  
+*(Take… taking it is fine.)*
+
+**Saurabh Mishra** [13:35:08]  
+Okay, bye-bye.
+
+---
+
+## Meeting Summary
+
+**Topic:** Discussion about implementing a Recognition Movement feature using AI/ML models
+
+**Key Points Discussed:**
+
+1. **Feature Overview:** Building a recognition movement feature that processes meeting transcripts to identify moments where team members should be recognized for their contributions
+
+2. **Technical Approach:**
+   - Using AWS Bedrock models to process meeting transcripts
+   - Testing multiple models including GPT, Copilot, Llama, and DeepSeek
+   - Preparing prompts for optimal recognition moment extraction
+
+3. **Challenges Identified:**
+   - Multilingual support (meetings in Hindi, English, Hinglish, and other languages)
+   - Professional vs. non-professional meeting contexts
+   - Transcript quality and accuracy
+   - Cross-company user recognition
+   - Avoiding hallucinations in model output
+
+4. **Next Steps:**
+   - Select best model for POC
+   - Create proper prompts with examples
+   - Test with 15-20 real meeting transcripts from O.C. Tanner
+   - Document recognition moment definitions
+   - Handle various meeting types (HR, IT, client discussions, etc.)
+
+**Action Items:**
+- Devesh to explore model loading and console usage
+- Document recognition movement definitions
+- Prepare use cases for testing
+- Generate test transcripts from company meetings

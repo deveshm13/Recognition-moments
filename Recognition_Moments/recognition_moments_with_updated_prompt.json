@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "00:00:12",
+    "speaker": "Sarah Mitchell",
+    "type": "Peer Appreciation",
+    "quote": "Thank you all for joining today's session.",
+    "context": "Sarah appreciates the participants for joining the meeting."
+  },
+  {
+    "timestamp": "00:01:22",
+    "speaker": "Sarah Mitchell",
+    "type": "Team Recognition",
+    "quote": "I'm really excited to walk you through some of our newest features — the team did an amazing job bringing them to life.",
+    "context": "Sarah appreciates her product team's work while introducing the demo."
+  },
+  {
+    "timestamp": "00:02:55",
+    "speaker": "Rachel Patel",
+    "type": "Employee Recognition",
+    "quote": "I really like that. One challenge we've had is that our customer service teams sometimes feel disconnected from the impact they're making. This direct line from customers could be transformative.",
+    "context": "Rachel praises the feature for empowering employees and encouraging appreciation from customers."
+  },
+  {
+    "timestamp": "00:03:35",
+    "speaker": "Sarah Mitchell",
+    "type": "Team Recognition",
+    "quote": "And our research shows that customer recognition increases engagement by ten times.",
+    "context": "Sarah highlights the impact of customer recognition on employee engagement."
+  },
+  {
+    "timestamp": "00:04:24",
+    "speaker": "James Rodriguez",
+    "type": "Team Recognition",
+    "quote": "What makes this powerful is the visibility. Our data shows that 70% of employees haven't been recognized in the last 30 days. Post a Win democratizes recognition and creates a continuous stream of positive moments.",
+    "context": "James praises the Post a Win feature for its ability to increase visibility and recognition."
+  },
+  {
+    "timestamp": "00:06:19",
+    "speaker": "Rachel Patel",
+    "type": "Employee Recognition",
+    "quote": "That's powerful for culture building. Can we track which leaders are actively using these features? We're trying to build recognition into our leadership competency model.",
+    "context": "Rachel appreciates the leadership dashboard feature for tracking leader engagement."
+  },
+  {
+    "timestamp": "00:07:09",
+    "speaker": "James Rodriguez",
+    "type": "Team Recognition",
+    "quote": "Here's an example. An employee received customer recognition through Say Thanks. Her manager saw it and boosted it with additional points and a personal message. Then colleagues added their own boosts. What started as a single recognition moment became a wave of support.",
+    "context": "James highlights the impact of the Boost feature on creating a supportive work environment."
+  },
+  {
+    "timestamp": "00:08:18",
+    "speaker": "Sarah Mitchell",
+    "type": "Team Recognition",
+    "quote": "This is exactly why we built 'Manager Store.' Eighty percent of the global workforce is deskless, and traditional digital recognition often doesn't reach them effectively.",
+    "context": "Sarah appreciates the Manager Store feature for its ability to recognize deskless workers."
+  },
+  {
+    "timestamp": "00:09:54",
+    "speaker": "Rachel Patel",
+    "type": "Employee Recognition",
+    "quote": "We've actually been talking about doing something like this. Can we customize the product selection?",
+    "context": "Rachel praises the Company Store feature for its customization options."
+  },
+  {
+    "timestamp": "00:12:18",
+    "speaker": "Sarah Mitchell",
+    "type": "Team Recognition",
+    "quote": "We do. Organizations using Say Thanks report 10x increases in engagement scores specifically for customer-facing teams. With Post a Win and Broadcast, we're seeing 40-60% increases in recognition frequency across organizations.",
+    "context": "Sarah highlights the impact of the features on employee engagement."
+  },
+  {
+    "timestamp": "00:12:43",
+    "speaker": "Emma Thompson",
+    "type": "Peer Appreciation",
+    "quote": "Absolutely. I'll send that over today along with implementation timelines and pricing details for the new features.",
+    "context": "Emma appreciates the opportunity to provide additional information."
+  },
+  {
+    "timestamp": "00:13:28",
+    "speaker": "Rachel Patel",
+    "type": "Employee Recognition",
+    "quote": "Yes, I think that would be valuable. We've been exploring more holistic benefits approaches.",
+    "context": "Rachel praises the LSA feature for its holistic approach to benefits."
+  },
+  {
+    "timestamp": "00:14:08",
+    "speaker": "Michael Chen",
+    "type": "Peer Appreciation",
+    "quote": "I want to raise a couple of feature requests that would be specifically valuable for GlobalTech. First, we have a global workforce across 45 countries. Is there any way to incorporate local holidays and cultural celebrations into the recognition calendar?",
+    "context": "Michael appreciates the opportunity to provide feedback and requests a feature to incorporate local holidays."
+  },
+  {
+    "timestamp": "00:15:09",
+    "speaker": "Sarah Mitchell",
+    "type": "Peer Appreciation",
+    "quote": "I love that. That's going into our roadmap discussions.",
+    "context": "Sarah appreciates Michael's feedback and incorporates it into the roadmap discussions."
+  },
+  {
+    "timestamp": "00:17:41",
+    "speaker": "Rachel Patel",
+    "type": "Employee Recognition",
+    "quote": "I'm most excited about Manager Store. That's going to be a game-changer for our field operations. I also think Say Thanks could transform how our customer service teams feel about their work.",
+    "context": "Rachel praises the Manager Store and Say Thanks features for their potential impact on employee engagement."
+  },
+  {
+    "timestamp": "00:18:23",
+    "speaker": "Michael Chen",
+    "type": "Peer Appreciation",
+    "quote": "What I appreciate is how these features create a recognition ecosystem. They build on each other—Post a Win feeds into Broadcast, which can be boosted, which creates visibility that drives more recognition.",
+    "context": "Michael appreciates the comprehensive approach to recognition and the interconnectedness of the features."
+  },
+  {
+    "timestamp": "00:21:03",
+    "speaker": "James Rodriguez",
+    "type": "Peer Appreciation",
+    "quote": "Just that it's been a pleasure, and I'm looking forward to seeing these features in action at GlobalTech. The energy and thoughtfulness you bring to employee experience really comes through.",
+    "context": "James appreciates the opportunity to work with GlobalTech and praises their approach to employee experience."
+  },
+  {
+    "timestamp": "00:21:14",
+    "speaker": "Emma Thompson",
+    "type": "Peer Appreciation",
+    "quote": "Agreed. Thanks, everyone. I'll have those materials to you by end of day today.",
+    "context": "Emma appreciates the opportunity to provide additional information and thanks the participants."
+  }
+]

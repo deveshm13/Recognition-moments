@@ -1,0 +1,342 @@
+**Ayush Kaushal** 
+0 minutes 55 seconds
+Of the.
+
+**Ayush Kaushal** 
+1 minute 8 seconds
+Anybody.
+
+**Ayush Kaushal** 
+1 minute 13 seconds
+So basically, as your services, we have some methods inside our services to manage authentication and authorization. (मैंने एक पर्टिकुलर ऍप बनाया)
+
+**Ayush Kaushal** 
+1 minute 48 seconds
+For example, my email ID is like "first name.last name@ourtenant.com". This "ourtenant.com" is our tenant. In Microsoft terminology, when we talk about a particular organization within a tenant, all the people in that organization are part of a particular entity, which we call a tenant. (जैसे आवर फर्स्ट नेम डॉट लास्ट नेम ऐट दी रेट उसी टेन्योर.कॉम तो इसमें ही जो ऐट दी रेट उसी टेन्योर.कॉम होता है।)
+
+**Ayush Kaushal** 
+2 minutes 17 seconds
+When a user wants to use something, they will log in with their email ID and password. We will authenticate them, and then there's a basic difference between authentication and authorization - whether the user's password is valid, their login ID is valid, and what level of permissions they have. (यूज़र है उसको कुछ भी यूज़ करना है तो वो अपनी ईमेल आइडी एंड पासवर्ड से लॉगिन करेगा।)
+
+**Ayush Kaushal** 
+2 minutes 42 seconds
+All these things are managed by an admin or, in Microsoft services, what we call a global administrator. They manage these things, so in the steps, like this is a testing account, here a tenant is created, thanks to testing. (कोर्ट एन्सुर.कॉम असुर में असुर सर्विसेज में जीसको हम ग्लोबल अड्मिनिस्ट्रेटर बोलते हैं)
+
+**Ayush Kaushal** 
+3 minutes 6 seconds
+We will log in with our business account and create a tenant. We will give a name to that tenant, like "Add to Testing". (बिज़नेस अकाउन्ट से हम लॉगिन करेंगे एंड वहाँ पे जाके हम एक टैनेट बनाएंगे)
+
+**Ayush Kaushal** 
+3 minutes 24 seconds
+We will register our application, and in the same way, we will give a name to our tenant. A tenant ID will be generated, which is specific to our organization. (ऐप्लिकेशॅन होते हैं उसमें हम एंटरप्राइज ऐप्लिकेशंस रजिस्टर करते हैं)
+
+**Ayush Kaushal** 
+3 minutes 46 seconds
+This tenant ID will be used in our entire application, and all the applications associated with this tenant will have this tenant ID. (ऐप्लिकेशॅन में यानी हमारी जितनी भी ऐप्लिकेशॅन एसोसिएटेड है)
+
+**Ayush Kaushal** 
+4 minutes 15 seconds
+Now, if we want to give different levels of permissions to different users, we can do that within this tenant. We can configure these things and then manage them from here. (कम मैनेजमेंट है यहाँ पे जो यूज़र सीख रहे है)
+
+**Ayush Kaushal** 
+4 minutes 45 seconds
+For example, if a new person joins our organization, we can create an account for them and set up their password from here. (किसी को भी गोलियों दिखा रही है तुम?)
+
+**Ayush Kaushal** 
+21 minutes 45 seconds
+After successful education, if we want to redirect them somewhere, we can do that. (मतलब रेडिडेक्टिव है क्या होता है जो की मैंने बताया की अगर आफ्टर सक्सेसफुल ऑफ़ एजुकेशन)
+
+**Ayush Kaushal** 
+22 minutes 9 seconds
+All the apps are listed here. (सारे एप्प्स हैं ना?)
+
+**Ayush Kaushal** 
+22 minutes 13 seconds
+Yes, this is what I was showing. (हम्म इसमें ये हमारे दिख रहा है क्या कम?)
+
+**Ayush Kaushal** 
+22 minutes 18 seconds
+Wait for a minute.
+
+**Ayush Kaushal** 
+22 minutes 22 seconds
+Is anyone showing you the goals?
+
+**Ayush Kaushal** 
+22 minutes 25 seconds
+No, it's not here; it's on the other one.
+
+**Ayush Kaushal** 
+23 minutes 8 seconds
+It's still there.
+
+**Ayush Kaushal** 
+23 minutes 10 seconds
+At this time, there is no one.
+
+**Ayush Kaushal** 
+23 minutes 14 seconds
+Okay?
+
+**Ayush Kaushal** 
+23 minutes 17 seconds
+I will do it.
+
+**Ayush Kaushal** 
+23 minutes 28 seconds
+Okay.
+
+**Ayush Kaushal** 
+23 minutes 30 seconds
+So, like these applications, when we register them, we get a client ID and a client secret. (तो जैसे ये वाले के ऐप्लिकेशॅन है)
+
+**Ayush Kaushal** 
+23 minutes 56 seconds
+The client ID is associated with a particular application, and the client secret is also associated with that application. (एक एप्प के असोसिएटेड एक क्लाइंट आइडी होगी जो की)
+
+**Ayush Kaushal** 
+24 minutes
+This is how we get an access token, which includes the client ID and client secret. (एस मतलब बताएंगे कि ये इस पर्टिकुलर एप्प है)
+
+**Ayush Kaushal** 
+24 minutes 26 seconds
+And then we use this access token to call the API. (और तो ये ऍप दिख गया और ये यहाँ पे सपोर्टेड अकाउन्ट है)
+
+**Ayush Kaushal** 
+24 minutes 52 seconds
+We generate a secret, which is used to get an access token. (जो मैंने अभी बताया था की एक कोल्ड मिला है)
+
+**Ayush Kaushal** 
+24 minutes 57 seconds
+To get an access token, we need to provide the client ID and client secret. (तो उस अक्सेस को गाइड करने के लिए जो एक ग्राफ एंड पॉइंट हम लोग कॉल करेंगे)
+
+**Ayush Kaushal** 
+25 minutes 22 seconds
+Microsoft requires that the client ID and client secret be included in the request body. (माइक्रोसॉफ्ट मांगता है की उस पर्टिकुलर रिक्वेस्ट बॉडी में क्लाइंट आइडी क्लाइंट सीक्रेट पड़ा होना चाहिए)
+
+**Ayush Kaushal** 
+25 minutes 28 seconds
+This is how we get an access token.
+
+**Ayush Kaushal** 
+25 minutes 31 seconds
+This is the kind of curl that is used.
+
+**Ayush Kaushal** 
+25 minutes 57 seconds
+These are the things that are required to get an access token.
+
+**Ayush Kaushal** 
+26 minutes 3 seconds
+We provide the authorization code, and in return, we get an access token.
+
+**Ayush Kaushal** 
+26 minutes 33 seconds
+This access token includes the user's information, such as their name and the name of the application.
+
+**Ayush Kaushal** 
+26 minutes 54 seconds
+We can use this access token to call the API.
+
+**Ayush Kaushal** 
+27 minutes 22 seconds
+This is how we create a particular application, bind it to our tenant, and use Microsoft's authentication layer.
+
+**Ayush Kaushal** 
+27 minutes 48 seconds
+Now, if we want to show different things to different users, we can do that.
+
+**Ayush Kaushal** 
+28 minutes 7 seconds
+Yes, you can see that.
+
+**Ayush Kaushal** 
+28 minutes 22 seconds
+We can manage app roles and assign them to users.
+
+**Ayush Kaushal** 
+28 minutes 47 seconds
+We can create an app role and then assign it to a user.
+
+**Ayush Kaushal** 
+28 minutes 56 seconds
+The application is complete.
+
+**Ayush Kaushal** 
+28 minutes 59 seconds
+Is the application complete?
+
+**Ayush Kaushal** 
+29 minutes 2 seconds
+Yes, it is.
+
+**Ayush Kaushal** 
+29 minutes 24 seconds
+We can create roles and assign them to users.
+
+**Ayush Kaushal** 
+29 minutes 56 seconds
+This is how we can manage roles and permissions.
+
+**Ayush Kaushal** 
+30 minutes
+Once a role is created, we can assign it to a user.
+
+**Ayush Kaushal** 
+30 minutes 9 seconds
+Once a role is created, we cannot change it.
+
+**Ayush Kaushal** 
+30 minutes 12 seconds
+We can only assign a role to a user.
+
+**Ayush Kaushal** 
+30 minutes 18 seconds
+Okay?
+
+**Ayush Kaushal** 
+30 minutes 22 seconds
+Are you saying something?
+
+**Ayush Kaushal** 
+30 minutes 25 seconds
+In this, what are the values that are asked?
+
+**Ayush Kaushal** 
+30 minutes 35 seconds
+This is the description and value of the role that we created.
+
+**Ayush Kaushal** 
+30 minutes 55 seconds
+What values can we provide in this?
+
+**Ayush Kaushal** 
+31 minutes 14 seconds
+We can provide values like read and write permissions.
+
+**Ayush Kaushal** 
+31 minutes 18 seconds
+What kind of values can we provide?
+
+**Ayush Kaushal** 
+31 minutes 39 seconds
+We can provide values like read and write permissions.
+
+**Ayush Kaushal** 
+31 minutes 54 seconds
+This is how we can manage roles and permissions.
+
+**Ayush Kaushal** 
+32 minutes
+This is how we can assign roles to users.
+
+**Ayush Kaushal** 
+32 minutes 21 seconds
+Okay.
+
+**Ayush Kaushal** 
+32 minutes 23 seconds
+This is how we can manage roles and permissions.
+
+**Ayush Kaushal** 
+33 minutes 1 second
+So, what happened?
+
+**Ayush Kaushal** 
+33 minutes 21 seconds
+Are there any doubts?
+
+**Ayush Kaushal** 
+33 minutes 32 seconds
+Why can't we have multiple values?
+
+**Ayush Kaushal** 
+33 minutes 37 seconds
+We can have multiple tenants.
+
+**Ayush Kaushal** 
+33 minutes 44 seconds
+This is how we can manage multiple tenants.
+
+**Ayush Kaushal** 
+34 minutes 5 seconds
+If we want to use an application from another tenant, we need to get consent from the global administrator.
+
+**Ayush Kaushal** 
+34 minutes 18 seconds
+The global administrator will provide consent for the application.
+
+**Ayush Kaushal** 
+34 minutes 33 seconds
+This is how we can use an application from another tenant.
+
+**Ayush Kaushal** 
+35 minutes 10 seconds
+The global administrator of a tenant can decide which applications can be used in that tenant.
+
+**Ayush Kaushal** 
+35 minutes 21 seconds
+The global administrator can manage the applications that can be used in a tenant.
+
+**Ayush Kaushal** 
+35 minutes 52 seconds
+Admin consent is required to use an application from another tenant.
+
+**Ayush Kaushal** 
+36 minutes 9 seconds
+The URL for admin consent is used to provide consent for an application.
+
+**Ayush Kaushal** 
+36 minutes 33 seconds
+The global administrator will provide consent for the application.
+
+**Ayush Kaushal** 
+37 minutes 3 seconds
+Once the application is registered, it will be listed in the enterprise applications.
+
+**Ayush Kaushal** 
+37 minutes 28 seconds
+The application will be available for use in the tenant.
+
+**Ayush Kaushal** 
+37 minutes 30 seconds
+The application will be available for use in the tenant.
+
+**Ayush Kaushal** 
+38 minutes
+This is how we can use an application from another tenant.
+
+**Ayush Kaushal** 
+38 minutes 29 seconds
+Many integration applications work in the same way.
+
+**Ayush Kaushal** 
+39 minutes 1 second
+The reason they work is that they all use the same authentication mechanism.
+
+**Ayush Kaushal** 
+39 minutes 27 seconds
+The global administrator can manage the applications that can be used in a tenant.
+
+**Ayush Kaushal** 
+40 minutes 11 seconds
+If the permissions are changed, the access token will not be valid.
+
+**Ayush Kaushal** 
+40 minutes 38 seconds
+If the permissions are not changed, the access token will still be valid.
+
+**Ayush Kaushal** 
+40 minutes 52 seconds
+The global administrator can manage the applications that can be used in a tenant.
+
+**Ayush Kaushal** 
+40 minutes 59 seconds
+There are different roles, such as global administrator and application administrator.
+
+**Ayush Kaushal** 
+41 minutes 9 seconds
+There are different roles, such as global administrator and application administrator.
+
+**Ayush Kaushal** 
+41

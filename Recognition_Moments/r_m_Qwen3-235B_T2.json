@@ -1,0 +1,152 @@
+[
+  {
+    "timestamp": "11:03:15",
+    "speaker": "Devesh Mishra",
+    "recipient": "Saurabh Mishra",
+    "type": "Employee Recognition",
+    "quote": "The main development is that the first version of the hybrid recommendation model is trained. I've completed a full offline evaluation against our benchmark dataset. The results are very strong. We're seeing a 9% lift in NDCG and a 12% lift in MAP@k compared to the existing system. This indicates a significant improvement in the quality and ranking of recommendations.",
+    "rationale": "Devesh presents concrete outcomes from his work on the hybrid model, including measurable improvements in NDCG and MAP@k, demonstrating a direct contribution to model performance and business impact in recommendation quality.",
+    "evidence": ["completed a full offline evaluation", "9% lift in NDCG", "12% lift in MAP@k", "significant improvement in the quality and ranking of recommendations"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:05:05",
+    "speaker": "Devesh Mishra",
+    "recipient": "Saurabh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Yes. I’ve integrated SHAP (SHapley Additive exPlanations) values into the offline testing. For any given recommendation, we can now see which features—be it user history or item attributes—contributed most to the decision. This will be crucial for debugging and future iterations.",
+    "rationale": "Devesh highlights his proactive contribution in adding model explainability using SHAP, which enhances transparency and enables future improvements, showing technical foresight and value to the project.",
+    "evidence": ["integrated SHAP values", "can now see which features contributed most", "crucial for debugging and future iterations"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:06:50",
+    "speaker": "Shivam",
+    "recipient": "Saurabh Mishra",
+    "type": "Peer Appreciation",
+    "quote": "On the backend, my focus was to build a bridge to Devesh's model. I've created a new microservice in Go which will serve as the primary API for the frontend. It has a GraphQL endpoint that accepts a user ID and returns a list of recommended product IDs. This service handles authentication, caching, and calls Devesh's Python-based model inference service internally via gRPC for low-latency communication.",
+    "rationale": "Shivam details his contribution in building a scalable, low-latency backend microservice that integrates AI and frontend systems, enabling end-to-end functionality with clear technical and operational impact.",
+    "evidence": ["created a new microservice in Go", "handles authentication, caching", "calls Devesh's model inference service via gRPC", "low-latency communication"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:09:40",
+    "speaker": "Manish",
+    "recipient": "Saurabh Mishra",
+    "type": "Peer Appreciation",
+    "quote": "And on the frontend, I've built out the new React component that will consume Shivam's GraphQL endpoint. It’s designed to be highly reusable and is integrated into the main product page. I've also built a small internal dashboard where we can input a user ID and see the recommendations from the new model in real-time. This has been super helpful for quick debugging and demos.",
+    "rationale": "Manish describes building a reusable frontend component and a real-time debugging dashboard, both of which contribute directly to usability, testing, and team efficiency with tangible outcomes.",
+    "evidence": ["built out the new React component", "highly reusable", "built a small internal dashboard", "super helpful for quick debugging and demos"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:11:50",
+    "speaker": "Devesh Mishra",
+    "recipient": "Saurabh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Yes, two main ones. The first was the classic 'cold start' problem for new items. The second was high inference latency. For the cold start issue, I borrowed logic from our old 'Content Similarity Engine' and used `Doc2Vec` embeddings to recommend new items based on textual similarity. For the latency, I implemented a FAISS index, a technique we used in the 'Ad-Targeting' project, to speed up the vector search from 300ms down to 20ms.",
+    "rationale": "Devesh describes solving two major technical challenges—cold start and latency—by applying prior knowledge and specific engineering solutions, resulting in measurable performance gains and improved system usability.",
+    "evidence": ["used `Doc2Vec` embeddings", "implemented a FAISS index", "speed up the vector search from 300ms down to 20ms"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:14:05",
+    "speaker": "Shivam",
+    "recipient": "Saurabh Mishra",
+    "type": "Peer Appreciation",
+    "quote": "We had one tricky integration issue. Initially, my Go service was sending requests to Devesh's model with a slightly different data schema than what the model expected. The deserialization was failing silently. We spent a few hours debugging this. We resolved it by establishing a clear API contract using Protobuf definitions and implementing PACT testing to ensure our services stay in sync. It was a good lesson in cross-language communication.",
+    "rationale": "Shivam identifies a critical integration problem and details a collaborative resolution using Protobuf and PACT testing, which ensured service compatibility and long-term maintainability, demonstrating meaningful contribution and outcome.",
+    "evidence": ["resolved it by establishing a clear API contract", "using Protobuf definitions", "implementing PACT testing", "ensure our services stay in sync"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:16:35",
+    "speaker": "Manish",
+    "recipient": "Saurabh Mishra",
+    "type": "Peer Appreciation",
+    "quote": "The main challenge for me was a user experience one. When the recommendation component loaded, the sudden appearance of the new items caused a noticeable 'layout shift' on the page, which is jarring for the user. To fix this, I implemented a content placeholder strategy. The component now renders a skeleton UI that matches the final layout, which is then smoothly replaced by the actual product cards once the data arrives from the API. This has made the loading experience much cleaner.",
+    "rationale": "Manish identifies and resolves a UX issue by implementing a skeleton loading pattern, directly improving user experience with a measurable outcome in perceived performance and interface stability.",
+    "evidence": ["implemented a content placeholder strategy", "renders a skeleton UI", "smoothly replaced by the actual product cards", "made the loading experience much cleaner"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, your ability to creatively solve core AI problems is top-class.",
+    "rationale": "Saurabh explicitly praises Devesh for his innovative and effective problem-solving on core AI challenges, attributing key technical breakthroughs to him with clear impact on project success.",
+    "evidence": ["creatively solve core AI problems", "top-class"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Shivam",
+    "type": "Employee Recognition",
+    "quote": "Shivam, your robust and scalable API design is the backbone of this feature.",
+    "rationale": "Saurabh recognizes Shivam for designing a critical backend component that enables integration and scalability, directly contributing to the stability and functionality of the entire system.",
+    "evidence": ["robust and scalable API design", "backbone of this feature"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "Manish, your commitment to a seamless user experience is what makes our products shine.",
+    "rationale": "Saurabh attributes the high-quality user experience to Manish’s work, acknowledging his contribution in refining the frontend behavior to eliminate layout shifts and enhance polish.",
+    "evidence": ["commitment to a seamless user experience", "what makes our products shine"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Project Phoenix Team",
+    "type": "Team Recognition",
+    "quote": "The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+    "rationale": "Saurabh praises the entire team for effective collaboration and high-quality execution, citing their joint problem-solving and planning as award-worthy, with explicit intent to formally recognize the team effort.",
+    "evidence": ["the way you all collaborated", "A+ work, team", "nominating the project for a 'Team Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:28:50",
+    "speaker": "Shivam",
+    "recipient": "Anjali",
+    "type": "Peer Appreciation",
+    "quote": "We also wanted to give a huge thank you to a couple of people from other teams who were instrumental. Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+    "rationale": "Shivam attributes Anjali’s timely and impactful support in fixing critical data quality issues in the Kafka stream, which enabled reliable model input and downstream functionality.",
+    "evidence": ["Anjali... was a massive help", "worked with us late", "deploy a fix that ensured the data was clean"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan",
+    "type": "Peer Appreciation",
+    "quote": "And I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+    "rationale": "Devesh recognizes Rohan for resolving a critical deployment-blocking issue in Kubernetes ingress configuration, enabling the team to proceed to staging with proper routing, a key contribution with clear outcome.",
+    "evidence": ["Rohan jumped in", "quickly identified the issue", "helped us set up the correct routing rules", "we wouldn't be ready for staging without their support"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali",
+    "type": "Employee Recognition",
+    "quote": "This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh affirms Anjali’s critical role in ensuring data quality through cross-functional support and commits to formal recognition, highlighting her high-impact contribution to the project’s success.",
+    "evidence": ["Anjali's diligence... were critical", "specific, high-impact contributions", "send a note of thanks", "make sure their managers are aware"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Rohan",
+    "type": "Employee Recognition",
+    "quote": "This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh explicitly recognizes Rohan’s expertise and timely intervention in resolving a critical infrastructure issue, committing to formal acknowledgment, demonstrating attribution, contribution, and organizational impact.",
+    "evidence": ["Rohan's expertise were critical", "specific, high-impact contributions", "send a note of thanks", "make sure their managers are aware"],
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "timestamp": "00:01:08",
+    "speaker": "Sarah Mitchell",
+    "type": "Introduction Appreciation",
+    "quote": "Thank you all for joining today's session.",
+    "context": "Sarah welcomes and thanks participants for attending the meeting."
+  },
+  {
+    "timestamp": "00:01:52",
+    "speaker": "James Rodriguez",
+    "type": "Feature Appreciation",
+    "quote": "This feature is particularly powerful because it gives your customers—a direct voice in recognition.",
+    "context": "James highlights the value of the 'Say Thanks' feature for customer recognition."
+  },
+  {
+    "timestamp": "00:02:55",
+    "speaker": "Rachel Patel",
+    "type": "Feature Appreciation",
+    "quote": "I really like that. One challenge we've had is that our customer service teams sometimes feel disconnected from the impact they're making.",
+    "context": "Rachel expresses appreciation for the 'Say Thanks' feature and its potential to impact customer service teams."
+  },
+  {
+    "timestamp": "00:03:10",
+    "speaker": "Emma Thompson",
+    "type": "Feature Appreciation",
+    "quote": "The analytics dashboard shows you recognition trends by department, individual employees, customer sentiment, and frequency.",
+    "context": "Emma highlights the value of analytics in the 'Say Thanks' feature for understanding recognition trends."
+  },
+  {
+    "timestamp": "00:04:24",
+    "speaker": "James Rodriguez",
+    "type": "Employee Recognition",
+    "quote": "Our data shows that 70% of employees haven't been recognized in the last 30 days...",
+    "context": "James emphasizes the importance of recognition culture while explaining 'Post a Win'."
+  },
+  {
+    "timestamp": "00:04:57",
+    "speaker": "Sarah Mitchell",
+    "type": "Feature Appreciation",
+    "quote": "You have full control over moderation settings.",
+    "context": "Sarah highlights the flexibility of moderation settings in the 'Post a Win' feature."
+  },
+  {
+    "timestamp": "00:06:19",
+    "speaker": "Rachel Patel",
+    "type": "Feature Appreciation",
+    "quote": "That's powerful for culture building.",
+    "context": "Rachel expresses appreciation for the 'Broadcast' feature and its potential for culture building."
+  },
+  {
+    "timestamp": "00:06:30",
+    "speaker": "Emma Thompson",
+    "type": "Feature Appreciation",
+    "quote": "We have a full leadership dashboard that shows you which leaders are broadcasting, how frequently, and the engagement those broadcasts receive.",
+    "context": "Emma highlights the value of the leadership dashboard in the 'Broadcast' feature for tracking leader engagement."
+  },
+  {
+    "timestamp": "00:07:09",
+    "speaker": "James Rodriguez",
+    "type": "Peer Appreciation",
+    "quote": "What started as a single recognition moment became a wave of support...",
+    "context": "James describes the 'Boost' feature and its potential for peer-to-peer appreciation."
+  },
+  {
+    "timestamp": "00:08:18",
+    "speaker": "Sarah Mitchell",
+    "type": "Feature Introduction",
+    "quote": "This is exactly why we built 'Manager Store'.",
+    "context": "Sarah introduces the 'Manager Store' feature and its purpose for recognizing deskless workers."
+  },
+  {
+    "timestamp": "00:09:54",
+    "speaker": "Rachel Patel",
+    "type": "Feature Appreciation",
+    "quote": "We've actually been talking about doing something like this.",
+    "context": "Rachel expresses appreciation for the 'Company Store' feature and its potential for recognizing employees."
+  },
+  {
+    "timestamp": "00:12:18",
+    "speaker": "Sarah Mitchell",
+    "type": "Feature Impact",
+    "quote": "Organizations using 'Say Thanks' report 10x increases in engagement scores specifically for customer-facing teams.",
+    "context": "Sarah highlights the impact of the 'Say Thanks' feature on engagement scores."
+  },
+  {
+    "timestamp": "00:12:43",
+    "speaker": "Emma Thompson",
+    "type": "Feature Appreciation",
+    "quote": "I'll send that over today along with implementation timelines and pricing details for the new features.",
+    "context": "Emma offers to send additional information and support for feature implementation."
+  },
+  {
+    "timestamp": "00:13:28",
+    "speaker": "Rachel Patel",
+    "type": "Feature Interest",
+    "quote": "Yes, I think that would be valuable. We've been exploring more holistic benefits approaches.",
+    "context": "Rachel expresses interest in the 'Lifestyle Spending Accounts' feature and its potential for holistic benefits."
+  },
+  {
+    "timestamp": "00:14:08",
+    "speaker": "Michael Chen",
+    "type": "Feature Request",
+    "quote": "Is there any way to incorporate local holidays and cultural celebrations into the recognition calendar?",
+    "context": "Michael requests a feature to incorporate local holidays and cultural celebrations into the recognition calendar."
+  },
+  {
+    "timestamp": "00:15:09",
+    "speaker": "Sarah Mitchell",
+    "type": "Feature Request Appreciation",
+    "quote": "I love that. That's going into our roadmap discussions.",
+    "context": "Sarah appreciates Michael's feature request and indicates it will be considered for the product roadmap."
+  },
+  {
+    "timestamp": "00:17:00",
+    "speaker": "David Williams",
+    "type": "Feature Appreciation",
+    "quote": "For me, it was the comprehensive approach to different employee populations.",
+    "context": "David expresses appreciation for the comprehensive approach to employee engagement."
+  },
+  {
+    "timestamp": "00:17:41",
+    "speaker": "Rachel Patel",
+    "type": "Feature Appreciation",
+    "quote": "I'm most excited about 'Manager Store'.",
+    "context": "Rachel expresses excitement and appreciation for the 'Manager Store' feature."
+  },
+  {
+    "timestamp": "00:17:59",
+    "speaker": "Michael Chen",
+    "type": "Feature Appreciation",
+    "quote": "What I appreciate is how these features create a recognition ecosystem.",
+    "context": "Michael appreciates the interconnected nature of the features and their potential to create a recognition ecosystem."
+  },
+  {
+    "timestamp": "00:21:03",
+    "speaker": "James Rodriguez",
+    "type": "Meeting Appreciation",
+    "quote": "It's been a pleasure, and I'm looking forward to seeing these features in action at GlobalTech.",
+    "context": "James expresses appreciation for the meeting and looks forward to the potential implementation of features at GlobalTech."
+  },
+  {
+    "timestamp": "00:21:14",
+    "speaker": "Emma Thompson",
+    "type": "Meeting Appreciation",
+    "quote": "Thanks, everyone. I'll have those materials to you by end of day today.",
+    "context": "Emma thanks the participants and confirms the next steps for sending materials."
+  }
+]

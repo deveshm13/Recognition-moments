@@ -1,0 +1,43 @@
+
+[
+{
+"timestamp": "11:27:40",
+"speaker": "Saurabh Mishra",
+"recipient": "Team",
+"type": "Team Recognition",
+"quote": "This is excellent. A well-coordinated, phased rollout plan. The teamwork on display here is just phenomenal. Devesh, your ability to creatively solve core AI problems is top-class. Shivam, your robust and scalable API design is the backbone of this feature. And Manish, your commitment to a seamless user experience is what makes our products shine. The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+"rationale": "Saurabh praises the entire team for their excellent collaboration, problem-solving, and commitment to delivering a high-quality feature. The team's ability to creatively solve core AI problems, design a robust API, and ensure a seamless user experience is highlighted.",
+"evidence": ["teamwork", "creatively solve core AI problems", "robust and scalable API design", "commitment to a seamless user experience"],
+"confidence": "high"
+},
+{
+"timestamp": "11:28:50",
+"speaker": "Shivam",
+"recipient": "Team",
+"type": "Team Recognition",
+"quote": "Thanks, Saurabh! That means a lot. On that note, we also wanted to give a huge thank you to a couple of people from other teams who were instrumental.",
+"rationale": "Shivam acknowledges the team's hard work and also highlights the critical contributions from Anjali and Rohan from other teams.",
+"evidence": ["huge thank you", "instrumental"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:25",
+"speaker": "Saurabh Mishra",
+"recipient": "Anjali from the Data Platform team",
+"type": "Employee Recognition",
+"quote": "Thank you for calling them out. This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+"rationale": "Saurabh acknowledges Anjali's critical contribution in fixing the Kafka stream data quality issues, which was essential for the project's success.",
+"evidence": ["Anjali's diligence", "fixed the Kafka stream data quality issues"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Rohan from the SRE team",
+"type": "Employee Recognition",
+"quote": "Thank you for calling them out. This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+"rationale": "Saurabh acknowledges Rohan's critical contribution in resolving the Kubernetes ingress configuration issue, which was essential for the project's readiness for staging.",
+"evidence": ["Rohan's expertise", "resolved the Kubernetes ingress configuration issue"],
+"confidence": "high"
+}
+]

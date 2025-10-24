@@ -1,0 +1,43 @@
+
+[
+{
+"timestamp": "11:18:30",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark. I'm incredibly impressed.",
+"rationale": "Saurabh praises Devesh for his innovative problem-solving and engineering excellence, which led to a successful solution for the recommendation engine.",
+"evidence": ["identified the problems", "solved them", "innovative thinking", "resourcefulness"],
+"confidence": "high"
+},
+{
+"timestamp": "11:27:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Devesh, this is an exemplary rollout plan. It's safe, data-driven, and meticulously planned. Your ownership of this project, from conception to the details of the deployment, has been absolutely outstanding. This is precisely the standard of excellence we strive for. I will be highlighting this work in my next director-level review, and I'm submitting this for a 'Spotlight Award' for technical achievement.",
+"rationale": "Saurabh commends Devesh for his meticulous and excellent rollout plan, which demonstrates outstanding ownership and technical achievement.",
+"evidence": ["exemplary rollout plan", "meticulously planned", "outstanding ownership", "Spotlight Award"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:15",
+"speaker": "Saurabh Mishra",
+"recipient": "Anjali from the Data Platform team",
+"type": "Employee Recognition",
+"quote": "Thank you for giving them that recognition, Devesh. That is precisely the kind of collaborative spirit that drives our success. Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable.",
+"rationale": "Saurabh acknowledges Anjali's significant contribution in fixing the Kafka topic issue and enhancing Devesh's data integrity.",
+"evidence": ["fixed the upstream producer", "helped me implement logic", "saved me from a massive data integrity issue"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:15",
+"speaker": "Saurabh Mishra",
+"recipient": "Rohan from the SRE team",
+"type": "Employee Recognition",
+"quote": "Thank you for giving them that recognition, Devesh. That is precisely the kind of collaborative spirit that drives our success. Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable.",
+"rationale": "Saurabh acknowledges Rohan's significant contribution in fixing the Kubernetes pod issue and enhancing the service's resilience.",
+"evidence": ["fixed it", "taught me how to properly set up liveness and readiness probes"],
+"confidence": "high"
+}
+]

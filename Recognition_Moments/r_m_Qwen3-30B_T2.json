@@ -1,0 +1,53 @@
+
+[
+{
+"timestamp": "11:27:40",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Devesh, your ability to creatively solve core AI problems is top-class.",
+"rationale": "The speaker attributes a specific technical skill (creative problem-solving for AI issues) to Devesh, showing a concrete contribution and outcome (top-class results).",
+"evidence": ["your ability to creatively solve core AI problems", "top-class"],
+"confidence": "high"
+},
+{
+"timestamp": "11:27:40",
+"speaker": "Saurabh Mishra",
+"recipient": "Shivam",
+"type": "Employee Recognition",
+"quote": "Shivam, your robust and scalable API design is the backbone of this feature.",
+"rationale": "The speaker directly attributes a key technical contribution (API design) to Shivam, linking it to a positive impact (backbone of the feature).",
+"evidence": ["your robust and scalable API design", "backbone of this feature"],
+"confidence": "high"
+},
+{
+"timestamp": "11:27:40",
+"speaker": "Saurabh Mishra",
+"recipient": "Manish",
+"type": "Employee Recognition",
+"quote": "And Manish, your commitment to a seamless user experience is what makes our products shine.",
+"rationale": "The speaker identifies a specific effort (commitment to user experience) and its positive outcome (makes products shine).",
+"evidence": ["your commitment to a seamless user experience", "makes our products shine"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:25",
+"speaker": "Devesh Mishra",
+"recipient": "Rohan",
+"type": "Peer Appreciation",
+"quote": "I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules.",
+"rationale": "Devesh directly acknowledges Rohan's specific contribution (identifying and fixing ingress configuration issues) and its positive impact (enabling deployment).",
+"evidence": ["Rohan jumped in", "quickly identified the issue", "helped us set up the correct routing rules"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Anjali",
+"type": "Employee Recognition",
+"quote": "Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+"rationale": "The speaker explicitly attributes a key technical fix (data quality issue resolution) to Anjali, which directly led to a positive outcome (clean data for the system).",
+"evidence": ["Anjali from the Data Platform team was a massive help", "deploy a fix that ensured the data was clean"],
+"confidence": "high"
+}
+]

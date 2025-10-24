@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "11:04:30",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "That's a fantastic start, Devesh. A 9% NDCG lift is more than we had hoped for at this stage. It validates our hybrid approach.",
+    "rationale": "Saurabh praises Devesh for achieving a significant improvement in recommendation quality, highlighting the outcome of a 9% lift in NDCG.",
+    "evidence": ["A 9% NDCG lift", "more than we had hoped for"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:06:20",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Excellent foresight.",
+    "rationale": "Saurabh acknowledges Devesh's proactive integration of SHAP values for model explainability, which will aid debugging and future iterations.",
+    "evidence": ["Excellent foresight", "integrated SHAP values"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:11:05",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "A debug dashboard is a great idea, Manish. That will be invaluable for the QA team as well.",
+    "rationale": "Saurabh praises Manish for creating a debug dashboard, which will improve the team's ability to test and debug the recommendation system.",
+    "evidence": ["great idea", "invaluable for the QA team"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:14:05",
+    "speaker": "Shivam",
+    "recipient": "Devesh Mishra",
+    "type": "Peer Appreciation",
+    "quote": "We resolved it by establishing a clear API contract using Protobuf definitions and implementing PACT testing to ensure our services stay in sync.",
+    "rationale": "Shivam highlights the team's collaborative effort to resolve an integration issue, improving cross-service communication and stability.",
+    "evidence": ["We resolved it", "clear API contract", "services stay in sync"],
+    "confidence": "medium"
+  },
+  {
+    "timestamp": "11:18:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "That shows a fantastic attention to detail, Manish. It’s that final polish that separates a good feature from a great one.",
+    "rationale": "Saurabh praises Manish for improving the user experience by fixing a layout shift issue, enhancing the overall quality of the feature.",
+    "evidence": ["fantastic attention to detail", "final polish", "great one"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Project Phoenix Team",
+    "type": "Team Recognition",
+    "quote": "The teamwork on display here is just phenomenal. Devesh, your ability to creatively solve core AI problems is top-class. Shivam, your robust and scalable API design is the backbone of this feature. And Manish, your commitment to a seamless user experience is what makes our products shine. The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team.",
+    "rationale": "Saurabh recognizes the entire team for their collaboration, problem-solving, and individual contributions, highlighting the project's success.",
+    "evidence": ["phenomenal teamwork", "A+ work", "creatively solve core AI problems", "robust and scalable API design", "commitment to a seamless user experience"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Shivam",
+    "recipient": "Anjali (Data Platform Team)",
+    "type": "Peer Appreciation",
+    "quote": "Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+    "rationale": "Shivam praises Anjali for her critical support in fixing data quality issues, which enabled the team to progress.",
+    "evidence": ["massive help", "deploy a fix", "ensured the data was clean"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan (SRE Team)",
+    "type": "Peer Appreciation",
+    "quote": "Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+    "rationale": "Devesh acknowledges Rohan for his timely assistance in resolving a Kubernetes configuration issue, enabling the team to move forward.",
+    "evidence": ["jumped in", "quickly identified the issue", "helped us set up the correct routing rules", "wouldn't be ready for staging without their support"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:30:10",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali (Data Platform Team) and Rohan (SRE Team)",
+    "type": "Employee Recognition",
+    "quote": "It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh praises Anjali and Rohan for their critical contributions to the project, emphasizing their diligence and expertise.",
+    "evidence": ["Anjali's diligence", "Rohan's expertise", "critical here", "high-impact contributions", "deserves to be celebrated"],
+    "confidence": "high"
+  }
+]

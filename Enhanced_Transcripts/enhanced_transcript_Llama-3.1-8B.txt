@@ -1,0 +1,315 @@
+### Enhanced Transcript
+
+**Saurabh Mishra** (13:20:14)
+Recognition movement, Nikolai.
+
+**Saurabh Mishra** (13:20:20)
+Hannah, to, uh... (Hindi: to asset transcript, generate hoge, isi cheechko as an input from past karang kapne model pay.)
+
+**Saurabh Mishra** (13:20:24)
+Or a recognition movement, ni kalnikar tray karinggeh. Toh recognition mo- yeh hum kuchaisa feature essence. (Or a recognition movement, in which we can extract key features.)
+
+**Saurabh Mishra** (13:20:36)
+As of now so today, huh?
+
+**Saurabh Mishra** (13:20:39)
+Te, hain. (Yes, it is.)
+
+**Saurabh Mishra** (13:20:46)
+Meeting ka organizer hoga. (The meeting organizer will be.)
+
+**Saurabh Mishra** (13:20:51)
+Jayaga. (Goodbye.)
+
+**Saurabh Mishra** (13:20:56)
+And disk basis, ha musko batayenge usmeh ye lika oga, ki. (And based on the disk, we will inform you about the written content.)
+
+**Saurabh Mishra** (13:21:01)
+Notice ki aki ki? (What is the notice?)
+
+**Saurabh Mishra** (13:21:04)
+Meeting may highlight hua ki usne kafia chagam ki. (In the meeting, it was highlighted that there were many challenges.)
+
+**Saurabh Mishra** (13:21:13)
+Do... do you want to recognize Deves?
+
+**Saurabh Mishra** (13:21:16)
+Logong ko recognize karnachate ho. (We want to recognize the speakers.)
+
+**Saurabh Mishra** (13:21:22)
+Yaha pekaru. (Here we go.)
+
+**Saurabh Mishra** (13:21:28)
+Karne hai. (We need to do it.)
+
+**Saurabh Mishra** (13:21:30)
+Message type kar sakte ho. (We can type a message.)
+
+**Saurabh Mishra** (13:21:37)
+Basis pitodasa context, (Based on the context...)
+
+**Saurabh Mishra** (13:21:42)
+There isn't actually con sagame keyskali ham recommend kar hain. (There isn't actually a specific key to recommend.)
+
+**Devesh Mishra** (13:21:45)
+And this year, Kevin.
+
+**Saurabh Mishra** (13:21:46)
+To him, it could testimonial authai jo citation hota wo bhi generate karke user ko boll sit hai, yelling. (To him, it could also generate a testimonial with a citation, which would also be beneficial for the user.)
+
+**Saurabh Mishra** (13:21:54)
+Got them.
+
+**Saurabh Mishra** (13:21:57)
+Then, abhi devue is kon hai, devweis ka puda namka hai. (Then, I will introduce Devesh, whose name is Dev.)
+
+**Saurabh Mishra** (13:22:04)
+There is... this company...
+
+**Devesh Mishra** (13:22:06)
+Uh, Christine meh, nah.
+
+**Saurabh Mishra** (13:22:07)
+Ili...
+
+**Saurabh Mishra** (13:22:12)
+User hai. (It's a user.)
+
+**Saurabh Mishra** (13:22:21)
+Okay, there is ah.
+
+**Saurabh Mishra** (13:22:23)
+Was like the database, um...
+
+**Saurabh Mishra** (13:22:25)
+Meeting chali hakta debase company, dusri company ka user ho. (The meeting is about a company's user, who is also a user of another company.)
+
+**Saurabh Mishra** (13:22:34)
+Appreciate kar (We appreciate it.)
+
+**Saurabh Mishra** (13:22:38)
+Within the same company, I'm Garzakta. (Within the same company, I am Garzakta.)
+
+**Saurabh Mishra** (13:22:42)
+So, um, ESRA restrictions ringge. (So, um, ESRA restrictions apply.)
+
+**Saurabh Mishra** (13:22:45)
+Organization ki, ye saareh jo conversations hota wo kisi bhi cheech ke ho sakte hain. (In an organization, all conversations can be related to any topic.)
+
+**Saurabh Mishra** (13:22:52)
+JSIM might be product, or client can be communication ke baad kar snaiya. (JSIM might be a product, or a client can be communicated with after the communication.)
+
+**Saurabh Mishra** (13:22:56)
+Internal IT meetings was at the one-to-one source at the hain. (Internal IT meetings are at the one-to-one source.)
+
+**Saurabh Mishra** (13:23:00)
+HR discussions hose keman lo HR. (HR discussions are held in the HR department.)
+
+**Saurabh Mishra** (13:23:04)
+Boss policy, butare. (Boss policy is applicable.)
+
+**Saurabh Mishra** (13:23:08)
+And, uh, yeah, Tomarajesi and Dixon with a YC meetings. (And, uh, yeah, Tomarajesi and Dixon with YC meetings.)
+
+**Saurabh Mishra** (13:23:15)
+Jose, sorry, meetings? (Jose, sorry, what meetings?)
+
+**Saurabh Mishra** (13:23:17)
+Kisi, all language mehorin yo, English meinaw. (In any language, we can translate it to English.)
+
+**Devesh Mishra** (13:23:19)
+Marin tailing will, uh, just have a... It's the transcript data a multilingual?
+
+**Saurabh Mishra** (13:23:34)
+Were told to explore getting a Google Beto Miller, kay. (We were told to explore getting a Google Beto Miller.)
+
+**Devesh Mishra** (13:23:39)
+Mm-hmm.
+
+**Saurabh Mishra** (13:23:41)
+So, um, both are your scenarios ho sakte hain. Hame yeh sari scenarios ko apnek
+
+**Saurabh Mishra** (13:23:47)
+Process may handle karna hai. (So, um, both scenarios are possible. We need to handle all scenarios.)
+
+**Saurabh Mishra** (13:23:50)
+Or, um, as a recognition moment, banana. (Or, um, as a recognition moment.)
+
+**Saurabh Mishra** (13:23:54)
+Meeting mein. (In the meeting.)
+
+**Saurabh Mishra** (13:24:03)
+And, uh, Kaivar meeting says about heated hot thing, ha. (And, uh, Kaivar meeting says about a heated topic.)
+
+**Saurabh Mishra** (13:24:06)
+Those more recognition moment in Emilaga. (Those are more recognition moments.)
+
+**Saurabh Mishra** (13:24:17)
+To prepare kannhe? (How to prepare?)
+
+**Saurabh Mishra** (13:24:19)
+Joe prompt is meeting transcript kaatam kisi AWS Bedrock model ko behaja. (Joe prompt is meeting transcript to be processed by an AWS Bedrock model.)
+
+**Saurabh Mishra** (13:24:25)
+Recognition movement. (Recognition movement.)
+
+**Devesh Mishra** (13:24:33)
+So, mainly, I'll be, uh...
+
+**Devesh Mishra** (13:24:37)
+Best model glutenoga. Ismael, this LLM to their doom?
+
+**Devesh Mishra** (13:24:45)
+Auf? Recognition moments in Kali.
+
+**Saurabh Mishra** (13:24:52)
+Transcript toh bah
+
+**Devesh Mishra** (13:24:59)
+Mm-hmm.
+
+**Saurabh Mishra** (13:24:59)
+With 30 minutes kalika hai. (With 30 minutes left.)
+
+**Saurabh Mishra** (13:25:04)
+Hain. (Yes.)
+
+**Saurabh Mishra** (13:25:08)
+To, uh, do transcript. Tuk as a consa model joindsap jiho ko handle kar sakta hai. (To, uh, do transcript. Tuk as a consa model can handle it.)
+
+**Saurabh Mishra** (13:25:16)
+Same prompt.
+
+**Saurabh Mishra** (13:25:21)
+GPT pay dala, sorry, co-pilot pay dala. (GPT pay dala, sorry, co-pilot pay dala.)
+
+**Devesh Mishra** (13:25:26)
+Copilot.
+
+**Saurabh Mishra** (13:25:27)
+So yeah,
+
+**Saurabh Mishra** (13:25:30)
+Like, in Cloud9 platform, chaos Pay.
+
+**Saurabh Mishra** (13:25:33)
+Was it the Llama models or at Chakangarine?
+
+**Devesh Mishra** (13:25:39)
+Mm-hmm.
+
+**Saurabh Mishra** (13:25:43)
+Deep SQL
+
+**Devesh Mishra** (13:25:49)
+Summarization of the Rabia to swim users.
+
+**Saurabh Mishra** (13:25:56)
+Got it. The way Joe, top ke model, like, sare models explore kar pa yenge model toh source bijata hai. (Got it. The way Joe, top ke model, like, sare models can explore the model source.)
+
+**Saurabh Mishra** (13:26:04)
+Hain.
+
+**Saurabh Mishra** (13:26:10)
+Google Page Sage kasag
+
+**Saurabh Mishra** (13:26:17)
+Model recommend kiya ja
+
+**Saurabh Mishra** (13:26:19)
+Would you tell my jawag platform, suggest karai hai, am unequal test kalai.
+
+**Devesh Mishra** (13:26:26)
+Mm-hmm.
+
+**Saurabh Mishra** (13:26:26)
+Detail aspect songe. Abi yam uspel hija tan.
+
+**Saurabh Mishra** (13:26:41)
+Um, manually do Yatin model ko test karte hain, un mein se best model jo hume samaj maar hai.
+
+**Saurabh Mishra** (13:26:48)
+But as of now, Uponam Feature POC gernage.
+
+**Saurabh Mishra** (13:26:54)
+Um, if model kochus kare.
+
+**Saurabh Mishra** (13:26:56)
+Do a proper gala cases ko.
+
+**Saurabh Mishra** (13:27:01)
+Ik acha prompt to prepare kare.
+
+**Saurabh Mishra** (13:27:05)
+Do Torah Products and ReadyHopay.
+
+**Saurabh Mishra** (13:27:08)
+Or, uh, firhamm dekan ki hamikya challenges arin hai.
+
+**Saurabh Mishra** (13:27:18)
+Multi-languages matcha sa support nahira hai.
+
+**Saurabh Mishra** (13:27:22)
+Um, which business use cases, just business context meetings, Hoti hain.
+
+**Saurabh Mishra** (13:27:27)
+This was the third doctor-patiento.
+
+**Devesh Mishra** (13:27:32)
+Ah, that's funny.
+
+**Saurabh Mishra** (13:27:34)
+So, yes, Kasey Hogar was a Thorasumana.
+
+**Saurabh Mishra** (13:27:40)
+Abyss... task is somebody manager?
+
+**Saurabh Mishra** (13:27:45)
+And uh...
+
+**Saurabh Mishra** (13:27:49)
+Bakitung or dekle na.
+
+**Saurabh Mishra** (13:27:57)
+Bat tum...
+
+**Saurabh Mishra** (13:28:03)
+It's become Karzukdo.
+
+**Saurabh Mishra** (13:28:06)
+The model-load explore karuki console use karn najaya.
+
+**Saurabh Mishra** (13:28:14)
+Hmm.
+
+**Saurabh Mishra** (13:28:17)
+Okay. Coach, uh, salag, Coach, uh, um...
+
+**Saurabh Mishra** (13:28:21)
+Query, hi to Mari Elovnau.
+
+**Devesh Mishra** (13:28:25)
+Another transcript, seh...
+
+**Devesh Mishra** (13:28:34)
+Pad
+
+**Saurabh Mishra** (13:28:40)
+Engineering kar saktechi.
+
+**Saurabh Mishra** (13:28:49)
+Kaccha ya.
+
+**Devesh Mishra** (13:29:00)
+Missions nikal. Le usco recognize.
+
+**Saurabh Mishra** (13:29:05)
+Mm-hmm.
+
+**Devesh Mishra** (13:29:11)
+Recognize a reward, appreciate the, uh. Tu.
+
+**Devesh Mishra** (13:29:19)
+But that tid is everything.
+
+**Saurabh Mishra** (13:

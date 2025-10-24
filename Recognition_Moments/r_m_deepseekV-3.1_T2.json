@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "11:18:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "That shows a fantastic attention to detail, Manish. It’s that final polish that separates a good feature from a great one.",
+    "rationale": "Saurabh praises Manish for implementing a content placeholder strategy that eliminated layout shift and improved user experience during loading.",
+    "evidence": ["fantastic attention to detail", "final polish", "smoothly replaced by the actual product cards"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh, Shivam, Manish",
+    "type": "Employee Recognition",
+    "quote": "This is excellent. A well-coordinated, phased rollout plan. The teamwork on display here is just phenomenal. Devesh, your ability to creatively solve core AI problems is top-class. Shivam, your robust and scalable API design is the backbone of this feature. And Manish, your commitment to a seamless user experience is what makes our products shine. The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+    "rationale": "Saurabh recognizes the team for their individual contributions (creative problem-solving, API design, UX polish) and collaborative effort, with explicit nomination for a team award.",
+    "evidence": ["creatively solve core AI problems", "robust and scalable API design", "commitment to a seamless user experience", "nominating the project for a 'Team Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan (SRE team)",
+    "type": "Peer Appreciation",
+    "quote": "I'll second that. And I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+    "rationale": "Devesh recognizes Rohan for resolving a critical Kubernetes configuration issue that enabled staging readiness.",
+    "evidence": ["Rohan jumped in, quickly identified the issue", "helped us set up the correct routing rules", "We wouldn't be ready for staging without their support"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali and Rohan",
+    "type": "Employee Recognition",
+    "quote": "Thank you for calling them out. This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh commits to formally recognizing Anjali and Rohan for their critical cross-team support that enabled project success.",
+    "evidence": ["Anjali's diligence and Rohan's expertise were critical", "high-impact contributions", "I will personally send a note of thanks", "make sure their managers are aware"],
+    "confidence": "high"
+  }
+]

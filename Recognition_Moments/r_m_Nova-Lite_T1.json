@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "11:27:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark. I'm incredibly impressed.",
+    "rationale": "Saurabh recognizes Devesh's innovative problem-solving skills, his ability to leverage past projects, and the successful outcome of his work, which aligns with the criteria for reward-eligible recognition.",
+    "evidence": ["phenomenal engineering", "innovative thinking and resourcefulness", "successful outcome"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali, Rohan",
+    "type": "Employee Recognition",
+    "quote": "It’s one thing to get help, but it’s another to learn from it, which you've done. I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions.",
+    "rationale": "Saurabh acknowledges the contributions of Anjali and Rohan, highlighting the learning and collaborative spirit demonstrated by Devesh, which meets the criteria for reward-eligible recognition.",
+    "evidence": ["specific, high-impact contributions", "learning and collaborative spirit"],
+    "confidence": "high"
+  }
+]

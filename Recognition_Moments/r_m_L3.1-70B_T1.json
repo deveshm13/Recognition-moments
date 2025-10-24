@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "11:18:30",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark. I'm incredibly impressed.",
+    "rationale": "Recognizes Devesh's innovative problem-solving and engineering skills, which led to significant improvements in the project, demonstrating a positive outcome and impact on the project's success.",
+    "evidence": ["phenomenal engineering", "identified the problems but solved them", "innovative thinking and resourcefulness"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is an exemplary rollout plan. It's safe, data-driven, and meticulously planned. The progression from a shadow model to an internal release and then a controlled A/B test is perfect. Your ownership of this project, from conception to the details of the deployment, has been absolutely outstanding. This is precisely the standard of excellence we strive for. I will be highlighting this work in my next director-level review, and I'm submitting this for a 'Spotlight Award' for technical achievement.",
+    "rationale": "Praises Devesh's rollout plan, emphasizing its safety, data-driven approach, and meticulous planning, highlighting his outstanding ownership of the project and commitment to excellence, which will be recognized in a director-level review and submitted for a 'Spotlight Award'.",
+    "evidence": ["exemplary rollout plan", "absolutely outstanding", "standard of excellence"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali",
+    "type": "Peer Appreciation",
+    "quote": "Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable. It’s one thing to get help, but it’s another to learn from it, which you've done. I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions.",
+    "rationale": "Recognizes Anjali's valuable contribution, specifically her deep data expertise, which helped resolve a critical issue, and appreciates her collaborative spirit, ensuring her managers are informed of her high-impact contributions.",
+    "evidence": ["deep data expertise", "invaluable", "high-impact contributions"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Rohan",
+    "type": "Peer Appreciation",
+    "quote": "Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable. It’s one thing to get help, but it’s another to learn from it, which you've done. I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions.",
+    "rationale": "Appreciates Rohan's SRE knowledge and its significant impact, acknowledging the value of his expertise in resolving a critical issue and ensuring his contribution is recognized by his managers.",
+    "evidence": ["SRE knowledge", "invaluable", "high-impact contributions"],
+    "confidence": "high"
+  }
+]

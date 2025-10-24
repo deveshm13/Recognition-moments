@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra, Shivam, Manish",
+    "type": "Employee Recognition",
+    "quote": "The teamwork on display here is just phenomenal. Devesh, your ability to creatively solve core AI problems is top-class. Shivam, your robust and scalable API design is the backbone of this feature. And Manish, your commitment to a seamless user experience is what makes our products shine.",
+    "rationale": "Saurabh recognizes the team's exceptional collaboration and individual contributions, citing specific strengths and outcomes, such as solving core AI problems, designing a robust API, and ensuring a seamless user experience.",
+    "evidence": ["top-class", "backbone of this feature", "makes our products shine"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:28:50",
+    "speaker": "Shivam",
+    "recipient": "Anjali",
+    "type": "Peer Appreciation",
+    "quote": "Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+    "rationale": "Shivam appreciates Anjali's significant contribution to resolving data quality issues, which was crucial for the project's success.",
+    "evidence": ["massive help", "deploy a fix"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan",
+    "type": "Peer Appreciation",
+    "quote": "Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules.",
+    "rationale": "Devesh recognizes Rohan's expertise and timely assistance in resolving a critical issue with Kubernetes configuration, which was essential for the project's progress.",
+    "evidence": ["jumped in", "quickly identified the issue"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali, Rohan",
+    "type": "Employee Recognition",
+    "quote": "I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh acknowledges the significant contributions of Anjali and Rohan, committing to recognize their efforts through formal channels, such as notes to their managers, emphasizing the value of their support.",
+    "evidence": ["high-impact contributions", "deserves to be celebrated"],
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "11:18:30",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark. I'm incredibly impressed.",
+    "rationale": "Manager Saurabh recognizes Devesh's specific engineering contribution (solving problems by connecting past project learnings) with clear positive outcomes (innovative solutions that set a benchmark).",
+    "evidence": ["phenomenal engineering", "identified the problems", "solved them", "connecting learnings", "innovative thinking", "resourcefulness", "sets a benchmark"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is an exemplary rollout plan. It's safe, data-driven, and meticulously planned. The progression from a shadow model to an internal release and then a controlled A/B test is perfect. Your ownership of this project, from conception to the details of the deployment, has been absolutely outstanding. This is precisely the standard of excellence we strive for. I will be highlighting this work in my next director-level review, and I'm submitting this for a 'Spotlight Award' for technical achievement.",
+    "rationale": "Manager Saurabh praises Devesh for his specific contribution (creating an exemplary rollout plan and taking ownership) with clear outcomes (meeting excellence standards, worthy of director-level review and Spotlight Award nomination).",
+    "evidence": ["exemplary rollout plan", "safe, data-driven, and meticulously planned", "ownership of this project", "absolutely outstanding", "standard of excellence", "highlighting this work", "submitting this for a 'Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:15",
+    "speaker": "Devesh Mishra",
+    "recipient": "Anjali",
+    "type": "Peer Appreciation",
+    "quote": "The Kafka topic I was consuming from had a recurring issue with out-of-order events, which was corrupting my training data. Anjali didn't just fix the upstream producer; she sat with me and helped me implement logic in my consumer to handle event-time sequencing. This saved me from a massive data integrity issue that I might have missed.",
+    "rationale": "Devesh recognizes Anjali's specific contribution (fixing upstream producer and helping implement event-time sequencing logic) with clear positive outcome (saving from a massive data integrity issue).",
+    "evidence": ["fixed the upstream producer", "helped me implement logic", "handle event-time sequencing", "saved me from a massive data integrity issue"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:15",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan",
+    "type": "Peer Appreciation",
+    "quote": "Also, Rohan from the SRE team was a huge help. My Kubernetes pod was getting stuck in a crash loop due to a misconfigured readiness probe. He not only fixed it but also taught me how to properly set up liveness and readiness probes to make the service more resilient.",
+    "rationale": "Devesh recognizes Rohan's specific contribution (fixing Kubernetes pod issue and teaching proper setup) with clear outcome (making the service more resilient).",
+    "evidence": ["fixed it", "taught me how to properly set up liveness and readiness probes", "make the service more resilient"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali",
+    "type": "Employee Recognition",
+    "quote": "Thank you for giving them that recognition, Devesh. That is precisely the kind of collaborative spirit that drives our success. Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable. It's one thing to get help, but it's another to learn from it, which you've done. I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions.",
+    "rationale": "Saurabh acknowledges Anjali's contribution (deep data expertise) with clear impact (high-impact contributions) and commits to formal recognition (detailed email to her and her manager).",
+    "evidence": ["deep data expertise", "clearly invaluable", "high-impact contributions", "send a detailed email", "make sure their managers are aware"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Rohan",
+    "type": "Employee Recognition",
+    "quote": "Thank you for giving them that recognition, Devesh. That is precisely the kind of collaborative spirit that drives our success. Anjali's deep data expertise and Rohan's SRE knowledge are clearly invaluable. It's one thing to get help, but it's another to learn from it, which you've done. I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions.",
+    "rationale": "Saurabh acknowledges Rohan's contribution (SRE knowledge) with clear impact (high-impact contributions) and commits to formal recognition (detailed email to him and his manager).",
+    "evidence": ["SRE knowledge", "clearly invaluable", "high-impact contributions", "send a detailed email", "make sure their managers are aware"],
+    "confidence": "high"
+  }
+]

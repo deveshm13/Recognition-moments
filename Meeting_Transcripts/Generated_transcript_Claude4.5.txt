@@ -1,0 +1,387 @@
+# Meeting Transcript
+
+**Meeting Title:** Culture Cloud - New Features Demo & Discussion  
+**Date:** 12 October 2025  
+**Duration:** 30 minutes  
+**Platform:** Microsoft Teams
+
+---
+
+## Participants
+
+**Product Team (O.C. Tanner):**
+- Sarah Mitchell (Product Manager)
+- James Rodriguez (Senior Solutions Consultant)
+- Emma Thompson (Customer Success Manager)
+
+**Client Team (GlobalTech Industries):**
+- Michael Chen (VP, Human Resources)
+- Rachel Patel (HR Director)
+- David Williams (Employee Experience Lead)
+
+---
+
+## Transcript
+
+**Sarah Mitchell**  
+00:00:12  
+Good morning, everyone! Thank you all for joining today's session. I'm Sarah Mitchell, Product Manager for Culture Cloud, and I'm really excited to walk you through some of our newest features that we believe will significantly enhance employee engagement on your platform. With me today are James Rodriguez, our Senior Solutions Consultant, and Emma Thompson from Customer Success. Before we dive in, could our colleagues from GlobalTech quickly introduce themselves?
+
+**Michael Chen**  
+00:00:38  
+Absolutely, Sarah. Good morning, everyone. I'm Michael Chen, VP of Human Resources at GlobalTech. With me are Rachel Patel, our HR Director, and David Williams, who leads our Employee Experience initiatives. We're really looking forward to seeing what you've built. Employee engagement has been a key focus area for us this quarter.
+
+**Rachel Patel**  
+00:00:58  
+Yes, thanks for having us. We're particularly interested in features that can help us reach our deskless workforce more effectively.
+
+**Sarah Mitchell**  
+00:01:08  
+Perfect timing, Rachel. That's actually one of the areas we've made significant improvements in. Let me share my screen, and we'll get started with the demo. Can everyone see the Culture Cloud dashboard?
+
+**David Williams**  
+00:01:19  
+Yes, we can see it clearly.
+
+**Sarah Mitchell**  
+00:01:22  
+Excellent. So today we're going to cover eight new features that we've launched. The first one I want to highlight is called "Say Thanks." This feature is particularly powerful because it gives your customers—in your case, GlobalTech's clients—a direct voice in recognition. Essentially, customers can show appreciation to your employees through a simple link or QR code. Let me show you how this works in practice.
+
+**James Rodriguez**  
+00:01:52  
+I'll take over the demo here, Sarah. So what you're seeing on screen is how a customer interaction would work. Imagine one of GlobalTech's clients has just received exceptional service from one of your support team members. They can scan a QR code or click a link, and they're taken to this simple form where they can leave a thank you message. That recognition goes directly into your Culture Cloud platform and becomes visible to the employee, their manager, and can be shared across the organization.
+
+**Michael Chen**  
+00:02:22  
+That's interesting. James, can you clarify—does this work for client-facing employees only, or can we expand this to other stakeholders as well?
+
+**James Rodriguez**  
+00:02:31  
+Great question, Michael. While it's designed primarily for customer-to-employee recognition, the architecture is flexible. You could technically generate QR codes for any external stakeholder—suppliers, partners, even community members if you're involved in community outreach programs. The system tracks the source of the recognition, so you can measure different types of external appreciation.
+
+**Rachel Patel**  
+00:02:55  
+I really like that. One challenge we've had is that our customer service teams sometimes feel disconnected from the impact they're making. This direct line from customers could be transformative. What kind of analytics do we get around this?
+
+**Emma Thompson**  
+00:03:10  
+Rachel, I'm glad you asked. Let me jump in here. The analytics dashboard shows you recognition trends by department, individual employees, customer sentiment, and frequency. You can see which teams are receiving the most customer kudos, which can inform everything from performance reviews to identifying best practices. We've seen organizations using this data for coaching and development as well.
+
+**Sarah Mitchell**  
+00:03:35  
+Exactly. And our research shows that customer recognition increases engagement by ten times. Now, let me move to the next feature—"Post a Win." This is all about peer-to-peer celebration. David, I think this might be particularly relevant for your employee experience strategy.
+
+**David Williams**  
+00:03:53  
+I'm all ears.
+
+**Sarah Mitchell**  
+00:03:55  
+Post a Win allows employees to share accomplishments, photos, and stories across the organization. Think of it as a social feed, but specifically for celebrating victories—big or small. Let me show you what this looks like. Here's an example post where an engineering team completed a major project milestone. They've added photos from their celebration, tagged team members, and you can see colleagues commenting and reacting.
+
+**James Rodriguez**  
+00:04:24  
+What makes this powerful is the visibility. Our data shows that 70% of employees haven't been recognized in the last 30 days. Post a Win democratizes recognition and creates a continuous stream of positive moments. It keeps great work visible and creates a culture of appreciation that doesn't rely solely on top-down recognition.
+
+**David Williams**  
+00:04:46  
+This looks fantastic. Quick question—can we moderate these posts, or is there a workflow for approval, especially if we want to maintain certain brand standards?
+
+**Sarah Mitchell**  
+00:04:57  
+Yes, absolutely. You have full control over moderation settings. You can choose to have posts auto-publish, require manager approval, or have HR review before they go live. We recommend starting with auto-publish for most organizations because it maintains the spontaneity and authenticity, but we understand some industries have stricter requirements.
+
+**Michael Chen**  
+00:05:19  
+That flexibility is important. We'd probably want auto-publish for most departments but keep approval workflows for certain sensitive business units.
+
+**Sarah Mitchell**  
+00:05:29  
+That's completely doable. You can set different rules by department, location, or any other organizational hierarchy. Now, the next feature builds on Post a Win—it's called "Broadcast." This gives leaders the ability to amplify meaningful recognition. When leaders spot something exceptional, they can broadcast it to teams, departments, or the entire organization.
+
+**James Rodriguez**  
+00:05:53  
+Let me demonstrate this. Here's a Post a Win from earlier. As a leader, I can click "Broadcast" and choose my audience. Let's say I want to share this with the entire Asia-Pacific region. I can add my own message of endorsement, and now thousands of employees will see this recognition moment. This creates what we call cascading recognition—one moment of appreciation becomes a company-wide celebration.
+
+**Rachel Patel**  
+00:06:19  
+That's powerful for culture building. Can we track which leaders are actively using these features? We're trying to build recognition into our leadership competency model.
+
+**Emma Thompson**  
+00:06:30  
+Absolutely, Rachel. We have a full leadership dashboard that shows you which leaders are broadcasting, how frequently, and the engagement those broadcasts receive. You can use this data in leadership development programs or even tie it to leadership performance metrics if that aligns with your strategy.
+
+**Sarah Mitchell**  
+00:06:49  
+Another feature that pairs well with Broadcast is "Boost." This allows anyone—leaders or peers—to add additional points or praise to an existing recognition. If someone receives a thank you, others can boost it, which amplifies the impact and creates momentum. Let me show you how this works.
+
+**James Rodriguez**  
+00:07:09  
+Here's an example. An employee received customer recognition through Say Thanks. Her manager saw it and boosted it with additional points and a personal message. Then colleagues added their own boosts. What started as a single recognition moment became a wave of support. Research shows that when people are invited to recognize others, they're more likely to feel hope and connection at work.
+
+**Michael Chen**  
+00:07:35  
+I can see how this creates a ripple effect. Are there any controls around point allocation for boosts? We'd want to ensure budget management.
+
+**Sarah Mitchell**  
+00:07:45  
+Yes, you can set boost limits by role. For example, managers might be able to boost up to 500 points, while peers might have a 100-point limit. You have complete control over the economics. Now, let me shift to some features specifically designed for your deskless workforce—and Rachel, I know this was top of mind for you.
+
+**Rachel Patel**  
+00:08:07  
+Yes, please. About 60% of our workforce is deskless—manufacturing, field service, retail locations. They often feel left out of recognition programs.
+
+**Sarah Mitchell**  
+00:08:18  
+This is exactly why we built "Manager Store." Eighty percent of the global workforce is deskless, and traditional digital recognition often doesn't reach them effectively. Manager Store is an online storefront where managers can order physical recognition items—pins, certificates, collectibles, awards—all branded and ready to hand directly to employees.
+
+**James Rodriguez**  
+00:08:44  
+Let me walk you through the interface. Managers log in, browse the catalog, and place orders. Items ship directly to the manager or the location, and they can present them in person. This solves the tangible recognition gap for employees who aren't on computers every day. Everything is tracked in the system, so you still get your analytics and reporting.
+
+**David Williams**  
+00:09:08  
+This is excellent. Do managers have spending limits, or how does the budget control work?
+
+**James Rodriguez**  
+00:09:14  
+You can allocate budgets by manager, by location, or by department. Managers see their available budget in real-time, and they can't exceed it. You can also require approval for orders over certain amounts. It's designed to give managers autonomy while maintaining financial control.
+
+**Sarah Mitchell**  
+00:09:33  
+Related to this is "Company Store"—and this is about building culture through branded merchandise. Employees can use points to get company-branded gear: hats, sweatshirts, water bottles, whatever represents your brand. It's more than merchandise; it's about creating identity and belonging.
+
+**Rachel Patel**  
+00:09:54  
+We've actually been talking about doing something like this. Can we customize the product selection?
+
+**Emma Thompson**  
+00:10:00  
+Completely customizable, Rachel. We work with you to curate the store with your branding, your preferred items, and you can update inventory throughout the year. Some clients do seasonal collections, others have region-specific items. We've seen that symbolic recognition like this significantly improves feelings of belonging.
+
+**Sarah Mitchell**  
+00:10:21  
+The last feature I want to highlight is "Multiple Stores." This is about targeted recognition programs. Instead of one generic store, you can create dedicated storefronts for specific initiatives—wellness programs, safety recognition, sales contests, onboarding, anything.
+
+**James Rodriguez**  
+00:10:41  
+Let me show you an example. Here's a client who has five different stores: a wellness store with fitness equipment and healthy living items, a safety store with recognition tied to safety milestones, a sales incentive store, an onboarding store for new hires, and their main company store. Each runs on its own budget and point bank. This makes recognition more targeted and effective because it aligns with specific business objectives.
+
+**Michael Chen**  
+00:11:09  
+This is really comprehensive. I'm impressed with how much thought has gone into different employee segments and use cases. Can we talk about implementation? How long would it take to get these features up and running for GlobalTech?
+
+**Emma Thompson**  
+00:11:25  
+Great question, Michael. Since you're already on Culture Cloud, most of these features can be enabled quite quickly—we're talking weeks, not months. The longest lead time is typically for Manager Store and Company Store because we need to work with you on product selection, branding, and supplier setup. But features like Say Thanks, Post a Win, Broadcast, and Boost could be live within two weeks after we finalize your configuration preferences.
+
+**Sarah Mitchell**  
+00:11:53  
+And Emma and her team will work with you throughout implementation to ensure smooth adoption. We typically recommend a phased rollout—maybe starting with one or two features, gathering feedback, then expanding.
+
+**David Williams**  
+00:12:06  
+That makes sense. Sarah, I'm curious about the engagement impact you've seen with clients who've implemented these features. Do you have any data or case studies?
+
+**Sarah Mitchell**  
+00:12:18  
+We do. Organizations using Say Thanks report 10x increases in engagement scores specifically for customer-facing teams. With Post a Win and Broadcast, we're seeing 40-60% increases in recognition frequency across organizations. The democratization of recognition really works. I can have Emma send you our latest impact report with specific case studies after this call.
+
+**Emma Thompson**  
+00:12:43  
+Absolutely. I'll send that over today along with implementation timelines and pricing details for the new features.
+
+**Rachel Patel**  
+00:12:52  
+I have a question about Lifestyle Spending Accounts—we saw that mentioned briefly. Is that something we can explore as well?
+
+**James Rodriguez**  
+00:13:01  
+Yes, great catch, Rachel. LSAs are another new feature where employees can use their points on wellness, learning, family time, hobbies—whatever matters most to them. It's incredibly flexible and shows you care about the whole person, not just the employee. Research shows that when benefits match individual needs, engagement increases by 12x. Would you like us to schedule a separate deep dive on LSAs?
+
+**Rachel Patel**  
+00:13:28  
+Yes, I think that would be valuable. We've been exploring more holistic benefits approaches.
+
+**Sarah Mitchell**  
+00:13:35  
+Perfect. Emma, can you coordinate that follow-up session?
+
+**Emma Thompson**  
+00:13:39  
+Consider it done. I'll reach out to Rachel early next week with some time options.
+
+**Michael Chen**  
+00:13:46  
+Before we start wrapping up, I want to raise a couple of feature requests that would be specifically valuable for GlobalTech. First, we have a global workforce across 45 countries. Is there any way to incorporate local holidays and cultural celebrations into the recognition calendar? We want recognition to feel locally relevant.
+
+**Sarah Mitchell**  
+00:14:08  
+That's an excellent suggestion, Michael. We don't currently have an automated cultural calendar integration, but that's exactly the type of feature that could benefit many of our global clients. Let me note this for our product roadmap. James, have any other clients requested something similar?
+
+**James Rodriguez**  
+00:14:27  
+Yes, actually. We've had a few global organizations ask about this. Right now, clients typically handle this by scheduling recognition campaigns around local holidays, but an automated system would be much more elegant. Michael, would you envision this as suggestions the system surfaces, or mandatory recognition moments?
+
+**Michael Chen**  
+00:14:49  
+Probably suggestions that local leaders could act on. We wouldn't want it to be mandatory, but having the system prompt managers to recognize teams during culturally significant times would be powerful. Imagine a manager in India getting a prompt for Diwali with suggested recognition messages or gift options.
+
+**Sarah Mitchell**  
+00:15:09  
+I love that. That's going into our roadmap discussions. What was your second request?
+
+**Michael Chen**  
+00:15:16  
+The second one is around team-based recognition versus individual recognition. A lot of our innovation happens in cross-functional teams, and we'd love to have a way to recognize entire teams while still acknowledging individual contributions within those teams.
+
+**David Williams**  
+00:15:34  
+Yes, Michael and I have discussed this. Sometimes it feels artificial to single out one person when really it was a collaborative effort.
+
+**Sarah Mitchell**  
+00:15:42  
+That's really insightful. We do have some team recognition capabilities currently, but it sounds like you're envisioning something more nuanced—the ability to recognize the collective while also highlighting specific roles people played?
+
+**Michael Chen**  
+00:15:57  
+Exactly. Maybe something where you can tag the team, allocate points to the team pool that they can decide how to distribute, but also call out individual contributions in the narrative.
+
+**James Rodriguez**  
+00:16:09  
+I really like this idea. It acknowledges both the collaborative nature of modern work and individual excellence. Sarah, this feels like it aligns well with some of the work we've been doing around peer nominations.
+
+**Sarah Mitchell**  
+00:16:23  
+Agreed. Let me take both of these back to our product team. We're always looking for features that solve real client needs, and both of these are compelling. I can't promise timelines today, but we'll evaluate them and Emma will keep you updated on whether they make it into upcoming releases.
+
+**Emma Thompson**  
+00:16:42  
+And Michael, Rachel, David—if these features are critical for your engagement strategy, we can also explore custom development options. That would be a separate conversation about scope and investment, but it's worth mentioning as a possibility.
+
+**Rachel Patel**  
+00:17:00  
+That's good to know. I think we'd want to see if they make it into the standard roadmap first, but it's helpful to know customization is an option.
+
+**Sarah Mitchell**  
+00:17:10  
+Absolutely. Well, we're coming up on our time. Before we wrap, I'd love to hear your overall thoughts. What resonated most with you today?
+
+**David Williams**  
+00:17:21  
+For me, it was the comprehensive approach to different employee populations. The fact that you've thought about deskless workers, about external stakeholders, about leaders versus peers—it shows you understand that engagement isn't one-size-fits-all. I'm particularly excited about Post a Win and Broadcast.
+
+**Rachel Patel**  
+00:17:41  
+I'm most excited about Manager Store. That's going to be a game-changer for our field operations. I also think Say Thanks could transform how our customer service teams feel about their work. Getting direct customer appreciation could be incredibly motivating.
+
+**Michael Chen**  
+00:17:59  
+From my perspective, what I appreciate is how these features create a recognition ecosystem. They build on each other—Post a Win feeds into Broadcast, which can be boosted, which creates visibility that drives more recognition. It's not just individual features; it's a system that reinforces a culture of appreciation. That's what we need.
+
+**Sarah Mitchell**  
+00:18:23  
+Thank you all. That's exactly what we were aiming for—creating interconnected features that drive continuous engagement. Well, let's talk about next steps and action items.
+
+**Emma Thompson**  
+00:18:35  
+I'll take the lead on action items from our side. I'll send out the impact report and case studies today. I'll also include pricing details for the new features and a proposed implementation timeline. I'll schedule the LSA deep-dive session with Rachel. And I'll be the point of contact for any questions as you evaluate these features internally. Does that cover everything?
+
+**Michael Chen**  
+00:19:00  
+That's perfect, Emma. From our side, we'll review the materials internally, discuss with our finance team regarding budget, and identify which features we want to prioritize for implementation. Rachel will be our primary point of contact. We should be able to get back to you with our decision within three weeks.
+
+**Rachel Patel**  
+00:19:22  
+Yes, and I'll coordinate with David on the employee experience implications. We'll probably want to do some change management planning, especially for features like Post a Win that will be highly visible to employees.
+
+**Emma Thompson**  
+00:19:36  
+Smart thinking, Rachel. We have change management templates and communications toolkits that we can share to make that easier. I'll include those in the materials I send over.
+
+**David Williams**  
+00:19:48  
+That would be helpful. One more action item from our side—I'd like to set up a session with some of our frontline managers to get their input, particularly on Manager Store. Would it be possible to have James join that discussion?
+
+**James Rodriguez**  
+00:20:03  
+Absolutely, David. I'd be happy to. That kind of input is invaluable, and it will help ensure the implementation meets your managers' needs. Just coordinate with Emma on timing and I'll make it work.
+
+**Sarah Mitchell**  
+00:20:18  
+This has been a great session. Any final questions before we wrap?
+
+**Michael Chen**  
+00:20:24  
+Just one quick one—what's the best way to reach the team if questions come up as we're reviewing internally?
+
+**Emma Thompson**  
+00:20:32  
+Email is best for detailed questions—I'll include all our contact information in the follow-up. But I'm also available for quick calls if something needs immediate clarification. My calendar is pretty flexible.
+
+**Rachel Patel**  
+00:20:45  
+Perfect. I think we're good.
+
+**Sarah Mitchell**  
+00:20:49  
+Excellent. Thank you all so much for your time today and for the thoughtful questions. We're really excited about the possibility of helping GlobalTech take employee engagement to the next level. Emma, James, anything to add?
+
+**James Rodriguez**  
+00:21:03  
+Just that it's been a pleasure, and I'm looking forward to seeing these features in action at GlobalTech. The energy and thoughtfulness you bring to employee experience really comes through.
+
+**Emma Thompson**  
+00:21:14  
+Agreed. Thanks, everyone. I'll have those materials to you by end of day today.
+
+**Michael Chen**  
+00:21:21  
+Thank you, Sarah, James, and Emma. This was exactly what we needed. Talk soon.
+
+**David Williams**  
+00:21:28  
+Thanks, everyone. Great presentation.
+
+**Rachel Patel**  
+00:21:32  
+Thank you. Looking forward to next steps.
+
+**Sarah Mitchell**  
+00:21:36  
+Take care, everyone. Have a great rest of your day.
+
+---
+
+## Meeting Summary
+
+**Key Topics Discussed:**
+- Demo of eight new Culture Cloud features: Say Thanks, Post a Win, Broadcast, Boost, Manager Store, Company Store, Multiple Stores, and Lifestyle Spending Accounts (brief mention)
+- Analytics and reporting capabilities across features
+- Implementation timelines and phased rollout approach
+- Feature requests: cultural calendar integration and team-based recognition
+
+**Decisions Made:**
+- GlobalTech will review materials and make implementation decisions within three weeks
+- Emma Thompson designated as primary contact for O.C. Tanner
+- Rachel Patel designated as primary contact for GlobalTech
+- Separate deep-dive session on LSAs to be scheduled
+
+**Action Items:**
+
+*O.C. Tanner Team:*
+- Emma: Send impact report, case studies, pricing details, and implementation timeline (Due: Today)
+- Emma: Schedule LSA deep-dive session with Rachel (Due: Next week)
+- Emma: Include change management templates and communications toolkits in follow-up materials (Due: Today)
+- James: Join frontline manager feedback session (Due: TBD, coordinate with Emma)
+- Sarah: Add feature requests (cultural calendar, team-based recognition) to product roadmap for evaluation
+
+*GlobalTech Team:*
+- Michael, Rachel, David: Review materials internally and discuss with finance team (Due: Within 3 weeks)
+- Rachel: Coordinate change management planning with David
+- David: Organize frontline manager feedback session
+- GlobalTech: Respond to O.C. Tanner with feature prioritization decisions (Due: Within 3 weeks)
+
+---
+
+*Transcript End - Duration: 30:02*

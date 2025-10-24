@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra, Shivam, Manish",
+    "type": "Employee Recognition",
+    "quote": "Devesh, your ability to creatively solve core AI problems is top-class. Shivam, your robust and scalable API design is the backbone of this feature. And Manish, your commitment to a seamless user experience is what makes our products shine. The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team.",
+    "rationale": "Saurabh attributes specific contributions to each team member and highlights their collaborative efforts, leading to a positive outcome for the project.",
+    "evidence": ["creatively solve core AI problems", "robust and scalable API design", "commitment to a seamless user experience", "collaborated to resolve the integration issues"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali, Rohan",
+    "type": "Employee Recognition",
+    "quote": "I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh acknowledges Anjali's and Rohan's specific contributions and their high impact on the project, indicating that their efforts deserve recognition.",
+    "evidence": ["specific, high-impact contributions", "kind of support deserves to be celebrated"],
+    "confidence": "high"
+  }
+]

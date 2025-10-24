@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, your ability to creatively solve core AI problems is top-class.",
+    "rationale": "Manager recognizes Devesh's technical problem-solving skills in addressing cold start and latency issues, resulting in a functional AI model with strong performance metrics.",
+    "evidence": ["ability to creatively solve core AI problems", "top-class"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Shivam",
+    "type": "Employee Recognition",
+    "quote": "Shivam, your robust and scalable API design is the backbone of this feature.",
+    "rationale": "Manager recognizes Shivam's backend engineering contribution in building the API microservice that enables the recommendation system integration.",
+    "evidence": ["robust and scalable API design", "backbone of this feature"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "And Manish, your commitment to a seamless user experience is what makes our products shine.",
+    "rationale": "Manager recognizes Manish's frontend work in creating smooth user experience through skeleton UI implementation and attention to layout details.",
+    "evidence": ["commitment to a seamless user experience", "makes our products shine"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Project Phoenix Team",
+    "type": "Employee Recognition",
+    "quote": "The teamwork on display here is just phenomenal... The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+    "rationale": "Manager provides formal team recognition for collaborative problem-solving and project execution, with concrete outcome of award nomination at town hall.",
+    "evidence": ["teamwork on display here is just phenomenal", "A+ work", "nominating the project for a 'Team Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali",
+    "type": "Employee Recognition",
+    "quote": "It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Manager recognizes Anjali's contribution in fixing Kafka data quality issues that enabled the project's progress, with commitment to formal recognition to her manager.",
+    "evidence": ["Anjali's diligence", "were critical here", "high-impact contributions", "will personally send a note of thanks"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Rohan",
+    "type": "Employee Recognition",
+    "quote": "It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Manager recognizes Rohan's SRE expertise in resolving Kubernetes configuration issues that unblocked the team's staging deployment readiness.",
+    "evidence": ["Rohan's expertise", "were critical here", "high-impact contributions", "will personally send a note of thanks"],
+    "confidence": "high"
+  }
+]

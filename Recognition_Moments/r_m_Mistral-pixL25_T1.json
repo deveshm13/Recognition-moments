@@ -1,0 +1,63 @@
+
+[
+  {
+    "timestamp": "11:05:10",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "That 9% lift in NDCG is the real headline here. It confirms the model is not just finding relevant items, but it's also ranking them more effectively. This was a key objective. A lift like that could have a significant impact on session depth and user retention.",
+    "rationale": "Saurabh highlights Devesh's achievement of a 9% lift in NDCG, emphasizing its potential impact on user engagement and retention.",
+    "evidence": ["9% lift in NDCG", "significant impact on session depth and user retention"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:18:30",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark. I'm incredibly impressed.",
+    "rationale": "Saurabh praises Devesh for his innovative problem-solving and resourcefulness in leveraging past projects to overcome challenges.",
+    "evidence": ["phenomenal engineering", "innovative thinking and resourcefulness", "truly sets a benchmark"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, this is an exemplary rollout plan. It's safe, data-driven, and meticulously planned. The progression from a shadow model to an internal release and then a controlled A/B test is perfect. Your ownership of this project, from conception to the details of the deployment, has been absolutely outstanding. This is precisely the standard of excellence we strive for. I will be highlighting this work in my next director-level review, and I'm submitting this for a 'Spotlight Award' for technical achievement.",
+    "rationale": "Saurabh recognizes Devesh for his meticulous rollout plan and outstanding ownership of the project, highlighting it for a 'Spotlight Award'.",
+    "evidence": ["exemplary rollout plan", "absolutely outstanding", "standard of excellence", "Spotlight Award"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:15",
+    "speaker": "Devesh Mishra",
+    "recipient": "Anjali (Data Platform Team)",
+    "type": "Peer Appreciation",
+    "quote": "Anjali didn't just fix the upstream producer; she sat with me and helped me implement logic in my consumer to handle event-time sequencing. This saved me from a massive data integrity issue that I might have missed.",
+    "rationale": "Devesh acknowledges Anjali for her critical support in fixing a data issue and preventing potential data integrity problems.",
+    "evidence": ["fixed the upstream producer", "helped me implement logic", "saved me from a massive data integrity issue"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:15",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan (SRE Team)",
+    "type": "Peer Appreciation",
+    "quote": "Rohan not only fixed it but also taught me how to properly set up liveness and readiness probes to make the service more resilient.",
+    "rationale": "Devesh praises Rohan for his support in fixing a Kubernetes issue and teaching him how to improve service resilience.",
+    "evidence": ["Rohan not only fixed it", "taught me how to properly set up liveness and readiness probes", "make the service more resilient"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:45",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali (Data Platform Team) and Rohan (SRE Team)",
+    "type": "Employee Recognition",
+    "quote": "I will send a detailed email to both Anjali and Rohan, and I will make sure their managers are aware of these specific, high-impact contributions. Great work is a team effort, and it’s important we recognize everyone involved.",
+    "rationale": "Saurabh recognizes Anjali and Rohan for their high-impact contributions and emphasizes the importance of teamwork.",
+    "evidence": ["detailed email", "high-impact contributions", "great work is a team effort"],
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,43 @@
+
+[
+{
+"timestamp": "11:27:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Devesh, this is an exemplary rollout plan. It's safe, data-driven, and meticulously planned. The progression from a shadow model to an internal release and then a controlled A/B test is perfect. Your ownership of this project, from conception to the details of the deployment, has been absolutely outstanding. This is precisely the standard of excellence we strive for.",
+"rationale": "The speaker directly attributes specific project management and technical skills (exemplary rollout plan, safe deployment strategy, ownership) to Devesh, showing concrete contributions and positive outcomes (safe, data-driven, meticulously planned).",
+"evidence": ["exemplary rollout plan", "safe, data-driven, and meticulously planned", "ownership of this project", "absolutely outstanding"],
+"confidence": "high"
+},
+{
+"timestamp": "11:28:48",
+"speaker": "Devesh Mishra",
+"recipient": "Anjali",
+"type": "Peer Appreciation",
+"quote": "I absolutely have to give a shout-out to Anjali from the Data Platform team. The Kafka topic I was consuming from had a recurring issue with out-of-order events, which was corrupting my training data. Anjali didn't just fix the upstream producer; she sat with me and helped me implement logic in my consumer to handle event-time sequencing.",
+"rationale": "Devesh directly acknowledges Anjali's specific contribution (fixing Kafka event ordering and helping implement consumer logic) and its positive impact (saving from data integrity issue).",
+"evidence": ["Anjali didn't just fix the upstream producer", "sat with me and helped me implement logic", "saved me from a massive data integrity issue"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:15",
+"speaker": "Devesh Mishra",
+"recipient": "Rohan",
+"type": "Peer Appreciation",
+"quote": "Also, Rohan from the SRE team was a huge help. My Kubernetes pod was getting stuck in a crash loop due to a misconfigured readiness probe. He not only fixed it but also taught me how to properly set up liveness and readiness probes to make the service more resilient.",
+"rationale": "Devesh directly acknowledges Rohan's specific technical contribution (fixing Kubernetes readiness probe and teaching proper setup) and its positive outcome (making service more resilient).",
+"evidence": ["Rohan from the SRE team was a huge help", "He not only fixed it but also taught me", "make the service more resilient"],
+"confidence": "high"
+},
+{
+"timestamp": "11:18:30",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Devesh, this is phenomenal engineering. You not only identified the problems but solved them by connecting learnings from two completely separate past projects. This is the kind of innovative thinking and resourcefulness that truly sets a benchmark.",
+"rationale": "The speaker directly attributes specific technical skills (phenomenal engineering, innovative thinking, resourcefulness) to Devesh, showing concrete contributions and positive outcomes (sets a benchmark).",
+"evidence": ["this is phenomenal engineering", "identified the problems but solved them", "innovative thinking and resourcefulness", "sets a benchmark"],
+"confidence": "high"
+}
+]

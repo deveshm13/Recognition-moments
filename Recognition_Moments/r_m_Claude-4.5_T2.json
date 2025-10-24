@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, your ability to creatively solve core AI problems is top-class.",
+    "rationale": "Saurabh recognizes Devesh for solving critical AI challenges (cold start problem and inference latency) that resulted in a 9% NDCG lift and reduced latency from 300ms to 20ms using innovative approaches borrowed from past projects.",
+    "evidence": ["creatively solve core AI problems", "top-class", "9% NDCG lift", "reduced latency from 300ms to 20ms"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Shivam",
+    "type": "Employee Recognition",
+    "quote": "Shivam, your robust and scalable API design is the backbone of this feature.",
+    "rationale": "Saurabh recognizes Shivam for building a performant Go-based microservice with GraphQL endpoint achieving P99 latency of 30ms, implementing gRPC for inter-service communication, and establishing robust API contracts using Protobuf and PACT testing.",
+    "evidence": ["robust and scalable API design", "backbone of this feature", "P99 latency around 30ms", "deployed to dev Kubernetes cluster"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "And Manish, your commitment to a seamless user experience is what makes our products shine.",
+    "rationale": "Saurabh recognizes Manish for building a reusable React component, creating an internal debug dashboard, and solving a critical UX issue (layout shift) by implementing a skeleton UI placeholder strategy that delivers a polished user experience.",
+    "evidence": ["commitment to a seamless user experience", "makes our products shine", "implemented a content placeholder strategy", "skeleton UI", "made the loading experience much cleaner"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Project Phoenix Team (Devesh Mishra, Shivam, Manish)",
+    "type": "Employee Recognition",
+    "quote": "The teamwork on display here is just phenomenal... The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+    "rationale": "Saurabh recognizes the entire team for exceptional collaboration in building a production-ready recommendation system with coordinated phased rollout plan. He commits to formal recognition via Team Spotlight Award nomination at town hall, indicating significant business impact.",
+    "evidence": ["teamwork on display here is just phenomenal", "collaborated to resolve the integration issues", "A+ work", "nominating the project for a 'Team Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:28:50",
+    "speaker": "Shivam",
+    "recipient": "Anjali (Data Platform team)",
+    "type": "Peer Appreciation",
+    "quote": "Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+    "rationale": "Shivam attributes specific contribution to Anjali: resolving critical Kafka data quality issues through late-night collaboration. The outcome is clean, reliable data for the recommendation pipeline, which is foundational to the project's success.",
+    "evidence": ["Anjali from the Data Platform team was a massive help", "worked with us late on Tuesday to deploy a fix", "ensured the data was clean"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan (SRE team)",
+    "type": "Peer Appreciation",
+    "quote": "And I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+    "rationale": "Devesh recognizes Rohan for resolving a critical Kubernetes ingress configuration issue that was blocking staging deployment. The outcome is enabling the team to proceed with their staging deployment timeline.",
+    "evidence": ["Rohan jumped in, quickly identified the issue", "helped us set up the correct routing rules", "We wouldn't be ready for staging without their support"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali (Data Platform team)",
+    "type": "Employee Recognition",
+    "quote": "This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh validates and amplifies recognition of Anjali, explicitly acknowledging her 'diligence' and 'critical' contributions to Project Phoenix. He commits to formal recognition via personal note and notification to her manager, indicating managerial endorsement of cross-functional support.",
+    "evidence": ["Anjali's diligence", "were critical here", "high-impact contributions", "I will personally send a note of thanks", "make sure their managers are aware", "deserves to be celebrated"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Rohan (SRE team)",
+    "type": "Employee Recognition",
+    "quote": "This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions. That kind of support deserves to be celebrated.",
+    "rationale": "Saurabh validates and amplifies recognition of Rohan, explicitly acknowledging his 'expertise' and 'critical' contributions to Project Phoenix. He commits to formal recognition via personal note and notification to his manager, indicating managerial endorsement of cross-functional support.",
+    "evidence": ["Rohan's expertise", "were critical here", "high-impact contributions", "I will personally send a note of thanks", "make sure their managers are aware", "deserves to be celebrated"],
+    "confidence": "high"
+  }
+]

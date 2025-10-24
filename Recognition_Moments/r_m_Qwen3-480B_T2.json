@@ -1,0 +1,72 @@
+[
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Devesh Mishra",
+    "type": "Employee Recognition",
+    "quote": "Devesh, your ability to creatively solve core AI problems is top-class.",
+    "rationale": "Directly attributes top-class problem-solving ability to Devesh in the context of overcoming AI-specific challenges, which contributed to the project's success.",
+    "evidence": ["creatively solve core AI problems", "top-class"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Shivam",
+    "type": "Employee Recognition",
+    "quote": "Shivam, your robust and scalable API design is the backbone of this feature.",
+    "rationale": "Recognizes Shivam's specific technical contribution (API design) and directly links it to the feature's foundation and success.",
+    "evidence": ["robust and scalable API design", "backbone of this feature"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Manish",
+    "type": "Employee Recognition",
+    "quote": "And Manish, your commitment to a seamless user experience is what makes our products shine.",
+    "rationale": "Attributes the quality of user experience directly to Manish's commitment, highlighting the positive impact on product quality.",
+    "evidence": ["commitment to a seamless user experience", "makes our products shine"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:27:40",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Team",
+    "type": "Team Recognition",
+    "quote": "The teamwork on display here is just phenomenal. [...] The way you all collaborated to resolve the integration issues is exactly what I want to see. This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+    "rationale": "Recognizes the entire team's collaborative effort in solving integration issues and explicitly states intention to nominate for a formal team award.",
+    "evidence": ["teamwork on display here is just phenomenal", "collaborated to resolve the integration issues", "A+ work", "nominating the project for a 'Team Spotlight Award'"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Shivam",
+    "recipient": "Anjali",
+    "type": "Peer Appreciation",
+    "quote": "Anjali from the Data Platform team was a massive help. The Kafka stream we rely on had data quality issues, and she worked with us late on Tuesday to deploy a fix that ensured the data was clean.",
+    "rationale": "Attributes specific, high-impact assistance to Anjali, detailing her effort beyond normal hours to resolve critical data quality issues.",
+    "evidence": ["massive help", "worked with us late on Tuesday", "deploy a fix that ensured the data was clean"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:25",
+    "speaker": "Devesh Mishra",
+    "recipient": "Rohan",
+    "type": "Peer Appreciation",
+    "quote": "And I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+    "rationale": "Recognizes Rohan's specific technical expertise and timely intervention that directly enabled the team to meet their staging deployment goal.",
+    "evidence": ["jumped in", "quickly identified the issue", "helped us set up the correct routing rules", "wouldn't be ready for staging without their support"],
+    "confidence": "high"
+  },
+  {
+    "timestamp": "11:29:55",
+    "speaker": "Saurabh Mishra",
+    "recipient": "Anjali and Rohan",
+    "type": "Employee Recognition",
+    "quote": "This is the kind of cross-functional partnership that makes complex projects possible. It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions.",
+    "rationale": "Formally acknowledges the critical, high-impact contributions of Anjali and Rohan with explicit intent to communicate this recognition to their managers.",
+    "evidence": ["Anjali's diligence and Rohan's expertise were critical", "specific, high-impact contributions", "make sure their managers are aware"],
+    "confidence": "high"
+  }
+]

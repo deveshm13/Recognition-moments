@@ -1,0 +1,103 @@
+
+[
+{
+"timestamp": "11:04:30",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "That's a fantastic start, Devesh. A 9% NDCG lift is more than we had hoped for at this stage. It validates our hybrid approach.",
+"rationale": "Saurabh directly praises Devesh for delivering a model with measurable performance improvements (9% NDCG and 12% MAP@k lift), which validates the project's technical direction.",
+"evidence": ["fantastic start", "9% NDCG lift", "validates our hybrid approach"],
+"confidence": "high"
+},
+{
+"timestamp": "11:05:05",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Excellent foresight.",
+"rationale": "Saurabh acknowledges Devesh’s proactive inclusion of model explainability (SHAP values) which supports debugging and future development.",
+"evidence": ["integrated SHAP values", "for debugging and future iterations"],
+"confidence": "medium"
+},
+{
+"timestamp": "11:08:15",
+"speaker": "Saurabh Mishra",
+"recipient": "Shivam",
+"type": "Employee Recognition",
+"quote": "Good choice with gRPC for inter-service communication.",
+"rationale": "Saurabh acknowledges Shivam's technical decision to use gRPC, which contributes to the system's performance and scalability.",
+"evidence": ["created a new microservice in Go", "uses gRPC for low-latency communication"],
+"confidence": "medium"
+},
+{
+"timestamp": "11:11:05",
+"speaker": "Saurabh Mishra",
+"recipient": "Manish",
+"type": "Employee Recognition",
+"quote": "A debug dashboard is a great idea, Manish. That will be invaluable for the QA team as well.",
+"rationale": "Saurabh directly praises Manish for creating a reusable React component and a debug dashboard, which improves both development and QA processes.",
+"evidence": ["built a small internal dashboard", "invaluable for the QA team"],
+"confidence": "high"
+},
+{
+"timestamp": "11:13:30",
+"speaker": "Saurabh Mishra",
+"recipient": "Devesh Mishra",
+"type": "Employee Recognition",
+"quote": "Very resourceful, Devesh. It's great to see you leveraging our past work so effectively.",
+"rationale": "Saurabh recognizes Devesh for creatively solving the cold start and latency problems by reusing prior work (Content Similarity Engine, FAISS).",
+"evidence": ["borrowed logic from Content Similarity Engine", "implemented FAISS index"],
+"confidence": "high"
+},
+{
+"timestamp": "11:18:45",
+"speaker": "Saurabh Mishra",
+"recipient": "Manish",
+"type": "Employee Recognition",
+"quote": "That shows a fantastic attention to detail, Manish. It’s that final polish that separates a good feature from a great one.",
+"rationale": "Saurabh praises Manish for addressing a user experience issue (layout shift) with a UI improvement (skeleton loading), which enhances the product's quality.",
+"evidence": ["implemented a content placeholder strategy", "smoothly replaced by actual product cards"],
+"confidence": "high"
+},
+{
+"timestamp": "11:27:40",
+"speaker": "Saurabh Mishra",
+"recipient": "Project Phoenix Team (Devesh, Shivam, Manish)",
+"type": "Team Recognition",
+"quote": "This is A+ work, team. I'll be nominating the project for a 'Team Spotlight Award' at the next town hall.",
+"rationale": "Saurabh gives a strong endorsement of the team's overall performance and contribution to the project's progress, with clear evidence of their achievements.",
+"evidence": ["excellent phased rollout plan", "collaborated to resolve integration issues"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:25",
+"speaker": "Devesh Mishra",
+"recipient": "Anjali (Data Platform team)",
+"type": "Peer Appreciation",
+"quote": "I'll second that. And I also want to mention Rohan from the SRE team. We were struggling with the Kubernetes ingress configuration for our new services. Rohan jumped in, quickly identified the issue with our annotations, and helped us set up the correct routing rules. We wouldn't be ready for staging without their support.",
+"rationale": "Devesh explicitly acknowledges Rohan's direct and timely help in resolving a critical infrastructure issue, enabling the team to be staging-ready.",
+"evidence": ["jumped in", "identified the issue", "helped set up correct routing rules"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Anjali (Data Platform team)",
+"type": "Employee Recognition",
+"quote": "It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions.",
+"rationale": "Saurabh formally recognizes Anjali and Rohan for their high-impact contributions and states intent to escalate their recognition to leadership.",
+"evidence": ["Anjali's diligence", "Rohan's expertise", "high-impact contributions"],
+"confidence": "high"
+},
+{
+"timestamp": "11:29:55",
+"speaker": "Saurabh Mishra",
+"recipient": "Rohan (SRE team)",
+"type": "Employee Recognition",
+"quote": "It's clear that Anjali's diligence and Rohan's expertise were critical here. I will personally send a note of thanks to both of them and make sure their managers are aware of their specific, high-impact contributions.",
+"rationale": "Saurabh formally recognizes Anjali and Rohan for their high-impact contributions and states intent to escalate their recognition to leadership.",
+"evidence": ["Anjali's diligence", "Rohan's expertise", "high-impact contributions"],
+"confidence": "high"
+}
+]
