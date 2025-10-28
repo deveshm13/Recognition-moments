@@ -2,7 +2,8 @@ import boto3
 import json
 from Meeting_Transcripts.Gemini_generated_transcript import Meeting_Transcript_With_Multiple_Employee
 from Meeting_Transcripts.meeting1 import meeting_transcript
-from Prompt_Chaining_S.Prompts import system_prompt_for_step_1,system_prompt_for_step_2,system_prompt_for_step_3
+from Prompt_Chaining_S.Prompts import system_prompt_for_step_1,system_prompt_for_step_2,system_prompt_for_step_3,final_system_prompt_for_step_1, final_system_prompt_for_step_3
+from Meeting_Transcripts.T_M_1 import meeting_transcript,meeting_attendance_report
 
 import re
 import time
@@ -52,39 +53,19 @@ Task:
         raise ValueError("Unexpected response format from Bedrock GPT-OSS model.")
 
 # Replace with your actual transcript text
-meeting_transcript = """
-Sujet : Bilan trimestriel et objectifs Q4
-[09:00] Sophie (Directrice Générale) :
-Bonjour à tous, merci de vous être connectés à l’heure. Nous allons commencer par un rapide retour sur les résultats du troisième trimestre.﻿
+meeting_transcript = meeting_transcript
 
-[09:02] Marc (Responsable Financier) :
-Merci Sophie. Comme vous pouvez le voir dans le tableau envoyé hier, le chiffre d’affaires a augmenté de 8% par rapport au trimestre précédent, principalement grâce aux ventes en ligne.﻿
-
-[09:05] Claire (Responsable Marketing) :
-C’est une excellente nouvelle. Nous avons également observé une hausse de 12% de l’engagement sur les campagnes digitales, notamment via LinkedIn et les publicités sponsorisées.﻿
-
-[09:07] Sophie :
-Très bien. Pour le quatrième trimestre, notre focus sera sur l’amélioration du service client et la préparation du lancement produit de décembre. Claire, peux-tu nous donner une mise à jour sur ce sujet ?﻿
-
-[09:09] Claire :
-Bien sûr. Le plan de communication est quasi finalisé. Nous aurons besoin du support de l’équipe commerciale pour la formation sur les arguments clés la semaine prochaine.﻿
-
-[09:11] Thomas (Chef de Projet IT) :
-Du côté technique, la plateforme e-commerce est prête pour le lancement. Nous finalisons actuellement les tests de charge et la sécurité.﻿
-
-[09:13] Sophie :
-Parfait. Je tiens à remercier tout le monde pour l’engagement. Nous clôturerons ce trimestre sur une note positive. Notre prochaine réunion est prévue le 5 novembre à 10h.﻿
-
-[09:15] Fin de la réunion
-
-"""
 # resolved_transcript = resolve_coreferences_gpt_oss(meeting_transcript)
 # print("Coreference resolution complete.\n")
+
+
+meeting_attendance_report = meeting_attendance_report
+
 
 # -----------------------------
 # System prompt for Step 1
 # -----------------------------
-system_prompt_for_step_1 = system_prompt_for_step_1
+system_prompt_for_step_1 = final_system_prompt_for_step_1
 
 # -----------------------------
 # System prompt for Step 2
@@ -98,16 +79,25 @@ payload_step1 = {
     "messages": [
         {
             "role": "user",
-            "content": f"{system_prompt_for_step_1}\n\nTranscript:\n{meeting_transcript}"
+            "content": f"""{system_prompt_for_step_1}
+
+### Input Data
+Attendance JSON:
+{json.dumps(meeting_attendance_report, indent=2)}
+
+Transcript:
+{meeting_transcript}
+"""
         }
     ],
     "max_tokens": 4000,
-    "temperature": 0.3,
+    "temperature": 0.1,
     "anthropic_version": "bedrock-2023-05-31"
 }
+
 start_time_step1 = time.time()
 response_step1 = bedrock.invoke_model(
-    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0",
     body=json.dumps(payload_step1),
     contentType="application/json",
 )
@@ -174,13 +164,13 @@ payload_step2 = {
             "content": step2_prompt
         }
     ],
-    "max_tokens": 6000,
+    "max_tokens": 8000,
     "temperature": 0.3,
     "anthropic_version": "bedrock-2023-05-31"
 }
 start_time_step2 = time.time()
 response_step2 = bedrock.invoke_model(
-    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
     body=json.dumps(payload_step2),
     contentType="application/json",
 )
@@ -208,7 +198,7 @@ else:
 # Step 3: Recognition Scoring & Filtering
 # ============================================================
 
-system_prompt_for_step_3 = system_prompt_for_step_3
+system_prompt_for_step_3 = final_system_prompt_for_step_3
 
 
 # --- Robust JSON extraction ---
@@ -242,8 +232,7 @@ Meeting Purpose:
 Contributions JSON:
 {step2_json_string}
 """
-
-# CORRECT for Claude 3
+#Step 3 payload
 payload_step3 = {
     "messages": [
         {
@@ -251,15 +240,15 @@ payload_step3 = {
             "content": step3_prompt
         }
     ],
-    "max_tokens": 4096, # Note the parameter name change
-    "temperature": 0.2,
-    "top_p": 0.9,
-    "anthropic_version": "bedrock-2023-05-31" # This is required
+    "max_tokens": 4096,
+    # "temperature": 0.2,
+    "top_p": 0.2,
+    "anthropic_version": "bedrock-2023-05-31"
 }
 start_time_step3 = time.time()
 # Invoke Bedrock for Step 3
 response_step3 = bedrock.invoke_model(
-    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    modelId="arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
     body=json.dumps(payload_step3),
     contentType="application/json",
 )
