@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude 3.5 Sonnet v2",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-3-5-sonnet-20241022-v2:0",
+  "latency_seconds": 9.53,
+  "input_tokens": 21972,
+  "output_tokens": 407,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Technical training session focused on database optimization techniques, specifically covering indexing, partitioning, and materialized views to improve query performance for large datasets.",
+    "Adya Pathak": {
+      "reason": "Led comprehensive technical training on DB optimization strategies with clear examples and practical applications",
+      "summary": "Delivered detailed explanations of three key database optimization techniques - indexing, partitioning, and materialized views. Provided real-world examples and demonstrated practical implementation considerations for each approach. Effectively addressed questions and clarified complex concepts.",
+      "overall_score": 95.0
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Engaged actively with relevant technical questions about materialized views implementation",
+      "summary": "Asked insightful questions about materialized views scalability and storage implications, demonstrating good technical understanding and engagement with the content.",
+      "overall_score": 75.0
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided positive feedback highlighting practical benefits of the techniques discussed",
+      "summary": "Though joined late, offered valuable closing remarks about the practical benefits being realized from implementing these optimization techniques.",
+      "overall_score": 65.0
+    },
+    "Manish Kumar": {
+      "reason": "Limited routine participation",
+      "summary": "Minimal participation with only basic acknowledgments during the session.",
+      "overall_score": 45.0
+    },
+    "Manish Saini": {
+      "reason": "Limited routine participation",
+      "summary": "Minimal engagement with only basic acknowledgments during the session.",
+      "overall_score": 45.0
+    }
+  }
+}

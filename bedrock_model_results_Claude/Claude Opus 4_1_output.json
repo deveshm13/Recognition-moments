@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude Opus 4.1",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-opus-4-1-20250805-v1:0",
+  "latency_seconds": 36.03,
+  "input_tokens": 21972,
+  "output_tokens": 477,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Database optimization training session focused on teaching three key techniques (indexing, partitioning, and materialized views) to improve query performance, with practical examples from event log tables.",
+    "Adya Pathak": {
+      "reason": "Led comprehensive technical training on DB optimization with clear examples and hands-on demonstrations",
+      "summary": "Presented the entire session covering three database optimization approaches - indexing, partitioning, and materialized views. Explained concepts using practical examples including their team's event log table with 26 million records. Demonstrated SQL syntax, trade-offs, and real performance improvements (30 seconds to sub-second query times). Provided clear guidance on when to use each technique based on use cases and data volumes.",
+      "overall_score": 92
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Engaged actively with clarifying questions that enhanced understanding of complex concepts",
+      "summary": "Asked insightful questions about partitioning architecture (parent vs child tables) and materialized views behavior with concurrent users, prompting deeper explanations that benefited all attendees.",
+      "overall_score": 65
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided valuable validation of practical benefits and encouraged the training initiative",
+      "summary": "Joined late but immediately acknowledged the practical benefits the team is experiencing from these optimization techniques. Expressed appreciation for the training and its real-world impact.",
+      "overall_score": 58
+    },
+    "Manish Saini": {
+      "reason": "Participated minimally with basic acknowledgments",
+      "summary": "Provided brief acknowledgments and greetings during the session without substantive technical contribution.",
+      "overall_score": 25
+    },
+    "Manish Kumar": {
+      "reason": "Minimal participation with only greeting exchanges",
+      "summary": "Limited participation to initial greetings and final acknowledgment without technical engagement.",
+      "overall_score": 20
+    }
+  }
+}

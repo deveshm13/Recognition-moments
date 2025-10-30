@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude Sonnet 4.5",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "latency_seconds": 15.2,
+  "input_tokens": 21972,
+  "output_tokens": 538,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Technical knowledge-sharing session focused on database optimization techniques, specifically covering indexing, partitioning, and materialized views to address slow query performance in production systems with large datasets.",
+    "Adya Pathak": {
+      "reason": "Led comprehensive technical training on database optimization, delivering clear explanations with practical examples and live demonstrations.",
+      "summary": "Presented the entire session as the primary speaker, systematically explaining three database optimization approaches: indexing, partitioning, and materialized views. Provided detailed technical explanations of how each technique works, including trade-offs, use cases, and syntax examples. Demonstrated practical implementation using live queries and explained real-world application to the team's event lock table with 26 million records. Addressed questions and clarified concepts throughout the session, ensuring team understanding of when to apply each optimization strategy.",
+      "overall_score": 95.0
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided positive validation of session value and acknowledged practical benefits to ongoing work.",
+      "summary": "Joined late but engaged positively at the end, acknowledging the quality of the presentation and confirming that the team is experiencing practical benefits from these optimization techniques in their current work.",
+      "overall_score": 35.0
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Asked clarifying questions about partitioning structure and materialized view behavior with concurrent users.",
+      "summary": "Engaged with technical questions to deepen understanding, asking about the relationship between parent partition tables and child partitions, and inquiring about how materialized views handle data storage when multiple users query simultaneously.",
+      "overall_score": 45.0
+    },
+    "Manish Kumar": {
+      "reason": "Routine attendance with minimal substantive contribution.",
+      "summary": "Present throughout the session with brief acknowledgments at the beginning and end, but no significant technical input or questions during the presentation.",
+      "overall_score": 15.0
+    },
+    "Manish Saini": {
+      "reason": "Routine attendance with minimal substantive contribution.",
+      "summary": "Attended the session and provided brief acknowledgments, but did not contribute questions or technical discussion during the presentation.",
+      "overall_score": 15.0
+    }
+  }
+}

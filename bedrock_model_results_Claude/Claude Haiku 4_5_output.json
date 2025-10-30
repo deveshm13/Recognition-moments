@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude Haiku 4.5",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "latency_seconds": 9.14,
+  "input_tokens": 21972,
+  "output_tokens": 663,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Database optimization technical session covering three key approaches to resolve slow query performance: indexing, partitioning, and materialized views. The meeting focused on understanding optimization techniques applicable to the event log table with 26 million records and providing practical guidance on when to apply each approach based on use cases.",
+    "Adya Pathak": {
+      "reason": "Delivered comprehensive technical presentation on database optimization strategies, providing clear explanations of indexing, partitioning, and materialized views with practical examples and trade-offs.",
+      "summary": "Led the entire technical session as presenter, explaining three database optimization approaches: (1) Indexing - detailed how indexes work as lookup tables to reduce sequential scans, with trade-offs between read and write performance; (2) Partitioning - explained range, hash, and list partitioning techniques, partition pruning benefits, and practical syntax for creating partitioned tables; (3) Materialized Views - demonstrated how pre-calculated query results improve performance for complex aggregations and reporting queries. Provided real-world examples from the event log table (26M records), execution time comparisons, and guidance on selecting appropriate approaches based on use cases. Addressed participant questions and clarified concepts throughout.",
+      "overall_score": 92.5
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Asked clarifying questions that demonstrated engagement and helped validate understanding of partitioning concepts and materialized views behavior.",
+      "summary": "Sought clarification on partitioning architecture, specifically asking whether the parent partition table remains singular with multiple child partitions, which helped reinforce the concept that the parent is virtual. Later asked a technical question about materialized views and concurrent user queries, showing active participation and critical thinking about practical implications.",
+      "overall_score": 58.0
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided positive feedback and acknowledged practical benefits of the optimization techniques being discussed, validating the session's relevance.",
+      "summary": "Joined late in the session (6 minutes before end) and provided encouraging feedback, noting that the optimization approaches discussed are delivering practical benefits to the team and expressing appreciation for the technical content.",
+      "overall_score": 42.0
+    },
+    "Manish Kumar": {
+      "reason": "Routine attendance with minimal substantive contribution to the discussion.",
+      "summary": "Attended the meeting and acknowledged the session opening but did not contribute meaningfully to the technical discussion or ask clarifying questions.",
+      "overall_score": 15.0
+    },
+    "Manish Saini": {
+      "reason": "Routine attendance with minimal substantive contribution to the discussion.",
+      "summary": "Attended the meeting, acknowledged the session opening, and provided closing thanks but did not contribute to the technical content or discussion.",
+      "overall_score": 15.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "model_name": "Nova Pro",
+  "model_id": "amazon.nova-pro-v1:0",
+  "latency_seconds": 6.3976149559021,
+  "input_tokens": 14566,
+  "output_tokens": 397,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "The meeting focused on discussing and understanding various database optimization approaches, specifically indexing, partitioning, and materialized views, to address slow query issues.",
+    "Adya Pathak": {
+      "reason": "Led the session with comprehensive explanations and examples of database optimization techniques.",
+      "summary": "Adya Pathak presented a detailed overview of indexing, partitioning, and materialized views. She explained the concepts, benefits, and use cases of each technique with practical examples and syntax. She also addressed participant queries and clarified doubts.",
+      "overall_score": 95
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Engaged actively by asking clarifying questions and contributing to the discussion.",
+      "summary": "Devesh Mishra-CT actively participated by asking questions to clarify his understanding of partitioning and materialized views. His questions helped in further explaining the concepts.",
+      "overall_score": 70
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided positive feedback and acknowledged the practical benefits of the session.",
+      "summary": "Dhawal Bajaj offered positive feedback towards the end of the session, highlighting the practical benefits and usefulness of the discussed optimization techniques.",
+      "overall_score": 60
+    },
+    "Manish Kumar": {
+      "reason": "Attended the session but did not contribute substantively to the discussion.",
+      "summary": "Manish Kumar was present during the session but did not make any significant contributions or ask questions.",
+      "overall_score": 30
+    },
+    "Manish Saini": {
+      "reason": "Attended the session but did not contribute substantively to the discussion.",
+      "summary": "Manish Saini was present during the session but did not make any significant contributions or ask questions.",
+      "overall_score": 30
+    }
+  }
+}

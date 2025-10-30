@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude 3.5 Haiku",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.anthropic.claude-3-5-haiku-20241022-v1:0",
+  "latency_seconds": 11.24,
+  "input_tokens": 21972,
+  "output_tokens": 421,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Database optimization techniques session focusing on indexing, partitioning, and materialized views as performance improvement strategies for complex database queries",
+    "adya-pathak": {
+      "reason": "Delivered comprehensive technical deep-dive on database optimization approaches with clear, structured explanations",
+      "summary": "Presented detailed technical insights on indexing, partitioning, and materialized views, demonstrating advanced database performance optimization techniques",
+      "overall_score": 95.5
+    },
+    "devesh-mishra": {
+      "reason": "Engaged with clarifying questions, showing active listening and technical curiosity",
+      "summary": "Asked targeted questions about materialized views and implementation details",
+      "overall_score": 72.3
+    },
+    "dhawal-bajaj": {
+      "reason": "Provided positive feedback and acknowledged practical value of the technical session",
+      "summary": "Expressed appreciation for the technical content and its practical applicability",
+      "overall_score": 65.7
+    },
+    "manish-saini": {
+      "reason": "Participated in the meeting, minimal active contribution",
+      "summary": "Minimal verbal interactions during the technical discussion",
+      "overall_score": 45.2
+    },
+    "manish-kumar": {
+      "reason": "Minimal participation in the technical discussion",
+      "summary": "Limited verbal interactions during the meeting",
+      "overall_score": 40.0
+    }
+  }
+}

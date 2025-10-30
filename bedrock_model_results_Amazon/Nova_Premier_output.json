@@ -1,0 +1,28 @@
+{
+  "model_name": "Nova Premier",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.amazon.nova-premier-v1:0",
+  "latency_seconds": 20.730538845062256,
+  "input_tokens": 14989,
+  "output_tokens": 432,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Database optimization session focused on improving slow query performance through indexing, partitioning, and materialized views.",
+    "participants": {
+      "Adya Pathak": {
+        "reason": "Delivered comprehensive technical presentation on database optimization techniques with clarity and real-world examples.",
+        "summary": "Presented three database optimization approaches (indexing, partitioning, materialized views) with detailed explanations, analogies, and practical examples. Answered participant questions and clarified partitioning concepts.",
+        "overall_score": 95
+      },
+      "Devesh Mishra-CT": {
+        "reason": "Asked clarifying question about materialized view scalability.",
+        "summary": "Inquired about materialized view behavior under concurrent queries to understand scalability implications.",
+        "overall_score": 25
+      },
+      "Dhawal Bajaj": {
+        "reason": "Provided positive feedback on session value.",
+        "summary": "Expressed appreciation for practical benefits gained from the session.",
+        "overall_score": 15
+      }
+    }
+  }
+}

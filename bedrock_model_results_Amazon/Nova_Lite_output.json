@@ -1,0 +1,38 @@
+{
+  "model_name": "Nova Lite",
+  "model_id": "amazon.nova-lite-v1:0",
+  "latency_seconds": 6.134164094924927,
+  "input_tokens": 14566,
+  "output_tokens": 376,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "The meeting focused on discussing and understanding various database optimization techniques, specifically indexing, partitioning, and materialized views, to improve query performance and efficiency.",
+    "participant_name": {
+      "Adya Pathak": {
+        "reason": "Led the discussion, provided detailed explanations, and facilitated the session effectively.",
+        "summary": "Presented comprehensive insights on indexing, partitioning, and materialized views, including practical examples and benefits. Engaged participants by asking for clarifications and ensuring understanding.",
+        "overall_score": 95.0
+      },
+      "Devesh Mishra-CT": {
+        "reason": "Asked relevant questions and contributed to the discussion by seeking clarification on partitioning.",
+        "summary": "Inquired about the practical implications of partitioning, particularly how it affects query performance and data management.",
+        "overall_score": 70.0
+      },
+      "Dhawal Bajaj": {
+        "reason": "Participated actively towards the end, providing positive feedback and concluding remarks.",
+        "summary": "Acknowledged the usefulness of the session and expressed appreciation for the practical insights provided.",
+        "overall_score": 60.0
+      },
+      "Manish Kumar": {
+        "reason": "Initiated the meeting and made brief contributions.",
+        "summary": "Started the meeting and made a few contributions, but did not engage deeply in the technical discussion.",
+        "overall_score": 50.0
+      },
+      "Manish Saini": {
+        "reason": "Made minimal contributions and did not engage in the technical discussion.",
+        "summary": "Made brief contributions but did not actively participate in the technical discussion.",
+        "overall_score": 40.0
+      }
+    }
+  }
+}

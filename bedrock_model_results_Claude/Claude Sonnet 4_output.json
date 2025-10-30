@@ -1,0 +1,36 @@
+{
+  "model_name": "Claude Sonnet 4",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/global.anthropic.claude-sonnet-4-20250514-v1:0",
+  "latency_seconds": 11.69,
+  "input_tokens": 21972,
+  "output_tokens": 459,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Database optimization training session focusing on three key techniques (indexing, partitioning, and materialized views) to address slow query performance issues, particularly for event log tables with millions of records.",
+    "Adya Pathak": {
+      "reason": "Led comprehensive technical training on database optimization strategies with practical examples and live demonstrations",
+      "summary": "Presented detailed explanations of indexing, partitioning, and materialized views as database optimization techniques. Provided practical examples including live database demonstrations, explained trade-offs between read and write performance, and guided the team through real-world implementation scenarios based on their event log table optimization challenge.",
+      "overall_score": 95.0
+    },
+    "Devesh Mishra-CT": {
+      "reason": "Asked clarifying questions about partitioning structure and materialized view scalability concerns",
+      "summary": "Engaged actively by asking technical questions about partition table structure and how materialized views handle concurrent access from millions of users, demonstrating understanding and seeking deeper technical insights.",
+      "overall_score": 70.0
+    },
+    "Dhawal Bajaj": {
+      "reason": "Provided positive feedback confirming practical benefits of the optimization techniques",
+      "summary": "Joined later in the session and acknowledged the practical value of the database optimization techniques being discussed, confirming real-world benefits from implementation.",
+      "overall_score": 60.0
+    },
+    "Manish Kumar": {
+      "reason": "Participated in meeting logistics and attendance confirmation",
+      "summary": "Contributed to meeting setup and participant coordination at the beginning of the session.",
+      "overall_score": 30.0
+    },
+    "Manish Saini": {
+      "reason": "Participated in meeting logistics and provided acknowledgment",
+      "summary": "Engaged in meeting coordination activities and confirmed screen sharing visibility for the presentation.",
+      "overall_score": 35.0
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "Nova Lite": {
+    "model_name": "Nova Lite",
+    "model_id": "amazon.nova-lite-v1:0",
+    "latency_seconds": 6.134164094924927,
+    "input_tokens": 14566,
+    "output_tokens": 376,
+    "parsed_successfully": true,
+    "output": {
+      "meeting_context": "The meeting focused on discussing and understanding various database optimization techniques, specifically indexing, partitioning, and materialized views, to improve query performance and efficiency.",
+      "participant_name": {
+        "Adya Pathak": {
+          "reason": "Led the discussion, provided detailed explanations, and facilitated the session effectively.",
+          "summary": "Presented comprehensive insights on indexing, partitioning, and materialized views, including practical examples and benefits. Engaged participants by asking for clarifications and ensuring understanding.",
+          "overall_score": 95.0
+        },
+        "Devesh Mishra-CT": {
+          "reason": "Asked relevant questions and contributed to the discussion by seeking clarification on partitioning.",
+          "summary": "Inquired about the practical implications of partitioning, particularly how it affects query performance and data management.",
+          "overall_score": 70.0
+        },
+        "Dhawal Bajaj": {
+          "reason": "Participated actively towards the end, providing positive feedback and concluding remarks.",
+          "summary": "Acknowledged the usefulness of the session and expressed appreciation for the practical insights provided.",
+          "overall_score": 60.0
+        },
+        "Manish Kumar": {
+          "reason": "Initiated the meeting and made brief contributions.",
+          "summary": "Started the meeting and made a few contributions, but did not engage deeply in the technical discussion.",
+          "overall_score": 50.0
+        },
+        "Manish Saini": {
+          "reason": "Made minimal contributions and did not engage in the technical discussion.",
+          "summary": "Made brief contributions but did not actively participate in the technical discussion.",
+          "overall_score": 40.0
+        }
+      }
+    }
+  },
+  "Nova Micro": {
+    "model_name": "Nova Micro",
+    "model_id": "amazon.nova-micro-v1:0",
+    "latency_seconds": 3.6455750465393066,
+    "input_tokens": 14566,
+    "output_tokens": 463,
+    "parsed_successfully": true,
+    "output": {
+      "meeting_context": "The meeting focused on discussing database optimization approaches, specifically addressing slow query issues and introducing techniques like indexing, partitioning, and materialized views to improve performance.",
+      "participants": [
+        {
+          "name": "Adya Pathak",
+          "reason": "Delivered comprehensive insights on database optimization techniques, including indexing, partitioning, and materialized views, and effectively guided the discussion.",
+          "summary": "Adya Pathak led the meeting, providing detailed explanations of various database optimization techniques. She covered the fundamentals of indexing, the benefits and trade-offs of partitioning, and the use of materialized views for enhancing query performance. Her clear and thorough presentation helped the team understand complex concepts and their practical applications.",
+          "overall_score": 95
+        },
+        {
+          "name": "Devesh Mishra-CT",
+          "reason": "Contributed by asking clarifying questions and providing examples to deepen understanding of partitioning techniques.",
+          "summary": "Devesh Mishra-CT participated actively by asking questions that clarified the concepts being discussed, particularly about partitioning. His inquiries helped to solidify the team's understanding of how partitioning works and its practical applications.",
+          "overall_score": 70
+        },
+        {
+          "name": "Manish Saini",
+          "reason": "Showed engagement and interest through attentive participation and brief affirmations.",
+          "summary": "Manish Saini was present throughout the meeting, showing engagement through attentive listening and brief affirmations that indicated his interest in the discussion.",
+          "overall_score": 40
+        },
+        {
+          "name": "Manish Kumar",
+          "reason": "Participated minimally with a single acknowledgment.",
+          "summary": "Manish Kumar joined the meeting but contributed minimally, with only a single acknowledgment at the beginning.",
+          "overall_score": 20
+        },
+        {
+          "name": "Dhawal Bajaj",
+          "reason": "Joined late and contributed minimally with positive feedback at the end.",
+          "summary": "Dhawal Bajaj joined the meeting late and contributed minimally, offering positive feedback at the end of the session.",
+          "overall_score": 30
+        }
+      ]
+    }
+  },
+  "Nova Premier": {
+    "model_name": "Nova Premier",
+    "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.amazon.nova-premier-v1:0",
+    "latency_seconds": 20.730538845062256,
+    "input_tokens": 14989,
+    "output_tokens": 432,
+    "parsed_successfully": true,
+    "output": {
+      "meeting_context": "Database optimization session focused on improving slow query performance through indexing, partitioning, and materialized views.",
+      "participants": {
+        "Adya Pathak": {
+          "reason": "Delivered comprehensive technical presentation on database optimization techniques with clarity and real-world examples.",
+          "summary": "Presented three database optimization approaches (indexing, partitioning, materialized views) with detailed explanations, analogies, and practical examples. Answered participant questions and clarified partitioning concepts.",
+          "overall_score": 95
+        },
+        "Devesh Mishra-CT": {
+          "reason": "Asked clarifying question about materialized view scalability.",
+          "summary": "Inquired about materialized view behavior under concurrent queries to understand scalability implications.",
+          "overall_score": 25
+        },
+        "Dhawal Bajaj": {
+          "reason": "Provided positive feedback on session value.",
+          "summary": "Expressed appreciation for practical benefits gained from the session.",
+          "overall_score": 15
+        }
+      }
+    }
+  },
+  "Nova Pro": {
+    "model_name": "Nova Pro",
+    "model_id": "amazon.nova-pro-v1:0",
+    "latency_seconds": 6.3976149559021,
+    "input_tokens": 14566,
+    "output_tokens": 397,
+    "parsed_successfully": true,
+    "output": {
+      "meeting_context": "The meeting focused on discussing and understanding various database optimization approaches, specifically indexing, partitioning, and materialized views, to address slow query issues.",
+      "Adya Pathak": {
+        "reason": "Led the session with comprehensive explanations and examples of database optimization techniques.",
+        "summary": "Adya Pathak presented a detailed overview of indexing, partitioning, and materialized views. She explained the concepts, benefits, and use cases of each technique with practical examples and syntax. She also addressed participant queries and clarified doubts.",
+        "overall_score": 95
+      },
+      "Devesh Mishra-CT": {
+        "reason": "Engaged actively by asking clarifying questions and contributing to the discussion.",
+        "summary": "Devesh Mishra-CT actively participated by asking questions to clarify his understanding of partitioning and materialized views. His questions helped in further explaining the concepts.",
+        "overall_score": 70
+      },
+      "Dhawal Bajaj": {
+        "reason": "Provided positive feedback and acknowledged the practical benefits of the session.",
+        "summary": "Dhawal Bajaj offered positive feedback towards the end of the session, highlighting the practical benefits and usefulness of the discussed optimization techniques.",
+        "overall_score": 60
+      },
+      "Manish Kumar": {
+        "reason": "Attended the session but did not contribute substantively to the discussion.",
+        "summary": "Manish Kumar was present during the session but did not make any significant contributions or ask questions.",
+        "overall_score": 30
+      },
+      "Manish Saini": {
+        "reason": "Attended the session but did not contribute substantively to the discussion.",
+        "summary": "Manish Saini was present during the session but did not make any significant contributions or ask questions.",
+        "overall_score": 30
+      }
+    }
+  }
+}

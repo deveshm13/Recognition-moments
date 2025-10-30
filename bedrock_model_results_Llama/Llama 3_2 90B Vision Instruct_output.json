@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.2 90B Vision Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-2-90b-instruct-v1:0",
+  "latency_seconds": 7.203397274017334,
+  "input_tokens": 15739,
+  "output_tokens": 332,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Project milestone review focusing on backend integration progress and risk mitigation for the next release.",
+    "participants": {
+      "Adya Pathak": {
+        "reason": "Provided actionable insights on database optimization approaches, including indexing, partitioning, and materialized views.",
+        "summary": "Led the discussion on database optimization techniques, explaining the benefits and trade-offs of each approach.",
+        "overall_score": 90
+      },
+      "Devesh Mishra-CT": {
+        "reason": "Raised relevant questions on materialized views and their impact on query performance.",
+        "summary": "Actively participated in the discussion, seeking clarification on key concepts.",
+        "overall_score": 70
+      },
+      "Dhawal Bajaj": {
+        "reason": "Acknowledged the practical benefits of the discussion and expressed appreciation for the insights shared.",
+        "summary": "Provided positive feedback on the discussion, highlighting its relevance to current projects.",
+        "overall_score": 60
+      },
+      "Manish Kumar": {
+        "reason": "Participated in the discussion, although contributions were limited.",
+        "summary": "Was present throughout the discussion, but did not actively contribute to the conversation.",
+        "overall_score": 40
+      },
+      "Manish Saini": {
+        "reason": "Participated in the discussion, although contributions were limited.",
+        "summary": "Was present throughout the discussion, but did not actively contribute to the conversation.",
+        "overall_score": 40
+      }
+    }
+  }
+}
