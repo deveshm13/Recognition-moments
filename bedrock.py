@@ -3,7 +3,7 @@ import json
 from Meeting_Transcripts.Gemini_generated_transcript import Meeting_Transcript_With_Multiple_Employee
 from Meeting_Transcripts.meeting1 import meeting_transcript
 from Prompt_Chaining_S.Prompts import system_prompt_for_step_1,system_prompt_for_step_2,system_prompt_for_step_3,final_system_prompt_for_step_1, final_system_prompt_for_step_3
-from Meeting_Transcripts.T_M_1 import meeting_transcript,meeting_attendance_report
+from Meeting_Transcripts.T_M_1 import meeting_transcript,meeting_attendance_report,french_meeting_transcript,french_attendees_report
 
 import re
 import time
@@ -53,13 +53,13 @@ Task:
         raise ValueError("Unexpected response format from Bedrock GPT-OSS model.")
 
 # Replace with your actual transcript text
-meeting_transcript = meeting_transcript
+meeting_transcript = french_meeting_transcript
 
 # resolved_transcript = resolve_coreferences_gpt_oss(meeting_transcript)
 # print("Coreference resolution complete.\n")
 
 
-meeting_attendance_report = meeting_attendance_report
+meeting_attendance_report = french_attendees_report
 
 
 # -----------------------------

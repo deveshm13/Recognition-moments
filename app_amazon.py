@@ -9,8 +9,8 @@ import boto3
 # -----------------------------
 # Imports
 # -----------------------------
-from Meeting_Transcripts.T_M_1 import meeting_transcript_1
-from Meeting_Transcripts.T_M_1 import meeting_attendance_report1
+from Meeting_Transcripts.T_M_1 import meeting_transcript
+from Meeting_Transcripts.T_M_1 import meeting_attendance_report
 
 # -----------------------------
 # AWS Bedrock client setup
@@ -20,10 +20,10 @@ bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 # -----------------------------
 # 1️⃣  Input Data
 # -----------------------------
-meeting_transcript = meeting_transcript_1
+meeting_transcript = meeting_transcript
 
 # print(meeting_transcript)
-meeting_attendance_report = meeting_attendance_report1
+meeting_attendance_report = meeting_attendance_report
 
 SYSTEM_PROMPT = """ 
 ### SYSTEM INSTRUCTION

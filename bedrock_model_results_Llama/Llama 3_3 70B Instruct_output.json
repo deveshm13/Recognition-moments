@@ -1,36 +1,11 @@
 {
   "model_name": "Llama 3.3 70B Instruct",
   "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
-  "latency_seconds": 3.5789451599121094,
-  "input_tokens": 15738,
-  "output_tokens": 393,
-  "parsed_successfully": true,
+  "latency_seconds": 1.6333000659942627,
+  "input_tokens": 15919,
+  "output_tokens": 2,
+  "parsed_successfully": false,
   "output": {
-    "meeting_context": "Database Optimization Approaches",
-    "Adya Pathak": {
-      "reason": "Led the discussion on database optimization techniques, including indexing, partitioning, and materialized views, providing clear explanations and examples.",
-      "summary": "Presented a comprehensive overview of database optimization approaches, highlighting the benefits and trade-offs of each technique, and demonstrated expertise in query optimization.",
-      "overall_score": 90
-    },
-    "Devesh Mishra-CT": {
-      "reason": "Actively participated in the discussion, asking relevant questions and providing insights on the practical applications of database optimization techniques.",
-      "summary": "Engaged in the conversation, sharing his understanding of the topic and seeking clarification on specific points, demonstrating a willingness to learn and contribute.",
-      "overall_score": 70
-    },
-    "Dhawal Bajaj": {
-      "reason": "Provided positive feedback on the discussion, acknowledging the practical benefits of the optimization techniques presented.",
-      "summary": "Offered appreciation for the informative session, recognizing the value of the knowledge shared and its potential impact on their work.",
-      "overall_score": 60
-    },
-    "Manish Saini": {
-      "reason": "Participated in the meeting, although contributions were limited, demonstrating attendance and some engagement.",
-      "summary": "Was present during the discussion, but did not significantly contribute to the conversation, still showing some level of participation.",
-      "overall_score": 40
-    },
-    "Manish Kumar": {
-      "reason": "Initiated the meeting with a greeting, setting a positive tone, but did not contribute substantially to the discussion.",
-      "summary": "Started the meeting on a welcoming note, but his involvement was minimal, lacking significant input or engagement in the topic at hand.",
-      "overall_score": 30
-    }
+    "raw_output": "```"
   }
 }

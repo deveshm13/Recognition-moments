@@ -1,42 +1,48 @@
 {
   "model_name": "Nova Micro",
   "model_id": "amazon.nova-micro-v1:0",
-  "latency_seconds": 3.6455750465393066,
-  "input_tokens": 14566,
-  "output_tokens": 463,
+  "latency_seconds": 4.619350910186768,
+  "input_tokens": 10300,
+  "output_tokens": 582,
   "parsed_successfully": true,
   "output": {
-    "meeting_context": "The meeting focused on discussing database optimization approaches, specifically addressing slow query issues and introducing techniques like indexing, partitioning, and materialized views to improve performance.",
+    "meeting_context": "The meeting focused on showcasing new features of the Culture Cloud platform aimed at enhancing employee engagement through various recognition mechanisms. The presentation covered features like 'Say Thanks,' 'Post a Win,' 'Broadcast,' 'Manager Store,' 'Company Store,' 'Multiple Stores,' and 'Lifestyle Spending Accounts,' along with discussing implementation timelines, customization options, and feature requests specific to GlobalTech's needs.",
     "participants": [
       {
-        "name": "Adya Pathak",
-        "reason": "Delivered comprehensive insights on database optimization techniques, including indexing, partitioning, and materialized views, and effectively guided the discussion.",
-        "summary": "Adya Pathak led the meeting, providing detailed explanations of various database optimization techniques. She covered the fundamentals of indexing, the benefits and trade-offs of partitioning, and the use of materialized views for enhancing query performance. Her clear and thorough presentation helped the team understand complex concepts and their practical applications.",
+        "name": "Sarah Mitchell",
+        "reason": "Presented new features of Culture Cloud, demonstrated their functionality, and discussed implementation details.",
+        "summary": "Sarah Mitchell, the Product Manager for Culture Cloud, led the presentation, introduced each feature, and answered questions from GlobalTech representatives. She also discussed the engagement impact of the features and took notes on feature requests.",
         "overall_score": 95
       },
       {
-        "name": "Devesh Mishra-CT",
-        "reason": "Contributed by asking clarifying questions and providing examples to deepen understanding of partitioning techniques.",
-        "summary": "Devesh Mishra-CT participated actively by asking questions that clarified the concepts being discussed, particularly about partitioning. His inquiries helped to solidify the team's understanding of how partitioning works and its practical applications.",
-        "overall_score": 70
+        "name": "James Rodriguez",
+        "reason": "Demonstrated features and provided technical details on flexibility and customization.",
+        "summary": "James Rodriguez, the Senior Solutions Consultant, took over the demo sessions, provided technical details, and answered questions regarding feature flexibility, customization, and implementation.",
+        "overall_score": 85
       },
       {
-        "name": "Manish Saini",
-        "reason": "Showed engagement and interest through attentive participation and brief affirmations.",
-        "summary": "Manish Saini was present throughout the meeting, showing engagement through attentive listening and brief affirmations that indicated his interest in the discussion.",
-        "overall_score": 40
+        "name": "Emma Thompson",
+        "reason": "Provided insights on analytics, customization, and follow-up actions.",
+        "summary": "Emma Thompson from Customer Success provided insights into the analytics dashboard, discussed customization options, and coordinated follow-up sessions and actions.",
+        "overall_score": 80
       },
       {
-        "name": "Manish Kumar",
-        "reason": "Participated minimally with a single acknowledgment.",
-        "summary": "Manish Kumar joined the meeting but contributed minimally, with only a single acknowledgment at the beginning.",
-        "overall_score": 20
+        "name": "Michael Chen",
+        "reason": "Raised critical feature requests and provided insights into GlobalTech's specific needs.",
+        "summary": "Michael Chen, VP of Human Resources at GlobalTech, raised critical feature requests and provided insights into GlobalTech's specific needs, including cultural calendar integration and team-based recognition.",
+        "overall_score": 90
       },
       {
-        "name": "Dhawal Bajaj",
-        "reason": "Joined late and contributed minimally with positive feedback at the end.",
-        "summary": "Dhawal Bajaj joined the meeting late and contributed minimally, offering positive feedback at the end of the session.",
-        "overall_score": 30
+        "name": "Rachel Patel",
+        "reason": "Expressed interest in specific features and provided insights into GlobalTech's operational needs.",
+        "summary": "Rachel Patel, HR Director at GlobalTech, expressed interest in specific features like Manager Store and Say Thanks, and provided insights into GlobalTech's operational needs.",
+        "overall_score": 85
+      },
+      {
+        "name": "David Williams",
+        "reason": "Provided feedback on features and suggested follow-up actions.",
+        "summary": "David Williams, who leads Employee Experience initiatives at GlobalTech, provided feedback on features and suggested follow-up actions, including setting up sessions with frontline managers.",
+        "overall_score": 80
       }
     ]
   }

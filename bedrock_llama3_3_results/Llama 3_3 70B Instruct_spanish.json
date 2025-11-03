@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 5.16723895072937,
+  "input_tokens": 3387,
+  "output_tokens": 435,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
+    "participantes": {
+      "Anna Weber": {
+        "razón": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
+        "resumen": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
+        "puntuación_general": 90
+      },
+      "Thomas Becker": {
+        "razón": "Proporcionó experiencia técnica valiosa sobre la implementación de Terraform y la unificación de IAM",
+        "resumen": "Compartió conocimientos sobre Terraform y su aplicación en la gestión de infraestructura en la nube",
+        "puntuación_general": 85
+      },
+      "Lena Krause": {
+        "razón": "Identificó áreas de mejora en los pipelines CI/CD y sugirió la migración a GitHub Actions",
+        "resumen": "Analizó los pipelines actuales y recomendó una migración para mejorar la eficiencia",
+        "puntuación_general": 80
+      },
+      "Michael Hoffmann": {
+        "razón": "Contribuyó con ideas sobre la centralización del monitoreo y la implementación de Chaos Mesh",
+        "resumen": "Compartió perspectivas sobre la importancia del monitoreo centralizado y la resistencia del sistema",
+        "puntuación_general": 75
+      },
+      "Stefan Braun": {
+        "razón": "Participó en la discusión y apoyó la consideración de costos para las soluciones propuestas",
+        "resumen": "Aportó una perspectiva financiera y aseguró que se consideraran los costos en las decisiones",
+        "puntuación_general": 70
+      }
+    }
+  }
+}

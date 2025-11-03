@@ -1,27 +1,42 @@
 {
   "model_name": "Nova Premier",
   "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.amazon.nova-premier-v1:0",
-  "latency_seconds": 20.730538845062256,
-  "input_tokens": 14989,
-  "output_tokens": 432,
+  "latency_seconds": 37.50945425033569,
+  "input_tokens": 10710,
+  "output_tokens": 619,
   "parsed_successfully": true,
   "output": {
-    "meeting_context": "Database optimization session focused on improving slow query performance through indexing, partitioning, and materialized views.",
+    "meeting_context": "Product demonstration and consultation for Culture Cloud's new employee engagement features targeting GlobalTech's strategic needs",
     "participants": {
-      "Adya Pathak": {
-        "reason": "Delivered comprehensive technical presentation on database optimization techniques with clarity and real-world examples.",
-        "summary": "Presented three database optimization approaches (indexing, partitioning, materialized views) with detailed explanations, analogies, and practical examples. Answered participant questions and clarified partitioning concepts.",
-        "overall_score": 95
+      "Sarah Mitchell": {
+        "reason": "Orchestrated comprehensive product demonstration and facilitated client-focused dialogue",
+        "summary": "Led the meeting with clear objectives, introduced new features with strategic relevance, and managed Q&A flow while connecting client needs to product capabilities",
+        "overall_score": 89.2
       },
-      "Devesh Mishra-CT": {
-        "reason": "Asked clarifying question about materialized view scalability.",
-        "summary": "Inquired about materialized view behavior under concurrent queries to understand scalability implications.",
-        "overall_score": 25
+      "James Rodriguez": {
+        "reason": "Provided technical expertise and feature demonstrations that addressed client concerns",
+        "summary": "Demonstrated platform functionality, clarified technical aspects of features, and proposed solutions for stakeholder recognition and budget controls",
+        "overall_score": 82.5
       },
-      "Dhawal Bajaj": {
-        "reason": "Provided positive feedback on session value.",
-        "summary": "Expressed appreciation for practical benefits gained from the session.",
-        "overall_score": 15
+      "Emma Thompson": {
+        "reason": "Managed follow-up actions and provided implementation logistics while addressing client customization needs",
+        "summary": "Committed to delivering impact reports, coordinated follow-up sessions, and outlined implementation timelines while addressing customization for company stores",
+        "overall_score": 78.4
+      },
+      "Michael Chen": {
+        "reason": "Articulated strategic needs and proposed product enhancements aligned with global operations",
+        "summary": "Highlighted GlobalTech's priorities, asked insightful questions about feature applicability, and proposed two new features for cultural relevance and team recognition",
+        "overall_score": 85.3
+      },
+      "Rachel Patel": {
+        "reason": "Connected product features to operational challenges and coordinated internal implementation planning",
+        "summary": "Expressed deskless workforce needs, identified Manager Store as critical, and volunteered to coordinate internal review and change management efforts",
+        "overall_score": 74.6
+      },
+      "David Williams": {
+        "reason": "Provided operational perspective and identified implementation requirements for frontline managers",
+        "summary": "Asked about moderation workflows, expressed interest in engagement data, and proposed manager feedback sessions for implementation success",
+        "overall_score": 69.8
       }
     }
   }

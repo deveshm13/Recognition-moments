@@ -2,147 +2,120 @@
   "Llama 4 Maverick 17B Instruct": {
     "model_name": "Llama 4 Maverick 17B Instruct",
     "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
-    "latency_seconds": 4.509761095046997,
-    "input_tokens": 13055,
-    "output_tokens": 307,
+    "latency_seconds": 5.022829055786133,
+    "input_tokens": 13240,
+    "output_tokens": 351,
     "parsed_successfully": true,
     "output": {
-      "meeting_context": "DB Optimization Techniques Discussion",
-      "participant_name": {
-        "Adya Pathak": {
-          "reason": "Delivered a comprehensive presentation on DB optimization techniques including indexing, partitioning, and materialized views.",
-          "summary": "Presented on various DB optimization techniques and their practical applications.",
-          "overall_score": 92
-        },
-        "Devesh Mishra-CT": {
-          "reason": "Actively participated in the discussion, asked clarifying questions, and contributed to understanding the practical implications of materialized views.",
-          "summary": "Engaged in the discussion and sought clarification on materialized views.",
-          "overall_score": 78
-        },
-        "Dhawal Bajaj": {
-          "reason": "Joined late but provided positive feedback on the session and appreciated its practical benefits.",
-          "summary": "Provided positive feedback and appreciated the session's practical benefits.",
-          "overall_score": 65
-        },
-        "Manish Kumar": {
-          "reason": "Attended the session and participated in initial greetings.",
-          "summary": "Attended the session and participated in initial interactions.",
-          "overall_score": 40
-        },
-        "Manish Saini": {
-          "reason": "Attended the session, participated in initial interactions, and acknowledged the presentation.",
-          "summary": "Attended the session and participated in initial interactions.",
-          "overall_score": 45
-        }
+      "meeting_context": "DB Optimization Session focusing on techniques like indexing, partitioning, and materialized views to improve query performance.",
+      "Adya Pathak": {
+        "reason": "Delivered a comprehensive presentation on DB optimization techniques, effectively explaining indexing, partitioning, and materialized views with practical examples.",
+        "summary": "Presented on DB optimization techniques including indexing, partitioning, and materialized views. Explained how each technique works and their trade-offs. Provided practical examples and use cases for each technique.",
+        "overall_score": 92
+      },
+      "Devesh Mishra-CT": {
+        "reason": "Actively participated in the discussion, asked clarifying questions about materialized views, and engaged with the presenter.",
+        "summary": "Asked questions about materialized views and their implications when multiple users query simultaneously.",
+        "overall_score": 68
+      },
+      "Dhawal Bajaj": {
+        "reason": "Joined late but provided positive feedback on the session, appreciating its practical benefits.",
+        "summary": "Joined the meeting late, appreciated the session, and thanked the presenter for the insights.",
+        "overall_score": 56
+      },
+      "Manish Kumar": {
+        "reason": "Initiated the meeting and ensured a smooth start.",
+        "summary": "Started the meeting and facilitated the initial interactions.",
+        "overall_score": 40
+      },
+      "Manish Saini": {
+        "reason": "Participated in the initial discussion and acknowledged the end of the session.",
+        "summary": "Contributed minimally during the session, mostly acknowledging or making minor comments.",
+        "overall_score": 32
       }
     }
   },
   "Llama 4 Scout 17B Instruct": {
     "model_name": "Llama 4 Scout 17B Instruct",
     "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
-    "latency_seconds": 4.335597991943359,
-    "input_tokens": 13055,
-    "output_tokens": 395,
+    "latency_seconds": 4.314198970794678,
+    "input_tokens": 13240,
+    "output_tokens": 359,
     "parsed_successfully": true,
     "output": {
-      "meeting_context": "Database optimization meeting focusing on indexing, partitioning, and materialized views for query performance improvement.",
+      "meeting_context": "Database optimization session focusing on indexing, partitioning, and materialized views for query performance improvement.",
       "Adya Pathak": {
-        "reason": "Led the discussion on database optimization techniques, provided detailed explanations of indexing, partitioning, and materialized views, and guided the team through examples and use cases.",
-        "summary": "Presented and explained three main approaches for optimizing database queries: indexing, partitioning, and materialized views. Discussed the benefits and trade-offs of each approach, including how they improve query performance, manage large tables, and handle complex queries.",
+        "reason": "Led the discussion on database optimization techniques, provided detailed explanations of indexing, partitioning, and materialized views, and addressed queries from participants.",
+        "summary": "Presented and explained three key approaches for optimizing database queries: indexing, partitioning, and materialized views. Discussed the implementation, benefits, and trade-offs of each approach, including examples and use cases.",
         "overall_score": 90
       },
       "Devesh Mishra-CT": {
-        "reason": "Actively participated in the discussion, asked clarifying questions, and contributed to the exploration of materialized views and their implications on data storage and query performance.",
-        "summary": "Engaged with Adya Pathak's explanations, sought clarification on partitioning and materialized views, and discussed potential impacts on data management and query execution.",
+        "reason": "Asked clarifying questions regarding partitioning and materialized views, demonstrating engagement and seeking additional information.",
+        "summary": "Inquired about the practical implications of partitioning and materialized views, specifically regarding data distribution and storage.",
         "overall_score": 60
       },
       "Manish Kumar": {
         "reason": "Initiated the meeting and briefly introduced the agenda.",
-        "summary": "Started the meeting with a greeting and briefly introduced the topic of database optimization.",
-        "overall_score": 20
+        "summary": "Started the meeting with a greeting and briefly introduced the topics to be covered.",
+        "overall_score": 40
       },
       "Manish Saini": {
-        "reason": "Participated in the meeting and acknowledged the discussion.",
-        "summary": "Joined the meeting, acknowledged the discussion on database optimization techniques.",
-        "overall_score": 10
+        "reason": "Participated in the discussion and acknowledged the explanations provided.",
+        "summary": "Engaged in the discussion, asked for clarification, and thanked the presenter.",
+        "overall_score": 50
       },
       "Dhawal Bajaj": {
-        "reason": "Appreciated Adya Pathak's presentation and noted the practical benefits of the discussed techniques.",
-        "summary": "Provided positive feedback on the discussion and noted the practical benefits of the optimization techniques presented.",
-        "overall_score": 40
+        "reason": "Appreciated the presentation and highlighted the practical benefits of the discussed techniques.",
+        "summary": "Provided positive feedback on the presentation and emphasized the usefulness of the optimization techniques.",
+        "overall_score": 70
       }
     }
   },
   "Llama 3.3 70B Instruct": {
     "model_name": "Llama 3.3 70B Instruct",
     "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
-    "latency_seconds": 3.5789451599121094,
-    "input_tokens": 15738,
-    "output_tokens": 393,
-    "parsed_successfully": true,
+    "latency_seconds": 1.6333000659942627,
+    "input_tokens": 15919,
+    "output_tokens": 2,
+    "parsed_successfully": false,
     "output": {
-      "meeting_context": "Database Optimization Approaches",
-      "Adya Pathak": {
-        "reason": "Led the discussion on database optimization techniques, including indexing, partitioning, and materialized views, providing clear explanations and examples.",
-        "summary": "Presented a comprehensive overview of database optimization approaches, highlighting the benefits and trade-offs of each technique, and demonstrated expertise in query optimization.",
-        "overall_score": 90
-      },
-      "Devesh Mishra-CT": {
-        "reason": "Actively participated in the discussion, asking relevant questions and providing insights on the practical applications of database optimization techniques.",
-        "summary": "Engaged in the conversation, sharing his understanding of the topic and seeking clarification on specific points, demonstrating a willingness to learn and contribute.",
-        "overall_score": 70
-      },
-      "Dhawal Bajaj": {
-        "reason": "Provided positive feedback on the discussion, acknowledging the practical benefits of the optimization techniques presented.",
-        "summary": "Offered appreciation for the informative session, recognizing the value of the knowledge shared and its potential impact on their work.",
-        "overall_score": 60
-      },
-      "Manish Saini": {
-        "reason": "Participated in the meeting, although contributions were limited, demonstrating attendance and some engagement.",
-        "summary": "Was present during the discussion, but did not significantly contribute to the conversation, still showing some level of participation.",
-        "overall_score": 40
-      },
-      "Manish Kumar": {
-        "reason": "Initiated the meeting with a greeting, setting a positive tone, but did not contribute substantially to the discussion.",
-        "summary": "Started the meeting on a welcoming note, but his involvement was minimal, lacking significant input or engagement in the topic at hand.",
-        "overall_score": 30
-      }
+      "raw_output": "```"
     }
   },
   "Llama 3.2 90B Vision Instruct": {
     "model_name": "Llama 3.2 90B Vision Instruct",
     "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-2-90b-instruct-v1:0",
-    "latency_seconds": 7.203397274017334,
-    "input_tokens": 15739,
-    "output_tokens": 332,
+    "latency_seconds": 7.083750009536743,
+    "input_tokens": 15920,
+    "output_tokens": 323,
     "parsed_successfully": true,
     "output": {
-      "meeting_context": "Project milestone review focusing on backend integration progress and risk mitigation for the next release.",
-      "participants": {
+      "meeting_context": "Database Optimization Approaches",
+      "participant_name": {
         "Adya Pathak": {
-          "reason": "Provided actionable insights on database optimization approaches, including indexing, partitioning, and materialized views.",
-          "summary": "Led the discussion on database optimization techniques, explaining the benefits and trade-offs of each approach.",
+          "reason": "Provided in-depth explanation of database optimization techniques, including indexing, partitioning, and materialized views.",
+          "summary": "Led the discussion on database optimization approaches, covering indexing, partitioning, and materialized views, and provided examples to illustrate each concept.",
           "overall_score": 90
         },
         "Devesh Mishra-CT": {
-          "reason": "Raised relevant questions on materialized views and their impact on query performance.",
-          "summary": "Actively participated in the discussion, seeking clarification on key concepts.",
-          "overall_score": 70
+          "reason": "Raised a relevant question about materialized views and their impact on disk storage.",
+          "summary": "Participated in the discussion by asking a question about materialized views and their impact on disk storage.",
+          "overall_score": 20
         },
         "Dhawal Bajaj": {
-          "reason": "Acknowledged the practical benefits of the discussion and expressed appreciation for the insights shared.",
-          "summary": "Provided positive feedback on the discussion, highlighting its relevance to current projects.",
-          "overall_score": 60
+          "reason": "Provided positive feedback on the session and acknowledged the practical benefits of the discussion.",
+          "summary": "Participated in the discussion by providing positive feedback and acknowledging the practical benefits of the discussion.",
+          "overall_score": 10
         },
         "Manish Kumar": {
-          "reason": "Participated in the discussion, although contributions were limited.",
-          "summary": "Was present throughout the discussion, but did not actively contribute to the conversation.",
-          "overall_score": 40
+          "reason": "Did not actively participate in the discussion.",
+          "summary": "Did not actively participate in the discussion.",
+          "overall_score": 0
         },
         "Manish Saini": {
-          "reason": "Participated in the discussion, although contributions were limited.",
-          "summary": "Was present throughout the discussion, but did not actively contribute to the conversation.",
-          "overall_score": 40
+          "reason": "Did not actively participate in the discussion.",
+          "summary": "Did not actively participate in the discussion.",
+          "overall_score": 0
         }
       }
     }
