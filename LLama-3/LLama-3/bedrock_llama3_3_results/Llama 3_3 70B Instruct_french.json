@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 5.178615093231201,
+  "input_tokens": 3268,
+  "output_tokens": 505,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Discussion sur l'optimisation des bases de données et l'intégration du module CloudSync avec la plateforme DevOps",
+    "participants": {
+      "Marc": {
+        "raison": "A démontré un leadership fort en guidant la discussion et en résumant les prochaines étapes pour l'équipe",
+        "résumé": "A dirigé la réunion, a posé des questions clés et a résumé les tâches à accomplir",
+        "overall_score": 85
+      },
+      "Claire": {
+        "raison": "A fourni une expertise technique précieuse sur l'intégration AWS, Azure et GCP, et a proposé des solutions pour les problèmes de droits IAM",
+        "résumé": "A partagé son expérience sur les configurations cloud, a identifié les problèmes de droits et a proposé des solutions",
+        "overall_score": 92
+      },
+      "Julien": {
+        "raison": "A fait preuve d'initiative en identifiant les problèmes de configuration et en proposant des solutions, et a démontré un leadership technique en expliquant les compromis de mise en œuvre",
+        "résumé": "A identifié les problèmes de configuration, a proposé des solutions et a expliqué les compromis de mise en œuvre",
+        "overall_score": 95
+      },
+      "Sophie": {
+        "raison": "A élevé la discussion en soulignant l'importance de la validation du flux CI/CD complet et a proposé d'ajouter des tests de résilience",
+        "résumé": "A souligné l'importance de la validation du flux CI/CD et a proposé des tests de résilience",
+        "overall_score": 88
+      },
+      "Antoine": {
+        "raison": "A démontré une collaboration exceptionnelle en connectant plusieurs idées et en proposant des solutions pour améliorer la résilience du système",
+        "résumé": "A connecté plusieurs idées, a proposé des solutions pour améliorer la résilience et a accepté de tester la résilience du système",
+        "overall_score": 90
+      }
+    }
+  }
+}

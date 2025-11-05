@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 11.754292964935303,
+  "input_tokens": 3268,
+  "output_tokens": 758,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Discussion sur le produit DevOps & intégration Cloud",
+    "participants": {
+      "Marc": {
+        "raison": "A mené la réunion avec efficacité, a coordonné les tâches et a aidé à maintenir le focus sur l’objectif principal.",
+        "résumé": "A ouvert la réunion, a posé des questions clés et a résumé les prochaines étapes.",
+        "overall_score": 85
+      },
+      "Claire": {
+        "raison": "A fourni des informations techniques précises et a aidé à résoudre les problèmes d’intégration sur AWS et Azure.",
+        "résumé": "A partagé ses expériences avec les configurations sur AWS et Azure, et a proposé des solutions pour les problèmes de droits IAM sur GCP.",
+        "overall_score": 90
+      },
+      "Julien": {
+        "raison": "A démontré son expertise technique en identifiant et en corrigeant les problèmes d’intégration, et a proposé des améliorations pour le flux CI/CD.",
+        "résumé": "A expliqué la correction du rôle Storage Admin manquant pour le compte de service sur GCP et a proposé l’ajout d’un auto-scaling HPA.",
+        "overall_score": 92
+      },
+      "Sophie": {
+        "raison": "A contribué de manière proactive en soulçant l’importance de la validation du flux CI/CD complet et en proposant des tests de résilience.",
+        "résumé": "A demandé la validation du flux CI/CD et a proposé un test de coupure de nœud sur le cluster staging pour évaluer la résilience.",
+        "overall_score": 88
+      },
+      "Antoine": {
+        "raison": "A résolu le problème de latence avec le SDK Google Cloud et a proposé des améliorations pour accélérer le build Docker.",
+        "résumé": "A expliqué la correction de la version du SDK Google Cloud et a proposé l’ajout d’une étape de cache pour accélérer le build.",
+        "overall_score": 89
+      }
+    }
+  }
+}

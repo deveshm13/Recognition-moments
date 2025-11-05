@@ -31,7 +31,7 @@ import langdetect
 from deep_translator import GoogleTranslator 
 
 # Load the pretrained model
-ft_model = ft.load_model("./pretrained_model/lid.176.bin")
+ft_model = ft.load_model("../pretrained_model/lid.176.bin")
 
 # -----------------------------
 # JSON Extractor (Llama 3.3 robust version)
@@ -74,6 +74,25 @@ def extract_text_sample(transcript_json, max_sentences=10):
     return " ".join(texts)
 
 
+def translate_keys(obj, source_lang="auto", target_lang="en"):
+    """Recursively translate all dictionary keys to English."""
+    if isinstance(obj, dict):
+        new_dict = {}
+        for k, v in obj.items():
+            try:
+                # Translate the key to English
+                translated_key = GoogleTranslator(source=source_lang, target=target_lang).translate(k)
+            except Exception:
+                translated_key = k  # fallback to original key if translation fails
+            # Recurse into nested dictionaries/lists
+            new_dict[translated_key] = translate_keys(v, source_lang, target_lang)
+        return new_dict
+    elif isinstance(obj, list):
+        return [translate_keys(item, source_lang, target_lang) for item in obj]
+    else:
+        return obj  # keep values unchanged
+
+
 # -----------------------------
 # AWS Bedrock Setup
 # -----------------------------
@@ -82,8 +101,8 @@ bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 # -----------------------------
 # Select Input (you can swap datasets here)
 # -----------------------------
-meeting_transcript = hindi_meeting_transcript1
-meeting_attendance_report = hindi_attendance_report1
+meeting_transcript = french_meeting_transcript
+meeting_attendance_report = french_attendees_report
 
 sample_text = extract_text_sample(meeting_transcript, max_sentences=50)
 
@@ -207,7 +226,7 @@ The “reason” should answer **why this person deserves appreciation** — not
     "participant_name": {
       "reason": "string",
       "summary": "string",
-      "overall_score": float
+      "overall_score": number
     }
   }
 }
@@ -253,7 +272,7 @@ MODEL_ID = "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.lla
 # -----------------------------
 # Output Directory
 # -----------------------------
-output_dir = "bedrock_llama3_3_results"
+output_dir = "./LLama-3/bedrock_llama3_3_results"
 os.makedirs(output_dir, exist_ok=True)
 
 # -----------------------------
@@ -322,13 +341,16 @@ try:
     # -----------------------------
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    raw_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_hindi1.txt")
-    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_hindi1.json")
+    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_french.json")
 
-    # with open(raw_path, "w") as f:
-    #     f.write(raw_output.strip())
+    # if lang != "en":
+    #     translated_data = translate_keys(result_data, source_lang=lang, target_lang="en")
+    # else:
+    #     translated_data = result_data
 
-    # ✅ Dump clean UTF-8 JSON — no escaped \u sequences
+    # with open(parsed_path, "w", encoding="utf-8") as f:
+    #     json.dump(translated_data, f, ensure_ascii=False, indent=2)
+
     with open(parsed_path, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 

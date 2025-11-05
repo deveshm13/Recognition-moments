@@ -1,0 +1,53 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 5.297220230102539,
+  "input_tokens": 5755,
+  "output_tokens": 759,
+  "parsed_successfully": true,
+  "outputs": {
+    "meeting_context": "स्ट्रिंग",
+    "participants": {
+      "Dhawal Bajaj": {
+        "Reason": "मजबूत नेतृत्व का प्रदर्शन किया और तकनीकी दिशा प्रदान की",
+        "Summary": "डेटाबेस अनुकूलन रणनीति को सरल बनाकर और सर्वोत्तम प्रथाओं को अनुक्रमित करने पर टीम का मार्गदर्शन किया",
+        "composite score": 90
+      },
+      "Manish Kumar": {
+        "Reason": "सक्रिय रूप से कार्यान्वयन चुनौतियों की पहचान की और स्पष्ट समाधान पेश किए",
+        "Summary": "समूह के अगले चरणों को संरेखित करने में मदद की",
+        "composite score": 80
+      },
+      "Adya Pathak": {
+        "Reason": "असाधारण सहयोग दिखाया",
+        "Summary": "कई विचारों को एक एकीकृत दृष्टिकोण में जोड़ा",
+        "composite score": 70
+      },
+      "Priya Sharma": {
+        "Reason": "सक्रिय रूप से भाग लिया और टीम वर्क में योगदान दिया",
+        "Summary": "चर्चा में भाग लिया और विचार साझा किए",
+        "composite score": 60
+      },
+      "Duanshi Chawla-CT": {
+        "Reason": "सक्रिय रूप से भाग लिया और टीम वर्क में योगदान दिया",
+        "Summary": "चर्चा में भाग लिया और विचार साझा किए",
+        "composite score": 50
+      },
+      "Mohit Sharma": {
+        "Reason": "सक्रिय रूप से भाग लिया और टीम वर्क में योगदान दिया",
+        "Summary": "चर्चा में भाग लिया और विचार साझा किए",
+        "composite score": 40
+      },
+      "Manish Saini": {
+        "Reason": "सक्रिय रूप से भाग लिया और टीम वर्क में योगदान दिया",
+        "Summary": "चर्चा में भाग लिया और विचार साझा किए",
+        "composite score": 30
+      },
+      "Ayush Kapoor": {
+        "Reason": "सक्रिय रूप से भाग लिया और टीम वर्क में योगदान दिया",
+        "Summary": "चर्चा में भाग लिया और विचार साझा किए",
+        "composite score": 20
+      }
+    }
+  }
+}

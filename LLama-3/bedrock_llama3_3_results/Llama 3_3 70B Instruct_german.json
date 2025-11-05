@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 4.7400970458984375,
+  "input_tokens": 3577,
+  "output_tokens": 426,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "DevOps- und Cloud-Integrationsprozesse",
+    "participants": {
+      "Anna Weber": {
+        "reason": "Demonstrierte starke Führungsqualitäten durch die Moderation des Meetings und die Ausrichtung der Diskussion auf die wichtigsten Themen.",
+        "summary": "Leitete das Meeting, stellte die Ziele vor und sorgte für eine strukturierte Diskussion.",
+        "overall_score": 90
+      },
+      "Thomas Becker": {
+        "reason": "Zeigte technische Führung durch die Erklärung von Terraform und der Vereinheitlichung der IaC-Basis.",
+        "summary": "Erklärte die Vorteile von Terraform und schlug vor, es als gemeinsame IaC-Basis zu verwenden.",
+        "overall_score": 85
+      },
+      "Lena Krause": {
+        "reason": "Demonstrierte Fachkenntnisse durch die Analyse der CI/CD-Pipelines und die Empfehlung, alles auf GitHub Actions zu migrieren.",
+        "summary": "Analysierte die CI/CD-Pipelines und empfahl die Migration auf GitHub Actions.",
+        "overall_score": 88
+      },
+      "Michael Hoffmann": {
+        "reason": "Zeigte proaktive Eigenverantwortung durch die Identifizierung von Problemen bei der Umsetzung und die Anregung von Lösungen.",
+        "summary": "Identifizierte Probleme bei der Umsetzung und regte Lösungen an.",
+        "overall_score": 82
+      },
+      "Stefan Braun": {
+        "reason": "Demonstrierte Zusammenarbeit durch die Beteiligung an der Diskussion und die Berücksichtigung von Kosten.",
+        "summary": "Beteiligte sich an der Diskussion und berücksichtigte Kosten.",
+        "overall_score": 78
+      }
+    }
+  }
+}

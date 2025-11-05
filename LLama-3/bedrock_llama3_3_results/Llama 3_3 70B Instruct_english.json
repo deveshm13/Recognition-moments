@@ -1,0 +1,43 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 6.452230930328369,
+  "input_tokens": 9012,
+  "output_tokens": 562,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Discussion on implementing new employee recognition features for GlobalTech, focusing on enhancing employee engagement and addressing the needs of deskless workers.",
+    "participants": {
+      "Sarah Mitchell": {
+        "reason": "Led the discussion on new recognition features, provided clear explanations, and demonstrated strong leadership by guiding the conversation and addressing client needs.",
+        "summary": "Presented Culture Cloud's new features, including Say Thanks, Post a Win, Broadcast, and Manager Store, highlighting their potential to enhance employee engagement and recognition.",
+        "overall_score": 95
+      },
+      "James Rodriguez": {
+        "reason": "Provided detailed demonstrations of the features, offered insightful explanations, and showed expertise in the recognition and engagement space, making the features more accessible and understandable to the clients.",
+        "summary": "Demonstrated the functionality of various features, such as Say Thanks and Manager Store, and addressed client questions with clarity and professionalism.",
+        "overall_score": 92
+      },
+      "Emma Thompson": {
+        "reason": "Offered valuable insights into the implementation process, provided support, and demonstrated a customer-centric approach by addressing client concerns and offering solutions.",
+        "summary": "Discussed implementation timelines, pricing, and the potential for customization, ensuring that the clients felt supported throughout the process.",
+        "overall_score": 90
+      },
+      "Michael Chen": {
+        "reason": "Engaged actively in the discussion, provided thoughtful questions, and demonstrated a clear understanding of GlobalTech's needs, showing initiative and leadership in exploring solutions for employee engagement.",
+        "summary": "Asked pertinent questions about the features, discussed potential applications, and showed enthusiasm for the recognition ecosystem, highlighting his commitment to improving employee experience.",
+        "overall_score": 88
+      },
+      "Rachel Patel": {
+        "reason": "Showed appreciation for the features, especially Manager Store, and demonstrated a keen interest in how they could address the challenges faced by GlobalTech's deskless workforce, displaying collaboration and a focus on employee well-being.",
+        "summary": "Expressed excitement about the potential of the features to improve recognition for deskless workers and participated actively in the discussion, ensuring that the needs of all employees were considered.",
+        "overall_score": 85
+      },
+      "David Williams": {
+        "reason": "Contributed valuable insights into the employee experience, supported the discussion on recognition, and demonstrated a collaborative approach by engaging with the team and the Culture Cloud representatives.",
+        "summary": "Participated in the discussion, asked questions, and showed support for the features, highlighting the importance of a holistic approach to employee engagement and recognition.",
+        "overall_score": 82
+      }
+    }
+  }
+}
