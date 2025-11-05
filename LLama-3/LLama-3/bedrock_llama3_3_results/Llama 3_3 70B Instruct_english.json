@@ -1,0 +1,43 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 4.413789987564087,
+  "input_tokens": 9309,
+  "output_tokens": 434,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Discussion on implementing new employee recognition features for GlobalTech",
+    "participants": {
+      "Sarah Mitchell": {
+        "reason": "Demonstrated strong leadership by guiding the discussion and presenting new features effectively",
+        "summary": "Presented Culture Cloud's new features, including Say Thanks, Post a Win, Broadcast, and Boost, highlighting their potential to enhance employee engagement",
+        "overall_score": 95
+      },
+      "James Rodriguez": {
+        "reason": "Provided insightful technical direction and demonstrated features, enabling a deeper understanding of their potential impact",
+        "summary": "Demonstrated features such as Say Thanks, Post a Win, and Broadcast, and addressed technical questions from GlobalTech's team",
+        "overall_score": 92
+      },
+      "Emma Thompson": {
+        "reason": "Showed exceptional collaboration by connecting multiple ideas into a unified approach and offering support for implementation",
+        "summary": "Provided implementation details, addressed questions, and offered support for change management and customization options",
+        "overall_score": 90
+      },
+      "Michael Chen": {
+        "reason": "Proactively identified implementation challenges and offered clear solutions, helping align the group's next steps",
+        "summary": "Raised important questions about feature customization, team recognition, and cultural celebrations, and provided valuable insights into GlobalTech's needs",
+        "overall_score": 88
+      },
+      "Rachel Patel": {
+        "reason": "Demonstrated initiative by identifying key features relevant to GlobalTech's deskless workforce and asking insightful questions",
+        "summary": "Expressed interest in features like Manager Store and Say Thanks, and asked questions about customization and implementation",
+        "overall_score": 85
+      },
+      "David Williams": {
+        "reason": "Showed collaboration by engaging in discussions and providing feedback on the potential impact of the new features",
+        "summary": "Participated in discussions, provided feedback on features, and suggested involving frontline managers in the implementation process",
+        "overall_score": 80
+      }
+    }
+  }
+}

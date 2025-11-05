@@ -4,7 +4,6 @@ import re
 import time
 import datetime
 import os
-import fasttext as ft
 
 # -----------------------------
 # Local Imports
@@ -24,18 +23,6 @@ from Meeting_Transcripts.T_M_1 import (
     hindi_attendance_report1,
 )
 
-# -----------------------------
-# Optional — Lightweight Language Detector
-# -----------------------------
-import langdetect
-from deep_translator import GoogleTranslator 
-
-# Load the pretrained model
-ft_model = ft.load_model("../pretrained_model/lid.176.bin")
-
-# -----------------------------
-# JSON Extractor (Llama 3.3 robust version)
-# -----------------------------
 def extract_llama33_json(raw_output: str):
 
     # cleaned = re.sub(r'\\u[0-9a-fA-F]', '', raw_output)
@@ -59,39 +46,6 @@ def extract_llama33_json(raw_output: str):
         except Exception:
             return {"raw_output": candidate.strip()}, False
         
-def extract_text_sample(transcript_json, max_sentences=10):
-    """
-    Combines first few 'text' entries from transcript into one string
-    to detect dominant language.
-    """
-    if "transcript" not in transcript_json:
-        raise ValueError("Transcript JSON missing 'transcript' key")
-
-    texts = []
-    for item in transcript_json["transcript"][:max_sentences]:
-        if "text" in item:
-            texts.append(item["text"])
-    return " ".join(texts)
-
-
-def translate_keys(obj, source_lang="auto", target_lang="en"):
-    """Recursively translate all dictionary keys to English."""
-    if isinstance(obj, dict):
-        new_dict = {}
-        for k, v in obj.items():
-            try:
-                # Translate the key to English
-                translated_key = GoogleTranslator(source=source_lang, target=target_lang).translate(k)
-            except Exception:
-                translated_key = k  # fallback to original key if translation fails
-            # Recurse into nested dictionaries/lists
-            new_dict[translated_key] = translate_keys(v, source_lang, target_lang)
-        return new_dict
-    elif isinstance(obj, list):
-        return [translate_keys(item, source_lang, target_lang) for item in obj]
-    else:
-        return obj  # keep values unchanged
-
 
 # -----------------------------
 # AWS Bedrock Setup
@@ -101,24 +55,9 @@ bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 # -----------------------------
 # Select Input (you can swap datasets here)
 # -----------------------------
-meeting_transcript = french_meeting_transcript
-meeting_attendance_report = french_attendees_report
+meeting_transcript = german_meeting_transcript
+meeting_attendance_report = german_attendees_report
 
-sample_text = extract_text_sample(meeting_transcript, max_sentences=50)
-
-# -----------------------------
-# Detect transcript language
-# -----------------------------
-# try:
-#     detected_lang = langdetect.detect(json.dumps(meeting_transcript))
-# except Exception:
-#     detected_lang = "en"
-
-prediction = ft_model.predict(sample_text)
-# print(prediction)
-lang = prediction[0][0].replace("__label__", "")
-
-print(f"Detected transcript language: {lang}")
 
 SYSTEM_PROMPT = """ 
 ### SYSTEM INSTRUCTION
@@ -230,20 +169,34 @@ The “reason” should answer **why this person deserves appreciation** — not
     }
   }
 }
-"""
 
-# -----------------------------
-# Translate SYSTEM_PROMPT if needed
-# -----------------------------
-if lang != "en":
-    try:
-        SYSTEM_PROMPT = GoogleTranslator(source="en", target=lang).translate(SYSTEM_PROMPT)
-        print(f"SYSTEM_PROMPT translated to {lang}")
-    except Exception as e:
-        print(f"Translation failed, falling back to English prompt: {e}")
-        SYSTEM_PROMPT = SYSTEM_PROMPT
-else:
-    SYSTEM_PROMPT = SYSTEM_PROMPT
+### STRICT NOTE 
+# If the transcript is in French, Hindi, Spanish, German or so on then, the values should be in the same language but the keys should strictly be in English.
+Example 1:
+```json
+{
+  "meeting_context": "स्ट्रिंग",
+    "participants": {
+      "Dhawal Bajaj": {
+        "Reason": "मजबूत नेतृत्व का प्रदर्शन किया और तकनीकी दिशा प्रदान की",
+        "Summary": "डेटाबेस अनुकूलन रणनीति को सरल बनाकर और सर्वोत्तम प्रथाओं को अनुक्रमित करने पर टीम का मार्गदर्शन किया",
+        "Overall score": 90
+      }
+    }
+}
+Example 2:
+{
+    "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
+    "participants": {
+      "Anna Weber": {
+        "Reason": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
+        "Summary": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
+        "Overall score": 90
+      }
+    }
+}
+```json
+"""
 
 # -----------------------------
 # Combined prompt
@@ -341,15 +294,7 @@ try:
     # -----------------------------
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_french.json")
-
-    # if lang != "en":
-    #     translated_data = translate_keys(result_data, source_lang=lang, target_lang="en")
-    # else:
-    #     translated_data = result_data
-
-    # with open(parsed_path, "w", encoding="utf-8") as f:
-    #     json.dump(translated_data, f, ensure_ascii=False, indent=2)
+    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_german.json")
 
     with open(parsed_path, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)

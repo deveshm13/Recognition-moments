@@ -9,12 +9,12 @@
     "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
     "participantes": {
       "Anna Weber": {
-        "razón": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
-        "resumen": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
-        "puntuación_general": 90
+        "Reason": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
+        "Summary": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
+        "Overall score": 90
       },
       "Thomas Becker": {
-        "razón": "Proporcionó experiencia técnica valiosa sobre la implementación de Terraform y la unificación de IAM",
+        "Reason ": "Proporcionó experiencia técnica valiosa sobre la implementación de Terraform y la unificación de IAM",
         "resumen": "Compartió conocimientos sobre Terraform y su aplicación en la gestión de infraestructura en la nube",
         "puntuación_general": 85
       },

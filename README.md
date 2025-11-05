@@ -36,11 +36,7 @@ export AWS_SECRET_ACCESS_KEY="...."
 export AWS_SESSION_TOKEN="..."
 ```
 
-### Step 4: Add Pretrained Model
-
-add lid.176.bin in folder(pretrained_model)
-
-### Step 5: Run the Application
+### Step 4: Run the Application
 ```bash
 cd LLama-3
 python app_llama3_3.py

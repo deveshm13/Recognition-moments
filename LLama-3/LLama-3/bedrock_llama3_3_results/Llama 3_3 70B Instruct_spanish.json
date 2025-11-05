@@ -1,0 +1,38 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 4.765040874481201,
+  "input_tokens": 3222,
+  "output_tokens": 457,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
+    "participants": {
+      "Anna Weber": {
+        "reason": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
+        "summary": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
+        "overall_score": 90
+      },
+      "Thomas Becker": {
+        "reason": "Contribución técnica clave al proponer la unificación de la infraestructura como código con Terraform y la migración a GitHub Actions",
+        "summary": "Propuso soluciones técnicas para mejorar la integración y el despliegue de aplicaciones",
+        "overall_score": 85
+      },
+      "Lena Krause": {
+        "reason": "Aportó ideas innovadoras para la gestión de identidades y accesos, y sugirió la implementación de un módulo de Terraform para IAM",
+        "summary": "Identificó áreas de mejora en la gestión de identidades y accesos, y propuso soluciones para mejorar la seguridad",
+        "overall_score": 80
+      },
+      "Michael Hoffmann": {
+        "reason": "Contribuyó con ideas valiosas sobre la centralización del monitoreo y la implementación de Chaos Mesh para pruebas de resistencia",
+        "summary": "Identificó la necesidad de centralizar el monitoreo y propuso soluciones para mejorar la resistencia del sistema",
+        "overall_score": 75
+      },
+      "Stefan Braun": {
+        "reason": "Participó activamente en la discusión y apoyó la consideración de costos para la implementación de soluciones",
+        "summary": "Aportó una perspectiva financiera a la discusión y apoyó la evaluación de costos para las soluciones propuestas",
+        "overall_score": 70
+      }
+    }
+  }
+}
