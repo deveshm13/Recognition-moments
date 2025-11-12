@@ -1,0 +1,18 @@
+{
+  "model_name": "Llama 3.3 70B Instruct",
+  "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
+  "latency_seconds": 2.101869821548462,
+  "input_tokens": 1751,
+  "output_tokens": 123,
+  "parsed_successfully": true,
+  "output": {
+    "meeting_context": "Performance optimization work on Microsoft's architecture",
+    "participants": {
+      "Devesh Mishra": {
+        "reason": "Demonstrated strong technical leadership by walking the team through recent performance optimization work, identifying bottlenecks, and explaining improvements made",
+        "summary": "Presented the recent performance optimization work on Microsoft's architecture, highlighting bottlenecks, improvements, and results, including a 60% reduction in error rate and 65% reduction in CPU utilization",
+        "overall_score": 95
+      }
+    }
+  }
+}

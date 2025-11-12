@@ -1,0 +1,128 @@
+{
+  "14311cad-f7fd-4ba5-9fd8-b42dabecabba": [
+    {
+      "tenant_id": "14311cad-f7fd-4ba5-9fd8-b42dabecabba",
+      "Organiser_name": "Devesh Mishra",
+      "Organiser_mail": "devesh.mishra@6fdxfc.onmicrosoft.com",
+      "subject": "Test4Meeting",
+      "meeting_id": "AAMkAGJmN2VmYzQwLWZkOGQtNDQ2MC1hYmRhLTQxNTNkZjAxZTU5OQBGAAAAAAAIVX36bSgMTIencOWq4l3pBwBwDSpc6sCKRowdN_yeT2jIAAAAAAENAABwDSpc6sCKRowdN_yeT2jIAAACQuZ7AAA=",
+      "start_time": "2025-11-12T09:40:00.0000000",
+      "attendees": [
+        {
+          "name": "Devesh Mishra",
+          "email": "devesh.mishra@6fdxfc.onmicrosoft.com",
+          "role": "organizer"
+        },
+        {
+          "name": "Thakur",
+          "email": "Thakur@6fdxfc.onmicrosoft.com",
+          "role": "required"
+        }
+      ],
+      "meeting_transcript": [
+        {
+          "start": "00:00:04.081",
+          "end": "00:00:04.201",
+          "speaker": "Devesh Mishra",
+          "text": "Yeah."
+        },
+        {
+          "start": "00:00:07.081",
+          "end": "00:00:07.201",
+          "speaker": "Devesh Mishra",
+          "text": "Yeah."
+        },
+        {
+          "start": "00:00:07.547",
+          "end": "00:00:11.227",
+          "speaker": "Devesh Mishra",
+          "text": "Hello. Hello. Hello. Hello. Hello. Hello. Hello."
+        },
+        {
+          "start": "00:00:18.616",
+          "end": "00:00:20.016",
+          "speaker": "Devesh Mishra",
+          "text": "Good afternoon, everyone."
+        },
+        {
+          "start": "00:00:23.056",
+          "end": "00:00:40.256",
+          "speaker": "Devesh Mishra",
+          "text": "Thanks for joining today's. I will walking you through our recent performance optimization work on Microsoft's architecture. Specifically what bottlenecks was identified, what improvements we made and the performances are as we are seeing now. As most of you know, our system is built on the set of music couple Microsoft says user management."
+        },
+        {
+          "start": "00:00:25.521",
+          "end": "00:00:25.601",
+          "speaker": "Devesh Mishra",
+          "text": "Hey."
+        },
+        {
+          "start": "00:00:33.561",
+          "end": "00:00:33.681",
+          "speaker": "Devesh Mishra",
+          "text": "OK."
+        },
+        {
+          "start": "00:00:40.656",
+          "end": "00:01:00.136",
+          "speaker": "Devesh Mishra",
+          "text": "Analytics, notification and retaination for the past few months, we noticed that our end to end latency was increasing, specifically during high traffic hours. The problem became noticeable in the analytics pipeline where API response time sometimes spiked from an average of 300 milliseconds to over 1.2 seconds."
+        },
+        {
+          "start": "00:00:43.801",
+          "end": "00:00:43.921",
+          "speaker": "Devesh Mishra",
+          "text": "Yeah."
+        },
+        {
+          "start": "00:00:47.001",
+          "end": "00:00:47.321",
+          "speaker": "Devesh Mishra",
+          "text": "Britain."
+        },
+        {
+          "start": "00:00:52.521",
+          "end": "00:00:52.641",
+          "speaker": "Devesh Mishra",
+          "text": "Yes."
+        },
+        {
+          "start": "00:01:01.056",
+          "end": "00:01:18.616",
+          "speaker": "Devesh Mishra",
+          "text": "To understand the cause, we had distributed tracing with open telemetry and Prometheus mattresses. We found that about 70% of the latency came from 2 main sources. First one was synchronous dependency calls. Several micro services were waiting on others."
+        },
+        {
+          "start": "00:01:19.336",
+          "end": "00:01:38.936",
+          "speaker": "Devesh Mishra",
+          "text": "To finish, instead of handling the request synchronously, ineffective second was ineffective database queries. Some endpoints were hitting the database 3-4 times with the same user session. So to tackle these issues we took three key actions, introducing synchronous messaging query optimization."
+        },
+        {
+          "start": "00:01:23.441",
+          "end": "00:01:23.561",
+          "speaker": "Devesh Mishra",
+          "text": "Yeah."
+        },
+        {
+          "start": "00:01:39.016",
+          "end": "00:01:55.416",
+          "speaker": "Devesh Mishra",
+          "text": "Caching, caching and 3rd auto scaling and resource balancing. So as a result, after implementing these optimizations we ran a two week performance test under production like load. Here are the key results so average API latency drop from 1.2 seconds to 3rd 320 milliseconds."
+        },
+        {
+          "start": "00:01:56.256",
+          "end": "00:02:13.176",
+          "speaker": "Devesh Mishra",
+          "text": "Error rate reduced by 60% and every CPU utilisation or evenly balanced by 65% per node. So next we are planning to extend the same approach to the reporting microservice which still relies on synchronous jobs. We also want to implement distributed caching with their disc cluster."
+        },
+        {
+          "start": "00:02:13.696",
+          "end": "00:02:22.176",
+          "speaker": "Devesh Mishra",
+          "text": "Finally, we are working on small observability dashboard to visualise enter service latency in real time using grafana."
+        }
+      ]
+    }
+  ]
+}

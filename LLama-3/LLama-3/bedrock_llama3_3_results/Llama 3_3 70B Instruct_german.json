@@ -1,37 +1,17 @@
 {
   "model_name": "Llama 3.3 70B Instruct",
   "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
-  "latency_seconds": 4.430700063705444,
-  "input_tokens": 3216,
-  "output_tokens": 409,
+  "latency_seconds": 2.2036070823669434,
+  "input_tokens": 1447,
+  "output_tokens": 105,
   "parsed_successfully": true,
   "output": {
-    "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
+    "meeting_context": "Discussion on AI feature to increase engagement on platforms through meeting context analysis and relevant contribution identification",
     "participants": {
-      "Anna Weber": {
-        "reason": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
-        "summary": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
+      "Devesh Mishra": {
+        "reason": "Demonstrated strong leadership by explaining the AI feature's purpose and its application in various meeting contexts",
+        "summary": "Outlined the AI feature's functionality in analyzing meeting contexts and identifying relevant contributions for organizer appreciation",
         "overall_score": 90
-      },
-      "Thomas Becker": {
-        "reason": "Proporcionó soluciones técnicas y experiencia en la integración de DevOps y Cloud",
-        "summary": "Explicó los problemas de la última versión de release y propuso soluciones para la sincronización de pipelines",
-        "overall_score": 85
-      },
-      "Lena Krause": {
-        "reason": "Contribuyó con ideas innovadoras para la mejora de los procesos de DevOps y Cloud",
-        "summary": "Identificó problemas en la versión de release anterior y propuso soluciones para la integración de DevOps y Cloud",
-        "overall_score": 80
-      },
-      "Michael Hoffmann": {
-        "reason": "Proporcionó información valiosa sobre el monitoreo y la seguridad de los procesos de DevOps y Cloud",
-        "summary": "Explicó los problemas de monitoreo y seguridad en la versión de release anterior y propuso soluciones",
-        "overall_score": 75
-      },
-      "Stefan Braun": {
-        "reason": "Participó activamente en la discusión y proporcionó comentarios valiosos",
-        "summary": "Participó en la discusión y proporcionó comentarios sobre la importancia de la documentación y la evaluación",
-        "overall_score": 70
       }
     }
   }

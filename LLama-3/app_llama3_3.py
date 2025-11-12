@@ -23,6 +23,13 @@ from Meeting_Transcripts.T_M_1 import (
     hindi_attendance_report1,
 )
 
+# Path to your JSON file
+file_path = "../fetching_teams_meetings/Multi_tenant/meeting_transcripts.json"
+
+# Read JSON data
+with open(file_path, "r") as f:
+    data = json.load(f)
+
 def extract_llama33_json(raw_output: str):
 
     # cleaned = re.sub(r'\\u[0-9a-fA-F]', '', raw_output)
@@ -55,8 +62,25 @@ bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 # -----------------------------
 # Select Input (you can swap datasets here)
 # -----------------------------
-meeting_transcript = german_meeting_transcript
-meeting_attendance_report = german_attendees_report
+
+# -----------------------------
+# Extract meeting & attendee data from JSON
+# -----------------------------
+tenant_id = list(data.keys())[0]  # get the first tenant
+meeting_info = data[tenant_id][0]  # first meeting under that tenant
+
+# Prepare meeting transcript text (concatenate all spoken lines)
+meeting_transcript = "\n".join(
+    [f"{seg['speaker']}: {seg['text']}" for seg in meeting_info["meeting_transcript"]]
+)
+
+# Prepare attendee report (name + role + email)
+meeting_attendance_report = "\n".join(
+    [f"{a['name']} ({a['role']}) — {a['email']}" for a in meeting_info["attendees"]]
+)
+
+# meeting_transcript = german_meeting_transcript
+# meeting_attendance_report = german_attendees_report
 
 
 SYSTEM_PROMPT = """ 
@@ -294,7 +318,7 @@ try:
     # -----------------------------
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_german.json")
+    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_first.json")
 
     with open(parsed_path, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
