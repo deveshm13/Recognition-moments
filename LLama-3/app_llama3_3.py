@@ -79,8 +79,8 @@ meeting_attendance_report = "\n".join(
     [f"{a['name']} ({a['role']}) — {a['email']}" for a in meeting_info["attendees"]]
 )
 
-# meeting_transcript = german_meeting_transcript
-# meeting_attendance_report = german_attendees_report
+meeting_transcript = german_meeting_transcript
+meeting_attendance_report = german_attendees_report
 
 
 SYSTEM_PROMPT = """ 
@@ -318,14 +318,14 @@ try:
     # -----------------------------
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_first.json")
+    parsed_path = os.path.join(output_dir, f"{MODEL_NAME.replace('.', '_')}_german.json")
 
     with open(parsed_path, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
     # print(f"Saved raw output → {raw_path}")
     print(f"Saved parsed JSON → {parsed_path}")
-    print(f"⏱Latency: {latency:.2f}s | Tokens In: {input_tokens} Out: {output_tokens}\n")
+    print(f"Latency: {latency:.2f}s | Tokens In: {input_tokens} Out: {output_tokens}\n")
 
 except Exception as e:
     print(f"Error running {MODEL_NAME}: {e}")

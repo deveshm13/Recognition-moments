@@ -1,17 +1,37 @@
 {
   "model_name": "Llama 3.3 70B Instruct",
   "model_id": "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0",
-  "latency_seconds": 2.2036070823669434,
-  "input_tokens": 1447,
-  "output_tokens": 105,
+  "latency_seconds": 3.8745250701904297,
+  "input_tokens": 3216,
+  "output_tokens": 442,
   "parsed_successfully": true,
   "output": {
-    "meeting_context": "Discussion on AI feature to increase engagement on platforms through meeting context analysis and relevant contribution identification",
+    "meeting_context": "Reunión de coordinación de procesos DevOps y Cloud",
     "participants": {
-      "Devesh Mishra": {
-        "reason": "Demonstrated strong leadership by explaining the AI feature's purpose and its application in various meeting contexts",
-        "summary": "Outlined the AI feature's functionality in analyzing meeting contexts and identifying relevant contributions for organizer appreciation",
+      "Anna Weber": {
+        "reason": "Liderazgo demostrado al coordinar la reunión y guiar la discusión sobre la optimización de los procesos DevOps y Cloud",
+        "summary": "Dirigió la reunión, resumió los objetivos y aseguró que se abordaran los temas clave",
         "overall_score": 90
+      },
+      "Thomas Becker": {
+        "reason": "Propuso soluciones técnicas efectivas para mejorar la integración de DevOps y Cloud",
+        "summary": "Identificó problemas en la pipeline de sincronización y sugirió utilizar Terraform como base para la infraestructura como código",
+        "overall_score": 85
+      },
+      "Lena Krause": {
+        "reason": "Contribuyó con ideas innovadoras para mejorar la eficiencia de los procesos de desarrollo y despliegue",
+        "summary": "Sugirió migrar todas las pipelines a GitHub Actions y crear un módulo de Terraform para definir roles de IAM",
+        "overall_score": 88
+      },
+      "Michael Hoffmann": {
+        "reason": "Identificó áreas de mejora en el monitoreo y la seguridad, y sugirió soluciones costo-efectivas",
+        "summary": "Destacó la importancia de una solución de monitoreo centralizada y sugirió utilizar Chaos Mesh para pruebas de resiliencia",
+        "overall_score": 82
+      },
+      "Stefan Braun": {
+        "reason": "Participó activamente en la discusión y proporcionó comentarios valiosos sobre la factibilidad de las propuestas",
+        "summary": "Aportó una perspectiva práctica sobre la implementación de las soluciones propuestas y sugirió considerar los costos",
+        "overall_score": 78
       }
     }
   }

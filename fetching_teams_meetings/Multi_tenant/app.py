@@ -24,7 +24,6 @@ AUTHORITY = os.getenv("AUTHORITY", "https://login.microsoftonline.com/common")
 GRAPH_API = os.getenv("GRAPH_API", "https://graph.microsoft.com/v1.0")
 
 TENANTS_FILE = "tenants.json"
-USERS_FILE = "users.json"
 TRANSCRIPTS_FILE = "meeting_transcripts.json"
 
 # -------------------------------
@@ -124,9 +123,7 @@ def fetch_all_tenant_meetings():
     if not tenants:
         return jsonify({"error": "No tenants onboarded yet"}), 400
 
-    users_store = load_json(USERS_FILE)
     transcripts_store = load_json(TRANSCRIPTS_FILE)
-
     final_output = []
 
     for tenant_id in tenants:
@@ -134,23 +131,18 @@ def fetch_all_tenant_meetings():
         token = get_app_token_for_tenant(tenant_id)
         if not token:
             continue
+
         headers = {"Authorization": f"Bearer {token}"}
 
         # -------------------------------
-        # STEP 1 — FETCH USERS
+        # STEP 1 — FETCH USERS (LIVE)
         # -------------------------------
-        tenant_users = users_store.get(tenant_id, [])
-        if not tenant_users:
-            logging.info(f"📥 Fetching users for tenant {tenant_id}...")
-            users_resp = requests.get(f"{GRAPH_API}/users?$select=id,displayName,mail", headers=headers)
-            if users_resp.status_code != 200:
-                logging.error(f"Failed to fetch users: {users_resp.text}")
-                continue
-            tenant_users = users_resp.json().get("value", [])
-            users_store[tenant_id] = tenant_users
-            save_json(USERS_FILE, users_store)
-        else:
-            logging.info(f"Loaded {len(tenant_users)} users from cache.")
+        logging.info(f"Fetching users live for tenant {tenant_id}...")
+        users_resp = requests.get(f"{GRAPH_API}/users?$select=id,displayName,mail", headers=headers)
+        if users_resp.status_code != 200:
+            logging.error(f"Failed to fetch users: {users_resp.text}")
+            continue
+        tenant_users = users_resp.json().get("value", [])
 
         # -------------------------------
         # STEP 2 — FETCH MEETINGS (LAST 1 DAY)
@@ -167,7 +159,7 @@ def fetch_all_tenant_meetings():
             meet_resp = requests.get(cal_url, headers=headers)
 
             if meet_resp.status_code != 200:
-                logging.warning(f"⚠️ Failed to fetch meetings for {uname}: {meet_resp.text}")
+                logging.warning(f"Failed to fetch meetings for {uname}: {meet_resp.text}")
                 continue
 
             events = meet_resp.json().get("value", [])
@@ -184,13 +176,13 @@ def fetch_all_tenant_meetings():
                 meeting_id = e.get("id")
                 join_url = e.get("onlineMeeting", {}).get("joinUrl")
 
-                # ✅ Skip if already stored
+                # Skip if already stored
                 existing_meetings = transcripts_store.get(tenant_id, [])
                 if any(m.get("meeting_id") == meeting_id for m in existing_meetings):
-                    logging.info(f"⏩ Skipping already saved meeting {subject}")
+                    logging.info(f"Skipping already saved meeting {subject}")
                     continue
 
-                # ✅ Include organizer + attendees
+                # Include organizer + attendees
                 organizer_entry = {
                     "name": organizer_info.get("name", uname),
                     "email": organizer_email or mail,
@@ -234,8 +226,7 @@ def fetch_all_tenant_meetings():
 
                             if trans_resp.status_code == 200:
                                 transcripts = trans_resp.json().get("value", [])
-
-                                merged_transcript = []  # 🧩 To store all transcript segments together
+                                merged_transcript = []
 
                                 for t in transcripts:
                                     tid = t.get("id")
@@ -244,73 +235,55 @@ def fetch_all_tenant_meetings():
 
                                     if content_resp.status_code == 200 and content_resp.text:
                                         parsed_content = parse_vtt(content_resp.text)
-                                        if parsed_content:  # ✅ Only add if transcript not empty
+                                        if parsed_content:
                                             merged_transcript.extend(parsed_content)
                                     else:
-                                        logging.warning(f"⚠️ Failed to fetch transcript content for {subject}")
+                                        logging.warning(f"Failed to fetch transcript content for {subject}")
 
-                                # 🧠 Sort merged transcript by start timestamp (chronologically)
+                                # Sort merged transcript by start time
                                 def time_to_seconds(t):
                                     try:
                                         h, m, s = t.split(":")
-                                        return int(h) * 3600 + int(m) * 60 + float(s)
+                                        return int(h)*3600 + int(m)*60 + float(s)
                                     except:
                                         return 0.0
 
                                 merged_transcript.sort(key=lambda x: time_to_seconds(x.get("start", "00:00:00.000")))
 
-                                # 🧩 Skip this meeting entirely if transcript is empty
+                                # Skip if transcript empty
                                 if not merged_transcript:
-                                    logging.info(f"🚫 Skipping meeting '{subject}' — no transcript data found.")
+                                    logging.info(f"Skipping meeting '{subject}' — no transcript data found.")
                                 else:
-                                    # ✅ Store merged transcript
                                     meeting_data["transcripts"] = merged_transcript
 
-                                    # ✅ Save persistently (merge if meeting already exists)
-                                    existing_meetings = transcripts_store.get(tenant_id, [])
-                                    existing_meeting = next(
-                                        (m for m in existing_meetings if m.get("meeting_id") == meeting_id),
-                                        None
-                                    )
-
-                                    if existing_meeting:
-                                        existing_meeting["meeting_transcript"].extend(merged_transcript)
-                                        existing_meeting["meeting_transcript"].sort(
-                                            key=lambda x: time_to_seconds(x.get("start", "00:00:00.000"))
-                                        )
-                                        logging.info(f"🧩 Merged multiple transcripts for meeting {subject}")
-                                    else:
-                                        transcripts_store.setdefault(tenant_id, []).append({
-                                            "tenant_id": tenant_id,
-                                            "Organiser_name": uname,
-                                            "Organiser_mail": mail,
-                                            "subject": subject,
-                                            "meeting_id": meeting_id,
-                                            "start_time": start_time,
-                                            "attendees": attendees,
-                                            "meeting_transcript": merged_transcript
-                                        })
+                                    transcripts_store.setdefault(tenant_id, []).append({
+                                        "tenant_id": tenant_id,
+                                        "Organiser_name": uname,
+                                        "Organiser_mail": mail,
+                                        "subject": subject,
+                                        "meeting_id": meeting_id,
+                                        "start_time": start_time,
+                                        "attendees": attendees,
+                                        "meeting_transcript": merged_transcript
+                                    })
 
                                     save_json(TRANSCRIPTS_FILE, transcripts_store)
-
-                                    # ✅ Add to user_meetings only if transcript is valid
                                     user_meetings.append(meeting_data)
 
-                # ✅ Append to final output only if user_meetings contain valid data
-                if user_meetings:
-                    final_output.append({
-                        "tenant_id": tenant_id,
-                        "Organiser_name": uname,
-                        "Organiser_mail": mail,
-                        "meetings": user_meetings
-                    })
-
-
+            if user_meetings:
+                final_output.append({
+                    "tenant_id": tenant_id,
+                    "Organiser_name": uname,
+                    "Organiser_mail": mail,
+                    "meetings": user_meetings
+                })
 
     save_json(TRANSCRIPTS_FILE, transcripts_store)
     return jsonify(final_output)
 
-
+# -------------------------------
+# LOGOUT
+# -------------------------------
 @app.route("/logout")
 def logout():
     session.clear()
