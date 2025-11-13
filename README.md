@@ -155,26 +155,3 @@ payload = {
     "top_p": 0.9               # Sampling parameter
 }
 ```
-
-## 🔒 Security Notes
-
-- Never commit AWS credentials to version control
-- Use IAM roles with minimal required permissions
-- Consider using AWS Secrets Manager for production deployments
-- The `.gitignore` file excludes sensitive files and model binaries
-
-## 📄 License
-
-[Add your license information here]
-
-## 🤝 Contributing
-
-[Add contribution guidelines here]
-
-## 📞 Support
-
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review AWS Bedrock documentation
-3. Verify model availability in your region
-4. Contact your AWS administrator for permission issues
