@@ -65,6 +65,7 @@ def _build_msal_app(authority=None):
 def get_app_token_for_tenant(tenant_id):
     app_instance = _build_msal_app(f"https://login.microsoftonline.com/{tenant_id}")
     result = app_instance.acquire_token_for_client(scopes=["https://graph.microsoft.com/.default"])
+    print(result)
     if "access_token" in result:
         return result["access_token"]
     return None
@@ -116,7 +117,7 @@ def fetch_all_tenant_meetings():
             mail = user.get("mail", "N/A")
 
             end = datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
-            start = (datetime.utcnow() - timedelta(days=4)).replace(microsecond=0).isoformat() + "Z"
+            start = (datetime.utcnow() - timedelta(days=8)).replace(microsecond=0).isoformat() + "Z"
 
             cal_url = f"{GRAPH_API}/users/{uid}/calendarView?startDateTime={start}&endDateTime={end}"
             meet_resp = requests.get(cal_url, headers=headers)
@@ -518,55 +519,75 @@ with tabs[3]:
                     Do not repeat, rephrase, or surround it with LaTeX, markdown, or explanations.
                     """
 
-                    import boto3, time, json, datetime, re, os
-                    bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
-                    MODEL_NAME = "Llama 3.3 70B Instruct"
-                    MODEL_ID = "arn:aws:bedrock:us-east-1:155470872893:inference-profile/us.meta.llama3-3-70b-instruct-v1:0"
+                    import time, json, datetime, re, os
+                    import requests
+                    AZURE_OPENAI_URL = os.getenv("AZURE_OPENAI_URL")
+                    AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
 
-                    payload = {
-                        "prompt": combined_prompt,
-                        "max_gen_len": 8192,
-                        "temperature": 0.2,
-                        "top_p": 0.9
+                    headers = {
+                        "Content-Type": "application/json",
+                        "api-key": AZURE_OPENAI_KEY
                     }
 
+                    payload = {
+                        "messages": [
+                            {"role": "user", "content": combined_prompt}
+                        ],
+                        "temperature": 0.2,
+                        "top_p": 0.9,
+                        "max_tokens": 8192
+                    }
+
+                    # -------------------------------
+                    # Call Azure OpenAI
+                    # -------------------------------
                     start = time.time()
+
                     try:
-                        response = bedrock.invoke_model(
-                            modelId=MODEL_ID,
-                            body=json.dumps(payload),
-                            contentType="application/json",
-                            accept="application/json"
+                        response = requests.post(
+                            AZURE_OPENAI_URL,
+                            headers=headers,
+                            data=json.dumps(payload)
                         )
                         end = time.time()
 
-                        response_body = json.loads(response["body"].read())
-                        # -----------------------------
-                        # Metrics
-                        # -----------------------------
-                        latency = end - start
-                        input_tokens = response_body.get("prompt_token_count", "N/A")
-                        output_tokens = response_body.get("generation_token_count", "N/A")
-                        raw_output = (
-                            response_body.get("generation")
-                            or response_body.get("outputText")
-                            or response_body.get("outputs", [{}])[0].get("text")
-                        )
+                        if response.status_code != 200:
+                            st.error(f"Azure error: {response.text}")
+                            raise Exception(response.text)
 
-                        # print(raw_output)
-                        cost_per_meeting = (input_tokens / 1000) * .00072 + (output_tokens/1000) * .00072
-                        # Extract clean JSON
+                        response_json = response.json()
+
+                        # -----------------------------
+                        # Extract model output
+                        # -----------------------------
+                        raw_output = response_json["choices"][0]["message"]["content"]
+
+                        # Azure token fields
+                        usage = response_json.get("usage", {})
+                        input_tokens = usage.get("prompt_tokens", "N/A")
+                        output_tokens = usage.get("completion_tokens", "N/A")
+
+                        # Metrics
+                        latency = end - start
+                        cost_per_meeting = (input_tokens / 1000) * 0.0000011+ (output_tokens / 1000) * 0.0000044
+
+                        # -----------------------------
+                        # Extract clean JSON from model output
+                        # -----------------------------
                         match = re.search(r"\{[\s\S]*\}", raw_output)
                         if match:
                             final_json = json.loads(match.group(0))
+
                             st.success("✅ Recognition insights extracted successfully!")
                             st.json(final_json)
+
                             st.json({
                                 "input_tokens": input_tokens,
                                 "output_tokens": output_tokens,
                                 "latency_seconds": f"{latency:.2f}s",
                                 "cost_per_meeting": f"${cost_per_meeting:.4f}"
                             })
+
                         else:
                             st.warning("No valid JSON found in model output.")
                             st.text(raw_output)
